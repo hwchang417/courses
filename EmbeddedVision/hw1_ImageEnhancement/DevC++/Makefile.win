@@ -1,0 +1,28 @@
+# Project: HW1
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = ch1_1.o
+LINKOBJ  = ch1_1.o
+LIBS     = -L"D:/DevCppPortable/MinGW64/x86_64-w64-mingw32/lib32" -static-libgcc -m32
+INCS     = -I"D:/DevCppPortable/MinGW64/include" -I"D:/DevCppPortable/MinGW64/x86_64-w64-mingw32/include" -I"D:/DevCppPortable/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"D:/DevCppPortable/MinGW64/include" -I"D:/DevCppPortable/MinGW64/x86_64-w64-mingw32/include" -I"D:/DevCppPortable/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/DevCppPortable/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = HW1.exe
+CXXFLAGS = $(CXXINCS) -m32
+CFLAGS   = $(INCS) -m32
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+ch1_1.o: ch1_1.cpp
+	$(CPP) -c ch1_1.cpp -o ch1_1.o $(CXXFLAGS)
