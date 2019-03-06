@@ -1,0 +1,8 @@
+@N: CD630 :".\gentmp0a03576":4:7:4:9|Synthesizing work.top.gen 
+@N: CD630 :"syng0a03576":275:7:275:10|Synthesizing work.sdiv.cell_level 
+@W: CD326 :"syng0a03576":313:2:313:6|Port divide_by_0 of entity work.dw_div is unconnected
+@N: CD630 :"syng0a03576":26:7:26:12|Synthesizing work.dw_div.rtl 
+@W: CD434 :"syng0a03576":223:23:223:26|Signal quot in the sensitivity list is not used in the process
+Post processing for work.dw_div.rtl
+Post processing for work.sdiv.cell_level
+Post processing for work.top.gen

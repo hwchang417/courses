@@ -1,0 +1,44 @@
+#Build: Synplify Pro 9.6.1, Build 038R, Sep 17 2008
+#install: C:\Program Files (x86)\Synplicity\fpga_961
+#OS:  6.1
+#Hostname: MIAT-PC
+
+#Implementation: rev_1
+
+#Mon Nov 02 15:57:49 2015
+
+$ Start of Compile
+#Mon Nov 02 15:57:49 2015
+
+Synplicity VHDL Compiler, version 1.0, Build 007R, built Sep 22 2008
+Copyright (C) 1994-2008, Synplicity Inc.  All Rights Reserved
+
+@N: CD720 :"C:\Program Files (x86)\Synplicity\fpga_961\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\MIAT\Desktop\FPGA\hw1\float version\cosine.vhd":10:7:10:12|Top entity is set to cosine.
+@W: CD643 :"C:\Users\MIAT\Desktop\FPGA\hw1\fixed_pkg.vhd":22:30:22:30|Ignoring use clause - fixed_float_types not found ...
+@E: CD498 :"C:\Users\MIAT\Desktop\FPGA\hw1\fixed_pkg.vhd":27:34:27:55|Expecting type name
+@E: CD428 :"C:\Users\MIAT\Desktop\FPGA\hw1\fixed_pkg.vhd":1452:21:1452:21|Duplicate definition of package fixed_pkg
+@E: CD498 :"C:\Users\MIAT\Desktop\FPGA\hw1\fixed_pkg.vhd":1469:18:1469:34|Expecting type name
+@E: CD415 :"C:\Users\MIAT\Desktop\FPGA\hw1\fixed_pkg.vhd":8377:26:8377:26|Expecting keyword is
+4 errors parsing file C:\Users\MIAT\Desktop\FPGA\hw1\fixed_pkg.vhd
+@END
+@W: CD643 :"C:\Users\MIAT\Desktop\FPGA\hw1\float_pkg.vhd":24:30:24:30|Ignoring use clause - fixed_float_types not found ...
+@W: CD643 :"C:\Users\MIAT\Desktop\FPGA\hw1\float_pkg.vhd":25:22:25:22|Ignoring use clause - fixed_pkg not found ...
+@E: CD498 :"C:\Users\MIAT\Desktop\FPGA\hw1\float_pkg.vhd":36:34:36:43|Expecting type name
+@E: CD415 :"C:\Users\MIAT\Desktop\FPGA\hw1\float_pkg.vhd":992:21:992:21|Expecting keyword is
+@E: CD498 :"C:\Users\MIAT\Desktop\FPGA\hw1\float_pkg.vhd":1020:18:1020:33|Expecting type name
+@E: CD415 :"C:\Users\MIAT\Desktop\FPGA\hw1\float_pkg.vhd":7126:26:7126:26|Expecting keyword is
+8 errors parsing file C:\Users\MIAT\Desktop\FPGA\hw1\float_pkg.vhd
+@END
+@W: CD643 :"C:\Users\MIAT\Desktop\FPGA\hw1\float version\cosine.vhd":6:30:6:30|Ignoring use clause - fixed_float_types not found ...
+@W: CD643 :"C:\Users\MIAT\Desktop\FPGA\hw1\float version\cosine.vhd":7:22:7:22|Ignoring use clause - float_pkg not found ...
+@W: CD643 :"C:\Users\MIAT\Desktop\FPGA\hw1\float version\cosine.vhd":8:22:8:22|Ignoring use clause - fixed_pkg not found ...
+@E: CD498 :"C:\Users\MIAT\Desktop\FPGA\hw1\float version\cosine.vhd":11:20:11:24|Expecting type name
+@E: CD498 :"C:\Users\MIAT\Desktop\FPGA\hw1\float version\cosine.vhd":17:12:17:16|Expecting type name
+10 errors parsing file C:\Users\MIAT\Desktop\FPGA\hw1\float version\cosine.vhd
+@END
+@E|Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Nov 02 15:57:49 2015
+
+###########################################################]

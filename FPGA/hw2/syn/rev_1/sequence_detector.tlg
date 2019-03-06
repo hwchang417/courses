@@ -1,0 +1,14 @@
+@N: CD630 :"C:\Users\MIAT\Desktop\FPGA\hw2\FPGA_HW2_104582004_104522040_104522065\sequence_detector.vhd":4:7:4:23|Synthesizing work.sequence_detector.arch_sequence_detector 
+@N: CD231 :"C:\Users\MIAT\Desktop\FPGA\hw2\FPGA_HW2_104582004_104522040_104522065\sequence_detector.vhd":11:17:11:18|Using onehot encoding for type state_type (s0="10000000")
+Post processing for work.sequence_detector.arch_sequence_detector
+@N: CL201 :"C:\Users\MIAT\Desktop\FPGA\hw2\FPGA_HW2_104582004_104522040_104522065\sequence_detector.vhd":18:2:18:3|Trying to extract state machine for register state
+Extracted state machine for register state
+State machine has 8 reachable states with original encodings of:
+   00000001
+   00000010
+   00000100
+   00001000
+   00010000
+   00100000
+   01000000
+   10000000

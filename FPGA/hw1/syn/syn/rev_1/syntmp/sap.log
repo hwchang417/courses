@@ -1,0 +1,35 @@
+Synplicity Xilinx Technology Mapper, Version 9.6, Build 056R, Built Sep 25 2008 13:48:55
+Copyright (C) 1994-2008, Synplicity Inc.  All Rights Reserved
+Product Version Version 9.6.1
+@N: MF249 |Running in 32-bit mode.
+@N: MF257 |Gated clock conversion enabled 
+Reading Xilinx I/O pad type table from file <C:\Program Files (x86)\Synplicity\fpga_961\lib\xilinx\x_io_tbl.txt> 
+Reading Xilinx Rocket I/O parameter type table from file <C:\Program Files (x86)\Synplicity\fpga_961\lib\xilinx\gttype.txt> 
+
+@N: FX404 |Found addmux in view:VhdlGenLib.divSDIV_w24_rw1_b6_a24(cell_level) inst if_generate_plus\.mult1_rem_adjust[5:0] from if_generate_plus\.mult1_un1_rem_adjust[5:0] 
+@N: FX404 |Found addmux in view:VhdlGenLib.divSDIV_w24_rw1_b6_a24(cell_level) inst if_generate_plus\.mult1_inf_abs1[23:0] from if_generate_plus\.mult1_inf_abs1_a_0[23:0] 
+@N: MF236 :"c:\users\miat\desktop\fpga\hw1\hw1_104522040_104522065\a2\cosine.vhd":38:45:38:59|Generating a divider type sdiv 
+@N: FX404 |Found addmux in view:VhdlGenLib.divSDIV_w24_rw1_b8_a24(cell_level) inst if_generate_plus\.mult1_rem_adjust[7:0] from if_generate_plus\.mult1_un1_rem_adjust[7:0] 
+@N: FX404 |Found addmux in view:VhdlGenLib.divSDIV_w24_rw1_b8_a24(cell_level) inst if_generate_plus\.mult1_inf_abs1[23:0] from if_generate_plus\.mult1_inf_abs1_a_0[23:0] 
+@N: MF236 :"c:\users\miat\desktop\fpga\hw1\hw1_104522040_104522065\a2\cosine.vhd":48:45:48:60|Generating a divider type sdiv 
+@N: FX404 |Found addmux in view:VhdlGenLib.divSDIV_w36_rw1_b11_a36(cell_level) inst if_generate_plus\.mult1_rem_adjust[10:0] from if_generate_plus\.mult1_un1_rem_adjust[10:0] 
+@N: FX404 |Found addmux in view:VhdlGenLib.divSDIV_w36_rw1_b11_a36(cell_level) inst if_generate_plus\.mult1_inf_abs1[35:0] from if_generate_plus\.mult1_inf_abs1_a_0[35:0] 
+@N: FX404 |Found addmux in view:VhdlGenLib.divSDIV_w36_rw1_b11_a36(cell_level) inst if_generate_plus\.mult1_inf_abs0[10:0] from if_generate_plus\.mult1_inf_abs0_a_1[10:0] 
+@N: MF236 :"c:\users\miat\desktop\fpga\hw1\hw1_104522040_104522065\a2\cosine.vhd":39:45:39:60|Generating a divider type sdiv 
+@N: FX404 |Found addmux in view:VhdlGenLib.divSDIV_w48_rw1_b17_a48(cell_level) inst if_generate_plus\.mult1_rem_adjust[16:0] from if_generate_plus\.mult1_un1_rem_adjust[16:0] 
+@N: FX404 |Found addmux in view:VhdlGenLib.divSDIV_w48_rw1_b17_a48(cell_level) inst if_generate_plus\.mult1_inf_abs1[47:0] from if_generate_plus\.mult1_inf_abs1_a_0[47:0] 
+@N: FX404 |Found addmux in view:VhdlGenLib.divSDIV_w48_rw1_b17_a48(cell_level) inst if_generate_plus\.mult1_inf_abs0[16:0] from if_generate_plus\.mult1_inf_abs0_a_1[16:0] 
+@N: MF236 :"c:\users\miat\desktop\fpga\hw1\hw1_104522040_104522065\a2\cosine.vhd":40:45:40:62|Generating a divider type sdiv 
+@N: FX404 |Found addmux in view:VhdlGenLib.divSDIV_w33_rw1_b15_a32(cell_level) inst if_generate_plus\.mult1_rem_adjust[14:0] from if_generate_plus\.mult1_un1_rem_adjust[14:0] 
+@N: FX404 |Found addmux in view:VhdlGenLib.divSDIV_w33_rw1_b15_a32(cell_level) inst if_generate_plus\.mult1_inf_abs1[31:0] from if_generate_plus\.mult1_inf_abs1_a_0[31:0] 
+@N: FX404 |Found addmux in view:VhdlGenLib.divSDIV_w33_rw1_b15_a32(cell_level) inst if_generate_plus\.mult1_inf_abs0[14:0] from if_generate_plus\.mult1_inf_abs0_a_1[14:0] 
+@N: MF236 :"c:\users\miat\desktop\fpga\hw1\hw1_104522040_104522065\a2\cosine.vhd":49:45:49:62|Generating a divider type sdiv 
+@N: FX404 |Found addmux in view:VhdlGenLib.divSDIV_w33_rw1_b21_a32(cell_level) inst if_generate_plus\.mult1_rem_adjust[20:0] from if_generate_plus\.mult1_un1_rem_adjust[20:0] 
+@N: FX404 |Found addmux in view:VhdlGenLib.divSDIV_w33_rw1_b21_a32(cell_level) inst if_generate_plus\.mult1_inf_abs1[31:0] from if_generate_plus\.mult1_inf_abs1_a_0[31:0] 
+@N: FX404 |Found addmux in view:VhdlGenLib.divSDIV_w33_rw1_b21_a32(cell_level) inst if_generate_plus\.mult1_inf_abs0[20:0] from if_generate_plus\.mult1_inf_abs0_a_1[20:0] 
+@N: MF236 :"c:\users\miat\desktop\fpga\hw1\hw1_104522040_104522065\a2\cosine.vhd":50:45:50:64|Generating a divider type sdiv 
+@N: BN225 |Writing default property annotation file C:\Users\MIAT\Desktop\FPGA\hw1\HW1_104522040_104522065\syn\syn\rev_1\cosine.sap.
+Process took 0h:00m:07s realtime, 0h:00m:06s cputime
+# Wed Nov 04 22:50:03 2015
+
+###########################################################]

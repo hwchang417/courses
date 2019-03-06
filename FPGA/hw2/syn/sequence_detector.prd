@@ -1,0 +1,13 @@
+#-- Synplicity, Inc.
+#-- Version 9.6.1
+#-- Project file C:\Users\MIAT\Desktop\FPGA\hw2\FPGA_HW2_104582004_104522040_104522065\syn\sequence_detector.prd
+#-- Written on Fri Nov 20 13:50:54 2015
+
+#
+### Watch Implementation type ###
+#
+watch_impl -all
+#
+### Watch Implementation properties ###
+#
+watch_prop -clear

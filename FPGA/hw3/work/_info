@@ -1,0 +1,92 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/MIAT/Desktop/FPGA/hw2/modelsim
+Emac
+Z0 w1450859371
+Z1 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dC:/Users/MIAT/Desktop/FPGA/hw3
+Z5 8C:/Users/MIAT/Desktop/FPGA/hw3/MAC.vhd
+Z6 FC:/Users/MIAT/Desktop/FPGA/hw3/MAC.vhd
+l0
+L6
+V1X3<gPTi_?MC`7A9Ee<XF2
+!s100 3S2Eb;JQCKVN3fUN0gfH[1
+Z7 OV;C;10.3d;59
+32
+Z8 !s110 1450859377
+!i10b 1
+Z9 !s108 1450859377.629000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/MIAT/Desktop/FPGA/hw3/MAC.vhd|
+Z11 !s107 C:/Users/MIAT/Desktop/FPGA/hw3/MAC.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1
+Aarch_mac
+R1
+R2
+R3
+DEx4 work 3 mac 0 22 1X3<gPTi_?MC`7A9Ee<XF2
+l31
+L20
+VF?P?U<35C>cNEfR:JWf<@1
+!s100 `=;oZgZP16;j581zgN@5K2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Etb_mac
+Z14 w1450313845
+Z15 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R2
+R3
+R4
+Z16 8C:/Users/MIAT/Desktop/FPGA/hw3/tb_MAC.vhd
+Z17 FC:/Users/MIAT/Desktop/FPGA/hw3/tb_MAC.vhd
+l0
+L8
+V2;cXG]G8^=MlbXmcD6Tc[2
+!s100 01Q<EM=gEal@[dBz<46LO0
+R7
+32
+R8
+!i10b 1
+Z18 !s108 1450859377.975000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/MIAT/Desktop/FPGA/hw3/tb_MAC.vhd|
+Z20 !s107 C:/Users/MIAT/Desktop/FPGA/hw3/tb_MAC.vhd|
+!i113 1
+R12
+R13
+Aarch_tb_mac
+R15
+R2
+R3
+Z21 DEx4 work 6 tb_mac 0 22 2;cXG]G8^=MlbXmcD6Tc[2
+l30
+L11
+Z22 V3>_eHRW2dD4IERMo@6SNm1
+Z23 !s100 P<RJ8T?lgJV88ADKz7fl63
+R7
+32
+R8
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R12
+R13

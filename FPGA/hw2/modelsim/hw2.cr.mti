@@ -1,0 +1,9 @@
+C:/Users/MIAT/Desktop/FPGA/hw2/sequence_detector.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/MIAT/Desktop/FPGA/hw2/sequence_detector.vhd
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity sequence_detector
+-- Compiling architecture arch_sequence_detector of sequence_detector
+
+} {} {}}

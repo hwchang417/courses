@@ -1,0 +1,62 @@
+#
+# Synplicity Verification Interface File
+# Generated using Synplify-pro
+#
+# Copyright (c) 1996-2008 Synplicity, Inc.
+# All rights reserved
+#
+
+# Set logfile options
+vif_set_result_file  sequence_detector.vlf
+
+# Set technology for TCL script
+vif_set_technology -architecture FPGA -vendor Xilinx
+
+# RTL and technology files
+vif_add_file -original -vhdl -lib work ../../sequence_detector.vhd
+vif_set_top_module -original -top sequence_detector
+ 
+vif_add_library -translated $XILINX/verilog/verification/unisims
+vif_add_library -translated $XILINX/verilog/verification/simprims
+vif_add_file -translated -verilog sequence_detector.vm
+vif_set_top_module -translated -top sequence_detector 
+# Read FSM encoding
+vif_set_fsm -fsm fsm_0
+vif_set_fsmreg -original -fsm fsm_0 state[7:0]
+vif_set_fsmreg -translated -fsm  fsm_0 state[7:0]
+vif_set_state_map -fsm fsm_0 -original "00000001" -translated "00000001"
+vif_set_state_map -fsm fsm_0 -original "00000010" -translated "00000010"
+vif_set_state_map -fsm fsm_0 -original "00000100" -translated "00000100"
+vif_set_state_map -fsm fsm_0 -original "00001000" -translated "00001000"
+vif_set_state_map -fsm fsm_0 -original "00010000" -translated "00010000"
+vif_set_state_map -fsm fsm_0 -original "00100000" -translated "00100000"
+vif_set_state_map -fsm fsm_0 -original "01000000" -translated "01000000"
+vif_set_state_map -fsm fsm_0 -original "10000000" -translated "10000000"
+
+# Memory map points
+
+# SRL map points
+
+# Compiler constant registers
+
+# Compiler constant latches
+
+# Compiler RTL sequential redundancies
+
+# RTL sequential redundancies
+
+# Technology sequential redundancies
+
+# Inversion map points
+
+# Port mappping and directions
+
+# Black box mapping
+
+
+# Other sequential cells, including multidimensional arrays
+
+# Constant Registers
+
+# Retimed Registers
+

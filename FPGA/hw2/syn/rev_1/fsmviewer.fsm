@@ -1,0 +1,47 @@
+fsm_options -device {state[0:7]}
+
+define_state s0 00000001 {c:\users\miat\desktop\fpga\hw2\fpga_hw2_104582004_104522040_104522065\sequence_detector.vhd} 19 6 19 20
+state_output s0 {state[7]} 1
+
+define_state s1 00000010 {c:\users\miat\desktop\fpga\hw2\fpga_hw2_104582004_104522040_104522065\sequence_detector.vhd} 25 9 25 23
+state_output s1 {state[6]} 1
+
+define_state s2 00000100 {c:\users\miat\desktop\fpga\hw2\fpga_hw2_104582004_104522040_104522065\sequence_detector.vhd} 31 9 31 23
+state_output s2 {state[5]} 1
+
+define_state s3 00001000 {c:\users\miat\desktop\fpga\hw2\fpga_hw2_104582004_104522040_104522065\sequence_detector.vhd} 37 9 37 23
+state_output s3 {state[4]} 1
+
+define_state s4 00010000 {c:\users\miat\desktop\fpga\hw2\fpga_hw2_104582004_104522040_104522065\sequence_detector.vhd} 43 9 43 23
+state_output s4 {state[3]} 1
+
+define_state s5 00100000 {c:\users\miat\desktop\fpga\hw2\fpga_hw2_104582004_104522040_104522065\sequence_detector.vhd} 49 9 49 23
+state_output s5 {state[2]} 1
+
+define_state s6 01000000 {c:\users\miat\desktop\fpga\hw2\fpga_hw2_104582004_104522040_104522065\sequence_detector.vhd} 55 9 55 23
+state_output s6 {state[1]} 1
+
+define_state s7 10000000 {c:\users\miat\desktop\fpga\hw2\fpga_hw2_104582004_104522040_104522065\sequence_detector.vhd} 61 9 61 23
+state_output s7 {state[0]} 1
+
+define_transition s6 s7 {input = 0}
+define_transition s5 s6 {input = 0}
+define_transition s5 s5 {input = 1}
+define_transition s4 s5 {input = 1}
+define_transition s6 s4 {input = 1}
+define_transition s3 s4 {input = 1}
+define_transition s7 s3 {input = 1}
+define_transition s4 s3 {input = 0}
+define_transition s3 s3 {input = 0}
+define_transition s2 s3 {input = 1}
+define_transition s7 s2 {input = 0}
+define_transition s2 s2 {input = 0}
+define_transition s1 s2 {input = 0}
+define_transition s0 s1 {input = 0}
+define_transition s1 s0 {input = 1}
+define_transition s0 s0 {input = 1}
+fsm_options -SRSPath {C:\Users\MIAT\Desktop\FPGA\hw2\FPGA_HW2_104582004_104522040_104522065\syn\rev_1\sequence_detector.srs}
+fsm_options -SRSTime 1447997009
+fsm_options -FSMPath {state[0:7]}
+fsm_options -view {ScratchLib.cell4.netlist|i:state[0:7]}
+fsm_options -ID {1182181}

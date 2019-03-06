@@ -1,0 +1,130 @@
+#
+# Synplicity Verification Interface File
+# Generated using Synplify-pro
+#
+# Copyright (c) 1996-2008 Synplicity, Inc.
+# All rights reserved
+#
+
+# Set logfile options
+vif_set_result_file  filter_CSD.vlf
+
+# Set technology for TCL script
+vif_set_technology -architecture FPGA -vendor Xilinx
+
+# RTL and technology files
+vif_add_file -original -vhdl -lib work ../filter_two_com.vhd
+vif_add_file -original -vhdl -lib work ../filter_CSD.vhd
+vif_set_top_module -original -top filter_CSD
+ 
+vif_add_library -translated $XILINX/verilog/verification/unisims
+vif_add_library -translated $XILINX/verilog/verification/simprims
+vif_add_file -translated -verilog filter_CSD.vm
+vif_set_top_module -translated -top filter_CSD 
+# Read FSM encoding
+
+# Memory map points
+
+# SRL map points
+
+# Compiler constant registers
+vif_set_constant -original 0 y_tmp0[0]
+vif_set_constant -original 0 y_tmp5[0]
+vif_set_constant -original 0 y_tmp5[1]
+vif_set_constant -original 0 y_tmp5[2]
+vif_set_constant -original 0 y_tmp6[0]
+vif_set_constant -original 0 y_tmp6[1]
+vif_set_constant -original 0 y_tmp7[0]
+vif_set_constant -original 0 y_tmp7[1]
+vif_set_constant -original 0 y_tmp7[2]
+vif_set_constant -original 0 y_tmp12[0]
+vif_set_constant -original 0 y_tmp4[0]
+vif_set_constant -original 0 y_tmp8[0]
+
+# Compiler constant latches
+
+# Compiler RTL sequential redundancies
+
+# RTL sequential redundancies
+vif_set_merge -original  X1 X3
+vif_set_merge -original  y_tmp2[10] y_tmp2[9]
+vif_set_merge -original  y_tmp2[10] y_tmp2[15]
+vif_set_merge -original  y_tmp2[10] y_tmp2[14]
+vif_set_merge -original  y_tmp2[10] y_tmp2[13]
+vif_set_merge -original  y_tmp2[10] y_tmp2[12]
+vif_set_merge -original  y_tmp2[10] y_tmp2[11]
+vif_set_merge -original  y_tmp3[10] y_tmp3[15]
+vif_set_merge -original  y_tmp3[10] y_tmp3[14]
+vif_set_merge -original  y_tmp3[10] y_tmp3[13]
+vif_set_merge -original  y_tmp3[10] y_tmp3[12]
+vif_set_merge -original  y_tmp3[10] y_tmp3[11]
+vif_set_merge -original  y_tmp4[11] y_tmp4[15]
+vif_set_merge -original  y_tmp4[11] y_tmp4[14]
+vif_set_merge -original  y_tmp4[11] y_tmp4[13]
+vif_set_merge -original  y_tmp4[11] y_tmp4[12]
+vif_set_merge -original  y_tmp8[11] y_tmp8[15]
+vif_set_merge -original  y_tmp8[11] y_tmp8[14]
+vif_set_merge -original  y_tmp8[11] y_tmp8[13]
+vif_set_merge -original  y_tmp8[11] y_tmp8[12]
+vif_set_merge -original  y_tmp9[10] y_tmp9[15]
+vif_set_merge -original  y_tmp9[10] y_tmp9[14]
+vif_set_merge -original  y_tmp9[10] y_tmp9[13]
+vif_set_merge -original  y_tmp9[10] y_tmp9[12]
+vif_set_merge -original  y_tmp9[10] y_tmp9[11]
+vif_set_merge -original  y_tmp10[9] y_tmp10[15]
+vif_set_merge -original  y_tmp10[9] y_tmp10[14]
+vif_set_merge -original  y_tmp10[9] y_tmp10[13]
+vif_set_merge -original  y_tmp10[9] y_tmp10[12]
+vif_set_merge -original  y_tmp10[9] y_tmp10[11]
+vif_set_merge -original  y_tmp10[9] y_tmp10[10]
+vif_set_merge -original  y_tmp11[9] y_tmp11[15]
+vif_set_merge -original  y_tmp11[9] y_tmp11[14]
+vif_set_merge -original  y_tmp11[9] y_tmp11[13]
+vif_set_merge -original  y_tmp11[9] y_tmp11[12]
+vif_set_merge -original  y_tmp11[9] y_tmp11[11]
+vif_set_merge -original  y_tmp11[9] y_tmp11[10]
+vif_set_merge -original  y_tmp1[9] y_tmp1[15]
+vif_set_merge -original  y_tmp1[9] y_tmp1[14]
+vif_set_merge -original  y_tmp1[9] y_tmp1[13]
+vif_set_merge -original  y_tmp1[9] y_tmp1[12]
+vif_set_merge -original  y_tmp1[9] y_tmp1[11]
+vif_set_merge -original  y_tmp1[9] y_tmp1[10]
+vif_set_merge -original  y_tmp0[9] y_tmp0[8]
+vif_set_merge -original  y_tmp0[9] y_tmp0[15]
+vif_set_merge -original  y_tmp0[9] y_tmp0[14]
+vif_set_merge -original  y_tmp0[9] y_tmp0[13]
+vif_set_merge -original  y_tmp0[9] y_tmp0[12]
+vif_set_merge -original  y_tmp0[9] y_tmp0[11]
+vif_set_merge -original  y_tmp0[9] y_tmp0[10]
+vif_set_merge -original  y_tmp12[9] y_tmp12[8]
+vif_set_merge -original  y_tmp12[9] y_tmp12[15]
+vif_set_merge -original  y_tmp12[9] y_tmp12[14]
+vif_set_merge -original  y_tmp12[9] y_tmp12[13]
+vif_set_merge -original  y_tmp12[9] y_tmp12[12]
+vif_set_merge -original  y_tmp12[9] y_tmp12[11]
+vif_set_merge -original  y_tmp12[9] y_tmp12[10]
+
+# Technology sequential redundancies
+vif_set_equiv -translated x_tmp3_Z[2] x_tmp3_fast_Z[2]
+vif_set_equiv -translated x_tmp3_Z[1] x_tmp3_fast_Z[1]
+vif_set_equiv -translated x_tmp3_Z[3] x_tmp3_fast_Z[3]
+vif_set_equiv -translated X2_Z X2_fast_rep2_Z
+vif_set_equiv -translated X2_Z X2_fast_rep1_Z
+vif_set_equiv -translated X2_Z X2_fast_fast_Z
+vif_set_equiv -translated X2_Z X2_rep2_Z
+vif_set_equiv -translated X2_Z X2_rep1_Z
+vif_set_equiv -translated X2_Z X2_fast_Z
+
+# Inversion map points
+
+# Port mappping and directions
+
+# Black box mapping
+
+
+# Other sequential cells, including multidimensional arrays
+
+# Constant Registers
+
+# Retimed Registers
+

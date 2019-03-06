@@ -1,0 +1,20 @@
+
+fsm_encoding {1182181} original
+
+fsm_state_encoding {1182181} s0 {00000001}
+
+fsm_state_encoding {1182181} s1 {00000010}
+
+fsm_state_encoding {1182181} s2 {00000100}
+
+fsm_state_encoding {1182181} s3 {00001000}
+
+fsm_state_encoding {1182181} s4 {00010000}
+
+fsm_state_encoding {1182181} s5 {00100000}
+
+fsm_state_encoding {1182181} s6 {01000000}
+
+fsm_state_encoding {1182181} s7 {10000000}
+
+fsm_registers {1182181} {state[7]}  {state[6]}  {state[5]}  {state[4]}  {state[3]}  {state[2]}  {state[1]}  {state[0]} 

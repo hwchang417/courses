@@ -1,0 +1,13 @@
+#-- Synplicity, Inc.
+#-- Version 9.6.1
+#-- Project file C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_CSD.prd
+#-- Written on Sat Dec 19 22:56:33 2015
+
+#
+### Watch Implementation type ###
+#
+watch_impl -all
+#
+### Watch Implementation properties ###
+#
+watch_prop -clear

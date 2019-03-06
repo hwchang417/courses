@@ -1,0 +1,493 @@
+#Build: Synplify Pro 9.6.1, Build 038R, Sep 17 2008
+#install: C:\Program Files (x86)\Synplicity\fpga_961
+#OS:  6.1
+#Hostname: MIAT-PC
+
+#Implementation: rev_1
+
+#Fri Nov 20 13:23:29 2015
+
+$ Start of Compile
+#Fri Nov 20 13:23:29 2015
+
+Synplicity VHDL Compiler, version 1.0, Build 007R, built Sep 22 2008
+Copyright (C) 1994-2008, Synplicity Inc.  All Rights Reserved
+
+@N: CD720 :"C:\Program Files (x86)\Synplicity\fpga_961\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\MIAT\Desktop\FPGA\hw2\FPGA_HW2_104582004_104522040_104522065\sequence_detector.vhd":4:7:4:23|Top entity is set to sequence_detector.
+VHDL syntax check successful!
+@N: CD630 :"C:\Users\MIAT\Desktop\FPGA\hw2\FPGA_HW2_104582004_104522040_104522065\sequence_detector.vhd":4:7:4:23|Synthesizing work.sequence_detector.arch_sequence_detector 
+@N: CD231 :"C:\Users\MIAT\Desktop\FPGA\hw2\FPGA_HW2_104582004_104522040_104522065\sequence_detector.vhd":11:17:11:18|Using onehot encoding for type state_type (s0="10000000")
+Post processing for work.sequence_detector.arch_sequence_detector
+@N: CL201 :"C:\Users\MIAT\Desktop\FPGA\hw2\FPGA_HW2_104582004_104522040_104522065\sequence_detector.vhd":18:2:18:3|Trying to extract state machine for register state
+Extracted state machine for register state
+State machine has 8 reachable states with original encodings of:
+   00000001
+   00000010
+   00000100
+   00001000
+   00010000
+   00100000
+   01000000
+   10000000
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Nov 20 13:23:29 2015
+
+###########################################################]
+Synplicity Xilinx Technology Mapper, Version 9.6, Build 056R, Built Sep 25 2008 13:48:55
+Copyright (C) 1994-2008, Synplicity Inc.  All Rights Reserved
+Product Version Version 9.6.1
+@N: MF249 |Running in 32-bit mode.
+@N: MF257 |Gated clock conversion enabled 
+Reading Xilinx I/O pad type table from file <C:\Program Files (x86)\Synplicity\fpga_961\lib\xilinx\x_io_tbl.txt> 
+Reading Xilinx Rocket I/O parameter type table from file <C:\Program Files (x86)\Synplicity\fpga_961\lib\xilinx\gttype.txt> 
+
+@N: MT206 |Autoconstrain Mode is ON
+Finished RTL optimizations (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 94MB)
+
+Encoding state machine work.sequence_detector(arch_sequence_detector)-state[0:7]
+original code -> new code
+   00000001 -> 00000001
+   00000010 -> 00000010
+   00000100 -> 00000100
+   00001000 -> 00001000
+   00010000 -> 00010000
+   00100000 -> 00100000
+   01000000 -> 01000000
+   10000000 -> 10000000
+Finished factoring (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+
+
+######### START OF GENERATED CLOCK OPTIMIZATION REPORT #########[
+
+================================================================
+		Instance:Pin		Generated Clock Optimization Status
+================================================================
+
+
+######### END OF GENERATED CLOCK OPTIMIZATION REPORT #########]
+
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+
+Clock Buffers:
+  Inserting Clock buffer for port clk,
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Finished preparing to map (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Finished technology mapping (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -0.93ns		  26 /         9
+   2		0h:00m:00s		    -0.93ns		  26 /         9
+   3		0h:00m:00s		    -0.93ns		  26 /         9
+   4		0h:00m:00s		    -0.93ns		  26 /         9
+------------------------------------------------------------
+
+Timing driven replication report
+No replication required.
+
+Timing driven replication report
+No replication required.
+
+Timing driven replication report
+No replication required.
+
+Timing driven replication report
+No replication required.
+
+Timing driven replication report
+No replication required.
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -0.78ns		  29 /         9
+Timing driven replication report
+No replication required.
+
+   2		0h:00m:00s		    -0.78ns		  29 /         9
+   3		0h:00m:00s		    -0.78ns		  29 /         9
+   4		0h:00m:00s		    -0.78ns		  29 /         9
+------------------------------------------------------------
+
+Timing driven replication report
+No replication required.
+
+Timing driven replication report
+No replication required.
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -0.78ns		  29 /         9
+Timing driven replication report
+No replication required.
+
+   2		0h:00m:00s		    -0.78ns		  29 /         9
+   3		0h:00m:00s		    -0.78ns		  29 /         9
+   4		0h:00m:00s		    -0.78ns		  29 /         9
+------------------------------------------------------------
+
+Net buffering Report for view:work.sequence_detector(arch_sequence_detector):
+No nets needed buffering.
+
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+@N: FX164 |The option to pack flops in the IOB has not been specified 
+Finished restoring hierarchy (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Writing Analyst data base C:\Users\MIAT\Desktop\FPGA\hw2\FPGA_HW2_104582004_104522040_104522065\syn\rev_1\sequence_detector.srm
+@N: BN225 |Writing default property annotation file C:\Users\MIAT\Desktop\FPGA\hw2\FPGA_HW2_104582004_104522040_104522065\syn\rev_1\sequence_detector.map.
+Finished Writing Netlist Databases (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Writing EDIF Netlist and constraint files
+Reading Xilinx net attributes from file <C:\Program Files (x86)\Synplicity\fpga_961\lib\xilinx\netattr.txt> 
+Version 9.6.1
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Starting Writing Gated Clock Conversion Report (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+@N: MF276 |Gated clock conversion enabled, but no gated clocks found in design 
+Finished Writing Gated Clock Conversion Report (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Starting Writing Generated Clock Conversion Report (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+@N: MF333 |Generated clock conversion enabled, but no generated clocks found in design 
+Finished Writing Generated Clock Conversion Report (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Found clock sequence_detector|clk with period 2.12ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Fri Nov 20 13:23:30 2015
+#
+
+
+Top view:               sequence_detector
+Requested Frequency:    471.7 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report estimates place and route data. Please look at the place and route timing report for final timing..
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock..
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: -0.374
+
+                          Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock            Frequency     Frequency     Period        Period        Slack      Type         Group                
+-------------------------------------------------------------------------------------------------------------------------------
+sequence_detector|clk     471.7 MHz     401.0 MHz     2.120         2.494         -0.374     inferred     Autoconstr_clkgroup_0
+===============================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                        |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-------------------------------------------------------------------------------------------------------------------------------------
+Starting               Ending                 |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-------------------------------------------------------------------------------------------------------------------------------------
+sequence_detector|clk  sequence_detector|clk  |  2.120       -0.374  |  No paths    -      |  No paths    -      |  No paths    -    
+=====================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+		No IO constraint found 
+
+
+
+====================================
+Detailed Report for Clock: sequence_detector|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+             Starting                                                Arrival           
+Instance     Reference                 Type     Pin     Net          Time        Slack 
+             Clock                                                                     
+---------------------------------------------------------------------------------------
+state[1]     sequence_detector|clk     FDR      Q       state[1]     0.449       -0.374
+state[7]     sequence_detector|clk     FDR      Q       state[7]     0.449       -0.356
+state[2]     sequence_detector|clk     FD       Q       state[2]     0.449       -0.343
+state[0]     sequence_detector|clk     FDR      Q       state[0]     0.449       -0.126
+state[5]     sequence_detector|clk     FDR      Q       state[5]     0.449       -0.126
+state[3]     sequence_detector|clk     FD       Q       state[3]     0.449       -0.117
+state[4]     sequence_detector|clk     FDR      Q       state[4]     0.449       -0.117
+state[6]     sequence_detector|clk     FDR      Q       state[6]     0.449       -0.117
+=======================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+             Starting                                                Required           
+Instance     Reference                 Type     Pin     Net          Time         Slack 
+             Clock                                                                      
+----------------------------------------------------------------------------------------
+state[2]     sequence_detector|clk     FD       D       N_12         1.827        -0.374
+state[3]     sequence_detector|clk     FD       D       N_10         1.827        -0.356
+state[4]     sequence_detector|clk     FDR      D       statec_0     1.827        -0.126
+state[7]     sequence_detector|clk     FDR      D       statec_3     1.827        -0.126
+state[0]     sequence_detector|clk     FDR      D       statec_4     1.827        -0.117
+state[1]     sequence_detector|clk     FDR      D       statec       1.827        -0.117
+state[5]     sequence_detector|clk     FDR      D       statec_1     1.827        -0.117
+state[6]     sequence_detector|clk     FDR      D       statec_2     1.827        -0.117
+out_data     sequence_detector|clk     FD       D       state[7]     1.827        0.937 
+========================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Requested Period:                        2.120
+    - Setup time:                            0.293
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1.827
+
+    - Propagation time:                      2.201
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.374
+
+    Number of logic level(s):                3
+    Starting point:                          state[1] / Q
+    Ending point:                            state[2] / D
+    The start point is clocked by            sequence_detector|clk [rising] on pin C
+    The end   point is clocked by            sequence_detector|clk [rising] on pin C
+
+Instance / Net                               Pin      Pin               Arrival     No. of    
+Name                              Type       Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------
+state[1]                          FDR        Q        Out     0.449     0.449       -         
+state[1]                          Net        -        -       0.459     -           9         
+state_ns_1_iv_i_a2_0_2_m2_e_0     LUT2_L     I1       In      -         0.908       -         
+state_ns_1_iv_i_a2_0_2_m2_e_0     LUT2_L     LO       Out     0.347     1.255       -         
+state_ns_1_iv_i_a2_0_2_m2_e_0     Net        -        -       0.126     -           1         
+state_ns_1_iv_i_a2_0_2_m2_e_2     LUT4_L     I3       In      -         1.381       -         
+state_ns_1_iv_i_a2_0_2_m2_e_2     LUT4_L     LO       Out     0.347     1.728       -         
+state_ns_1_iv_i_a2_0_2_m2_e_2     Net        -        -       0.126     -           1         
+state_ns_1_iv_i[2]                LUT4_L     I3       In      -         1.854       -         
+state_ns_1_iv_i[2]                LUT4_L     LO       Out     0.347     2.201       -         
+N_12                              Net        -        -       0.000     -           1         
+state[2]                          FD         D        In      -         2.201       -         
+==============================================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 2.494 is 1.783(71.5%) logic and 0.711(28.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+Path information for path number 2: 
+    Requested Period:                        2.120
+    - Setup time:                            0.293
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1.827
+
+    - Propagation time:                      2.183
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.356
+
+    Number of logic level(s):                3
+    Starting point:                          state[7] / Q
+    Ending point:                            state[3] / D
+    The start point is clocked by            sequence_detector|clk [rising] on pin C
+    The end   point is clocked by            sequence_detector|clk [rising] on pin C
+
+Instance / Net                Pin      Pin               Arrival     No. of    
+Name               Type       Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------
+state[7]           FDR        Q        Out     0.449     0.449       -         
+state[7]           Net        -        -       0.441     -           7         
+state_RNO_4[3]     LUT2_L     I1       In      -         0.890       -         
+state_RNO_4[3]     LUT2_L     LO       Out     0.347     1.237       -         
+N_16_i_0           Net        -        -       0.126     -           1         
+state_RNO_1[3]     LUT4_L     I0       In      -         1.363       -         
+state_RNO_1[3]     LUT4_L     LO       Out     0.347     1.710       -         
+g0_0_a3_5          Net        -        -       0.126     -           1         
+state_RNO[3]       LUT4_L     I1       In      -         1.836       -         
+state_RNO[3]       LUT4_L     LO       Out     0.347     2.183       -         
+N_10               Net        -        -       0.000     -           1         
+state[3]           FD         D        In      -         2.183       -         
+===============================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 2.476 is 1.783(72.0%) logic and 0.693(28.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+Path information for path number 3: 
+    Requested Period:                        2.120
+    - Setup time:                            0.293
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1.827
+
+    - Propagation time:                      2.183
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.356
+
+    Number of logic level(s):                3
+    Starting point:                          state[7] / Q
+    Ending point:                            state[2] / D
+    The start point is clocked by            sequence_detector|clk [rising] on pin C
+    The end   point is clocked by            sequence_detector|clk [rising] on pin C
+
+Instance / Net                         Pin      Pin               Arrival     No. of    
+Name                        Type       Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------
+state[7]                    FDR        Q        Out     0.449     0.449       -         
+state[7]                    Net        -        -       0.441     -           7         
+state_ns_1_iv_i_x2[3]       LUT2_L     I1       In      -         0.890       -         
+state_ns_1_iv_i_x2[3]       LUT2_L     LO       Out     0.347     1.237       -         
+N_16_i                      Net        -        -       0.126     -           1         
+state_ns_1_iv_i_a2_1[2]     LUT4       I0       In      -         1.363       -         
+state_ns_1_iv_i_a2_1[2]     LUT4       O        Out     0.347     1.710       -         
+state_ns_1_iv_i_1[2]        Net        -        -       0.126     -           1         
+state_ns_1_iv_i[2]          LUT4_L     I2       In      -         1.836       -         
+state_ns_1_iv_i[2]          LUT4_L     LO       Out     0.347     2.183       -         
+N_12                        Net        -        -       0.000     -           1         
+state[2]                    FD         D        In      -         2.183       -         
+========================================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 2.476 is 1.783(72.0%) logic and 0.693(28.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+Path information for path number 4: 
+    Requested Period:                        2.120
+    - Setup time:                            0.293
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1.827
+
+    - Propagation time:                      2.170
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.343
+
+    Number of logic level(s):                3
+    Starting point:                          state[2] / Q
+    Ending point:                            state[3] / D
+    The start point is clocked by            sequence_detector|clk [rising] on pin C
+    The end   point is clocked by            sequence_detector|clk [rising] on pin C
+
+Instance / Net                Pin      Pin               Arrival     No. of    
+Name               Type       Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------
+state[2]           FD         Q        Out     0.449     0.449       -         
+state[2]           Net        -        -       0.427     -           6         
+state_RNO_4[3]     LUT2_L     I0       In      -         0.876       -         
+state_RNO_4[3]     LUT2_L     LO       Out     0.347     1.224       -         
+N_16_i_0           Net        -        -       0.126     -           1         
+state_RNO_1[3]     LUT4_L     I0       In      -         1.349       -         
+state_RNO_1[3]     LUT4_L     LO       Out     0.347     1.696       -         
+g0_0_a3_5          Net        -        -       0.126     -           1         
+state_RNO[3]       LUT4_L     I1       In      -         1.823       -         
+state_RNO[3]       LUT4_L     LO       Out     0.347     2.170       -         
+N_10               Net        -        -       0.000     -           1         
+state[3]           FD         D        In      -         2.170       -         
+===============================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 2.463 is 1.783(72.4%) logic and 0.679(27.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+Path information for path number 5: 
+    Requested Period:                        2.120
+    - Setup time:                            0.293
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1.827
+
+    - Propagation time:                      2.170
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.343
+
+    Number of logic level(s):                3
+    Starting point:                          state[2] / Q
+    Ending point:                            state[2] / D
+    The start point is clocked by            sequence_detector|clk [rising] on pin C
+    The end   point is clocked by            sequence_detector|clk [rising] on pin C
+
+Instance / Net                         Pin      Pin               Arrival     No. of    
+Name                        Type       Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------
+state[2]                    FD         Q        Out     0.449     0.449       -         
+state[2]                    Net        -        -       0.427     -           6         
+state_ns_1_iv_i_x2[3]       LUT2_L     I0       In      -         0.876       -         
+state_ns_1_iv_i_x2[3]       LUT2_L     LO       Out     0.347     1.224       -         
+N_16_i                      Net        -        -       0.126     -           1         
+state_ns_1_iv_i_a2_1[2]     LUT4       I0       In      -         1.349       -         
+state_ns_1_iv_i_a2_1[2]     LUT4       O        Out     0.347     1.696       -         
+state_ns_1_iv_i_1[2]        Net        -        -       0.126     -           1         
+state_ns_1_iv_i[2]          LUT4_L     I2       In      -         1.823       -         
+state_ns_1_iv_i[2]          LUT4_L     LO       Out     0.347     2.170       -         
+N_12                        Net        -        -       0.000     -           1         
+state[2]                    FD         D        In      -         2.170       -         
+========================================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 2.463 is 1.783(72.4%) logic and 0.679(27.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+
+##### END OF TIMING REPORT #####]
+
+---------------------------------------
+Resource Usage Report for sequence_detector 
+
+Mapping to part: xc2v40cs144-6
+Cell usage:
+FD              3 uses
+FDR             6 uses
+LUT2            10 uses
+LUT4            18 uses
+
+I/O ports: 3
+I/O primitives: 2
+IBUF           1 use
+OBUF           1 use
+
+BUFGP          1 use
+
+I/O Register bits:                  0
+Register bits not including I/Os:   9 (1%)
+
+Global Clock Buffers: 1 of 16 (6%)
+
+Total load per clock:
+   sequence_detector|clk: 9
+
+Mapping Summary:
+Total  LUTs: 28 (5%)
+
+Mapper successful!
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Nov 20 13:23:30 2015
+
+###########################################################]

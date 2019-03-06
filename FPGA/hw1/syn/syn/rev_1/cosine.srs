@@ -1,0 +1,73 @@
+%%% protect protected_file
+@E
+@ 
+#
+#
+#
+# Created by Synplify VHDL Compiler version 1.0, Build 007R from Synplicity, Inc.
+# Copyright 1994-2008 Synplicity, Inc. , All rights reserved.
+# Synthesis Netlist written on Wed Nov 04 22:49:56 2015
+#
+#
+#OPTIONS:"|-top|cosine|-primux|-fixsmult|-sdff_counter|-infer_seqShift|-nram|-divnmod|-autosm|-autosm|-fid2|-sharing|on|-encrypt|-ui|-lite|-pro|-ram|-ignore_undefined_lib|-ll|2000|-lib|work"
+#CUR:"C:\\Program Files (x86)\\Synplicity\\fpga_961\\bin\\c_vhdl.exe":1223043390
+#CUR:"C:\\Program Files (x86)\\Synplicity\\fpga_961\\lib\\vhd\\location.map":1223043596
+#CUR:"C:\\Program Files (x86)\\Synplicity\\fpga_961\\lib\\vhd\\std.vhd":1223043596
+#CUR:"C:\\Users\\MIAT\\Desktop\\FPGA\\hw1\\HW1_104522040_104522065\\A2\\cosine.vhd":1446646901
+#CUR:"C:\\Users\\MIAT\\Desktop\\FPGA\\hw1\\HW1_104522040_104522065\\A2\\cosine.vhd":1446646901
+#CUR:"C:\\Program Files (x86)\\Synplicity\\fpga_961\\lib\\vhd\\std1164.vhd":1223043596
+#CUR:"C:\\Program Files (x86)\\Synplicity\\fpga_961\\lib\\vhd\\unsigned.vhd":1223043596
+#CUR:"C:\\Program Files (x86)\\Synplicity\\fpga_961\\lib\\vhd\\arith.vhd":1223043596
+#CUR:"C:\\Program Files (x86)\\Synplicity\\fpga_961\\lib\\vhd\\numeric.vhd":1223043596
+f "C:\Program Files (x86)\Synplicity\fpga_961\lib\vhd\std.vhd"; # file 0
+af .is_vhdl 1;
+f "C:\Users\MIAT\Desktop\FPGA\hw1\HW1_104522040_104522065\A2\cosine.vhd"; # file 1
+af .is_vhdl 1;
+f "C:\Program Files (x86)\Synplicity\fpga_961\lib\vhd\std1164.vhd"; # file 2
+af .is_vhdl 1;
+f "C:\Program Files (x86)\Synplicity\fpga_961\lib\vhd\unsigned.vhd"; # file 3
+af .is_vhdl 1;
+f "C:\Program Files (x86)\Synplicity\fpga_961\lib\vhd\arith.vhd"; # file 4
+af .is_vhdl 1;
+f "C:\Program Files (x86)\Synplicity\fpga_961\lib\vhd\numeric.vhd"; # file 5
+af .is_vhdl 1;
+@E
+@ 
+ftell;
+@E@MR@(4::((::R4.I	FsR#OFHRMCNEsO_#OF;P
+NR#3HPDE8R
+4;N3PRHP#_ER8D4N;
+P#R3$VM_lRNb"sIF	"R\B\:\zs#C#v\\Q\qa\#7C	b0F\u\wt\q\E\I4\4]W_c4j6j..c4j_j.c6.6jn\.\q\F\O#CHM38PE\""
+;
+
+
+
+@HR@U4::Un::R44sHN8k6lr:Rj9sHN8k6lr:;j9
+RNH3Ds0_HFsolMNCsR"Nk8Hl
+";
+@FR@g4::gd::R44O_F#PkNDC:rgjk9RMFU_\M3kUr_Fc,U9k_MUFk\3MFU_r:..4;c9
+RNH3Ds0_HFsolMNCOR"FP#_NCDk"b;
+Rj@@:44::.4:Rk0sCsR0k0CRs;kC
+@bR@4j::44::V.RNCD#RDVN#VCRNCD#;R
+b@:@4dc4:64:d:Rn(#Dlk0.Rsr:44js9R.4r4:Rj9sHN8k6lr:Rj9sHN8k6lr:;j9
+@bR@d4:46:c::d4nH(RMsPR.r_44j4:9.Rs_44r49:jRrs.4j4:9b;
+R4@@::d.(.:d:R4dl0kDRrsc.jd:9cRsr:.djs9R.4r4:Rj9s4.r49:j;R
+b@:@4dcU:6U:d:R6g#P8HRrN..jd:9.RNr:.djs9Rcdr.:Rj9V#NDCs,0k0C,s,kCV#NDCN,VD,#CV#NDCb;
+R4@@::cUcc6:Uj:nRH#8PnRNr:.djN9Rndr.:Rj9N..rd9:jRDVN#0C,s,kC0Csk,DVN#VC,NCD#,k0sCN,VD,#CV#NDCb;
+R4@@::d(cd6:(U:6R8N8RgkM_rN44j4:9MRkg4_Nr:44js9R.r_44j4:9.Rsr944;R
+b@:@4d(d:::dd4ldRkRD0sdnr69:jRrsndj6:9.Rsr:44js9Rcdr.:;j9
+@bR@d4:c::(d4c:dkRlDs0RU(rc:Rj9scUr(9:jRrsc.jd:9cRsr:.dj
+9;b@R@4g:d::c6dng:j8R#HkPRMNd_d6rd:Rj9k_MdNddr69:jRrsndj6:9NRVD,#C0Csk,DVN#0C,s,kC0Csk,DVN#0C,s,kCV#NDCN,VD,#CV#NDCN,VD;#C
+@bR@c4:j6:c::cjn#.R8RHPk_MdNccr(9:jRdkM_rNccj(:9URsr:c(jV9RNCD#,k0sCN,VD,#CV#NDCs,0k0C,s,kC0Csk,DVN#0C,s,kC0Csk,DVN#VC,NCD#,DVN#VC,NCD#,DVN#VC,NCD#,DVN#
+C;b@R@4g:c::c6cng:.8R#HkPRMN4_d6rd:Rd9k_M4Nddr69:dRdkM_rNddj4:9NRVD,#C0Csk,DVN#VC,NCD#,k0sCs,0k0C,s,kCV#NDCN,VD,#CV#NDCs,0kVC,NCD#,DVN#VC,NCD#,DVN#
+C;b@R@4j:6::c66nj:c8R#HkPRMN4_c(rc:946R4kM_rNcc4(:6k9RMNd_c4rd:Rj9V#NDCs,0k0C,s,kC0Csk,k0sCN,VD,#C0Csk,DVN#VC,NCD#,DVN#VC,NCD#,k0sCN,VD,#CV#NDCs,0kVC,NCD#,DVN#VC,NCD#,DVN#VC,NCD#,DVN#
+C;b@R@4g:c::c6cng:.MRHPMRkd(_Nr:dcdk9RMNd_(crd:Rd9k_M4Nddrc9:d;R
+b@:@4dc(:6(:d:R6UNR88N44rj9:jRrN44jj:9MRkg4_Nr:44409Rs,kC0Csk,k0sCs,0k0C,s,kC0Csk,k0sCs,0k0C,s,kC0Csk,_s.44r49R
+RRsR0k
+C;b@R@46:6:6n:6c:dR8N8RUkM_3F\k_MUFUrc:94cRUkM_3F\k_MUFUrc:94cRrNn.,d9N.nrdN9,ndr.9n,Nr9.d,rNn.,d9N.nrdN9,ndr.9n,Nr9.d,rNn.,d9N.nrdN9,ndr.9n,Nr:.djR9
+RkRRMN4_cnrc9M,k4c_Nr9cn,4kM_rNcc,n9k_M4Nccrn6:49MRkd(_Nr9dc,dkM_rN(d,c9k_MdNd(rck9,MNd_(crd:
+d9RRRRN44rjN9,4jr494,Nr94j,rN44,j9N44rjN9,4jr494,Nr94j,rN44,j9N44rjN9,4jr494,Nr94j,rN44,j9N44rjN9,4jr494,Nr94j,rN44,j9N44rjN9,4jr494,Nr94j,rN44,j9N44rjN9,4jr494,Nr94j,rN44,j9N44rj9:j
+RRRRk0sCs,0kVC,NCD#,DVN#0C,s,kC0Csk,DVN#
+C;C
+;
+

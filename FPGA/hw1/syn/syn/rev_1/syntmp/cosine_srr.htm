@@ -1,0 +1,196 @@
+<html><body><samp><pre>
+<!@TC:1446648612>
+#Build: Synplify Pro 9.6.1, Build 038R, Sep 17 2008
+#install: C:\Program Files (x86)\Synplicity\fpga_961
+#OS:  6.1
+#Hostname: MIAT-PC
+
+#Implementation: rev_1
+
+#Wed Nov 04 22:49:55 2015
+
+<a name=compilerReport1>$ Start of Compile</a>
+#Wed Nov 04 22:49:55 2015
+
+Synplicity VHDL Compiler, version 1.0, Build 007R, built Sep 22 2008
+Copyright (C) 1994-2008, Synplicity Inc.  All Rights Reserved
+
+@N:<a href="@N:CD720:@XP_HELP">CD720</a> : <a href="C:\Program Files (x86)\Synplicity\fpga_961\lib\vhd\std.vhd:123:18:123:22:@N:CD720:@XP_MSG">std.vhd(123)</a><!@TM:1446648612> | Setting time resolution to ns
+@N: : <a href="C:\Users\MIAT\Desktop\FPGA\hw1\HW1_104522040_104522065\A2\cosine.vhd:7:7:7:13:@N::@XP_MSG">cosine.vhd(7)</a><!@TM:1446648612> | Top entity is set to cosine.
+VHDL syntax check successful!
+File C:\Users\MIAT\Desktop\FPGA\hw1\cosine.vhd changed - recompiling
+File C:\Users\MIAT\Desktop\FPGA\hw1\cosine.vhd changed - recompiling
+@N:<a href="@N:CD630:@XP_HELP">CD630</a> : <a href="C:\Users\MIAT\Desktop\FPGA\hw1\HW1_104522040_104522065\A2\cosine.vhd:7:7:7:13:@N:CD630:@XP_MSG">cosine.vhd(7)</a><!@TM:1446648612> | Synthesizing work.cosine.arch_cos 
+Post processing for work.cosine.arch_cos
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Nov 04 22:49:56 2015
+
+###########################################################]
+<a name=mapperReport2>Synplicity Xilinx Technology Mapper, Version 9.6, Build 056R, Built Sep 25 2008 13:48:55</a>
+Copyright (C) 1994-2008, Synplicity Inc.  All Rights Reserved
+Product Version Version 9.6.1
+@N:<a href="@N:MF249:@XP_HELP">MF249</a> : <!@TM:1446648612> | Running in 32-bit mode. 
+@N:<a href="@N:MF257:@XP_HELP">MF257</a> : <!@TM:1446648612> | Gated clock conversion enabled  
+Reading Xilinx I/O pad type table from file [C:\Program Files (x86)\Synplicity\fpga_961\lib\xilinx\x_io_tbl.txt] 
+Reading Xilinx Rocket I/O parameter type table from file [C:\Program Files (x86)\Synplicity\fpga_961\lib\xilinx\gttype.txt] 
+
+@N:<a href="@N:FX404:@XP_HELP">FX404</a> : <!@TM:1446648612> | Found addmux in view:VhdlGenLib.divSDIV_w24_rw1_b6_a24(cell_level) inst if_generate_plus\.mult1_rem_adjust[5:0] from if_generate_plus\.mult1_un1_rem_adjust[5:0]  
+@N:<a href="@N:FX404:@XP_HELP">FX404</a> : <!@TM:1446648612> | Found addmux in view:VhdlGenLib.divSDIV_w24_rw1_b6_a24(cell_level) inst if_generate_plus\.mult1_inf_abs1[23:0] from if_generate_plus\.mult1_inf_abs1_a_0[23:0]  
+@N:<a href="@N:MF236:@XP_HELP">MF236</a> : <a href="c:\users\miat\desktop\fpga\hw1\hw1_104522040_104522065\a2\cosine.vhd:38:45:38:60:@N:MF236:@XP_MSG">cosine.vhd(38)</a><!@TM:1446648612> | Generating a divider type sdiv 
+@N:<a href="@N:FX404:@XP_HELP">FX404</a> : <!@TM:1446648612> | Found addmux in view:VhdlGenLib.divSDIV_w24_rw1_b8_a24(cell_level) inst if_generate_plus\.mult1_rem_adjust[7:0] from if_generate_plus\.mult1_un1_rem_adjust[7:0]  
+@N:<a href="@N:FX404:@XP_HELP">FX404</a> : <!@TM:1446648612> | Found addmux in view:VhdlGenLib.divSDIV_w24_rw1_b8_a24(cell_level) inst if_generate_plus\.mult1_inf_abs1[23:0] from if_generate_plus\.mult1_inf_abs1_a_0[23:0]  
+@N:<a href="@N:MF236:@XP_HELP">MF236</a> : <a href="c:\users\miat\desktop\fpga\hw1\hw1_104522040_104522065\a2\cosine.vhd:48:45:48:61:@N:MF236:@XP_MSG">cosine.vhd(48)</a><!@TM:1446648612> | Generating a divider type sdiv 
+@N:<a href="@N:FX404:@XP_HELP">FX404</a> : <!@TM:1446648612> | Found addmux in view:VhdlGenLib.divSDIV_w36_rw1_b11_a36(cell_level) inst if_generate_plus\.mult1_rem_adjust[10:0] from if_generate_plus\.mult1_un1_rem_adjust[10:0]  
+@N:<a href="@N:FX404:@XP_HELP">FX404</a> : <!@TM:1446648612> | Found addmux in view:VhdlGenLib.divSDIV_w36_rw1_b11_a36(cell_level) inst if_generate_plus\.mult1_inf_abs1[35:0] from if_generate_plus\.mult1_inf_abs1_a_0[35:0]  
+@N:<a href="@N:FX404:@XP_HELP">FX404</a> : <!@TM:1446648612> | Found addmux in view:VhdlGenLib.divSDIV_w36_rw1_b11_a36(cell_level) inst if_generate_plus\.mult1_inf_abs0[10:0] from if_generate_plus\.mult1_inf_abs0_a_1[10:0]  
+@N:<a href="@N:MF236:@XP_HELP">MF236</a> : <a href="c:\users\miat\desktop\fpga\hw1\hw1_104522040_104522065\a2\cosine.vhd:39:45:39:61:@N:MF236:@XP_MSG">cosine.vhd(39)</a><!@TM:1446648612> | Generating a divider type sdiv 
+@N:<a href="@N:FX404:@XP_HELP">FX404</a> : <!@TM:1446648612> | Found addmux in view:VhdlGenLib.divSDIV_w48_rw1_b17_a48(cell_level) inst if_generate_plus\.mult1_rem_adjust[16:0] from if_generate_plus\.mult1_un1_rem_adjust[16:0]  
+@N:<a href="@N:FX404:@XP_HELP">FX404</a> : <!@TM:1446648612> | Found addmux in view:VhdlGenLib.divSDIV_w48_rw1_b17_a48(cell_level) inst if_generate_plus\.mult1_inf_abs1[47:0] from if_generate_plus\.mult1_inf_abs1_a_0[47:0]  
+@N:<a href="@N:FX404:@XP_HELP">FX404</a> : <!@TM:1446648612> | Found addmux in view:VhdlGenLib.divSDIV_w48_rw1_b17_a48(cell_level) inst if_generate_plus\.mult1_inf_abs0[16:0] from if_generate_plus\.mult1_inf_abs0_a_1[16:0]  
+@N:<a href="@N:MF236:@XP_HELP">MF236</a> : <a href="c:\users\miat\desktop\fpga\hw1\hw1_104522040_104522065\a2\cosine.vhd:40:45:40:63:@N:MF236:@XP_MSG">cosine.vhd(40)</a><!@TM:1446648612> | Generating a divider type sdiv 
+@N:<a href="@N:FX404:@XP_HELP">FX404</a> : <!@TM:1446648612> | Found addmux in view:VhdlGenLib.divSDIV_w33_rw1_b15_a32(cell_level) inst if_generate_plus\.mult1_rem_adjust[14:0] from if_generate_plus\.mult1_un1_rem_adjust[14:0]  
+@N:<a href="@N:FX404:@XP_HELP">FX404</a> : <!@TM:1446648612> | Found addmux in view:VhdlGenLib.divSDIV_w33_rw1_b15_a32(cell_level) inst if_generate_plus\.mult1_inf_abs1[31:0] from if_generate_plus\.mult1_inf_abs1_a_0[31:0]  
+@N:<a href="@N:FX404:@XP_HELP">FX404</a> : <!@TM:1446648612> | Found addmux in view:VhdlGenLib.divSDIV_w33_rw1_b15_a32(cell_level) inst if_generate_plus\.mult1_inf_abs0[14:0] from if_generate_plus\.mult1_inf_abs0_a_1[14:0]  
+@N:<a href="@N:MF236:@XP_HELP">MF236</a> : <a href="c:\users\miat\desktop\fpga\hw1\hw1_104522040_104522065\a2\cosine.vhd:49:45:49:63:@N:MF236:@XP_MSG">cosine.vhd(49)</a><!@TM:1446648612> | Generating a divider type sdiv 
+@N:<a href="@N:FX404:@XP_HELP">FX404</a> : <!@TM:1446648612> | Found addmux in view:VhdlGenLib.divSDIV_w33_rw1_b21_a32(cell_level) inst if_generate_plus\.mult1_rem_adjust[20:0] from if_generate_plus\.mult1_un1_rem_adjust[20:0]  
+@N:<a href="@N:FX404:@XP_HELP">FX404</a> : <!@TM:1446648612> | Found addmux in view:VhdlGenLib.divSDIV_w33_rw1_b21_a32(cell_level) inst if_generate_plus\.mult1_inf_abs1[31:0] from if_generate_plus\.mult1_inf_abs1_a_0[31:0]  
+@N:<a href="@N:FX404:@XP_HELP">FX404</a> : <!@TM:1446648612> | Found addmux in view:VhdlGenLib.divSDIV_w33_rw1_b21_a32(cell_level) inst if_generate_plus\.mult1_inf_abs0[20:0] from if_generate_plus\.mult1_inf_abs0_a_1[20:0]  
+@N:<a href="@N:MF236:@XP_HELP">MF236</a> : <a href="c:\users\miat\desktop\fpga\hw1\hw1_104522040_104522065\a2\cosine.vhd:50:45:50:65:@N:MF236:@XP_MSG">cosine.vhd(50)</a><!@TM:1446648612> | Generating a divider type sdiv 
+@N:<a href="@N:MT206:@XP_HELP">MT206</a> : <!@TM:1446648612> | Autoconstrain Mode is ON 
+@N: : <!@TM:1446648612> | Only System clock will be Autoconstrained 
+Finished RTL optimizations (Time elapsed 0h:00m:06s; Memory used current: 102MB peak: 104MB)
+
+Finished factoring (Time elapsed 0h:00m:06s; Memory used current: 103MB peak: 104MB)
+
+
+
+######### START OF GENERATED CLOCK OPTIMIZATION REPORT #########[
+
+================================================================
+		Instance:Pin		Generated Clock Optimization Status
+================================================================
+
+
+######### END OF GENERATED CLOCK OPTIMIZATION REPORT #########]
+
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:06s; Memory used current: 103MB peak: 104MB)
+
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:06s; Memory used current: 103MB peak: 104MB)
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:07s; Memory used current: 106MB peak: 107MB)
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:07s; Memory used current: 106MB peak: 107MB)
+
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:07s; Memory used current: 106MB peak: 107MB)
+
+Finished preparing to map (Time elapsed 0h:00m:07s; Memory used current: 106MB peak: 107MB)
+
+Finished technology mapping (Time elapsed 0h:00m:07s; Memory used current: 114MB peak: 115MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+------------------------------------------------------------
+
+Net buffering Report for view:work.cosine(arch_cos):
+No nets needed buffering.
+
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:07s; Memory used current: 114MB peak: 115MB)
+
+@N:<a href="@N:FX164:@XP_HELP">FX164</a> : <!@TM:1446648612> | The option to pack flops in the IOB has not been specified  
+Finished restoring hierarchy (Time elapsed 0h:00m:08s; Memory used current: 114MB peak: 115MB)
+
+Writing Analyst data base C:\Users\MIAT\Desktop\FPGA\hw1\HW1_104522040_104522065\syn\syn\rev_1\cosine.srm
+@N:<a href="@N:BN225:@XP_HELP">BN225</a> : <!@TM:1446648612> | Writing default property annotation file C:\Users\MIAT\Desktop\FPGA\hw1\HW1_104522040_104522065\syn\syn\rev_1\cosine.map. 
+Finished Writing Netlist Databases (Time elapsed 0h:00m:08s; Memory used current: 108MB peak: 115MB)
+
+Writing EDIF Netlist and constraint files
+Reading Xilinx net attributes from file [C:\Program Files (x86)\Synplicity\fpga_961\lib\xilinx\netattr.txt] 
+Version 9.6.1
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:08s; Memory used current: 109MB peak: 115MB)
+
+Starting Writing Gated Clock Conversion Report (Time elapsed 0h:00m:09s; Memory used current: 109MB peak: 115MB)
+
+@N:<a href="@N:MF276:@XP_HELP">MF276</a> : <!@TM:1446648612> | Gated clock conversion enabled, but no gated clocks found in design  
+Finished Writing Gated Clock Conversion Report (Time elapsed 0h:00m:09s; Memory used current: 109MB peak: 115MB)
+
+Starting Writing Generated Clock Conversion Report (Time elapsed 0h:00m:09s; Memory used current: 109MB peak: 115MB)
+
+@N:<a href="@N:MF333:@XP_HELP">MF333</a> : <!@TM:1446648612> | Generated clock conversion enabled, but no generated clocks found in design  
+Finished Writing Generated Clock Conversion Report (Time elapsed 0h:00m:09s; Memory used current: 109MB peak: 115MB)
+
+
+
+<a name=timingReport3>##### START OF TIMING REPORT #####[</a>
+# Timing Report written on Wed Nov 04 22:50:12 2015
+#
+
+
+Top view:               cosine
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N:<a href="@N:MT320:@XP_HELP">MT320</a> : <!@TM:1446648612> | This timing report estimates place and route data. Please look at the place and route timing report for final timing.. 
+
+@N:<a href="@N:MT322:@XP_HELP">MT322</a> : <!@TM:1446648612> | Clock constraints cover only FF-to-FF paths associated with the clock.. 
+
+
+
+<a name=performanceSummary4>Performance Summary </a>
+*******************
+
+
+Worst slack in design: NA
+
+
+
+
+
+
+<a name=interfaceInfo5>Interface Information </a>
+*********************
+
+		No IO constraint found 
+
+
+##### END OF TIMING REPORT #####]
+
+---------------------------------------
+<a name=resourceUsage6>Resource Usage Report for cosine </a>
+
+Mapping to part: xc2v1000fg456-4
+Cell usage:
+GND             1 use
+MULT18X18       8 uses
+MULT_AND        18 uses
+MUXCY           15 uses
+MUXCY_L         1902 uses
+VCC             1 use
+XORCY           1806 uses
+LUT1            486 uses
+LUT2            1484 uses
+LUT3            147 uses
+LUT4            129 uses
+
+I/O ports: 16
+I/O primitives: 16
+IBUF           6 uses
+OBUF           10 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   0 (0%)
+
+Block Multipliers: 8 of 40 (20%)
+Total load per clock:
+
+Mapping Summary:
+Total  LUTs: 2246 (21%)
+
+Mapper successful!
+Process took 0h:00m:09s realtime, 0h:00m:09s cputime
+# Wed Nov 04 22:50:12 2015
+
+###########################################################]

@@ -1,0 +1,900 @@
+#Build: Synplify Pro 9.6.1, Build 038R, Sep 17 2008
+#install: C:\Program Files (x86)\Synplicity\fpga_961
+#OS:  6.1
+#Hostname: MIAT-PC
+
+#Implementation: rev_1
+
+#Sat Dec 19 22:55:43 2015
+
+$ Start of Compile
+#Sat Dec 19 22:55:43 2015
+
+Synplicity VHDL Compiler, version 1.0, Build 007R, built Sep 22 2008
+Copyright (C) 1994-2008, Synplicity Inc.  All Rights Reserved
+
+@N: CD720 :"C:\Program Files (x86)\Synplicity\fpga_961\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":6:7:6:20|Top entity is set to filter_two_com.
+VHDL syntax check successful!
+@N: CD630 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":6:7:6:20|Synthesizing work.filter_two_com.arch_filter_two_com 
+@W: CD638 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":16:8:16:9|Signal h0 is undriven 
+@W: CD638 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":17:8:17:9|Signal h1 is undriven 
+@W: CD638 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":18:8:18:9|Signal h2 is undriven 
+@W: CD638 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":19:8:19:9|Signal h3 is undriven 
+@W: CD638 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":20:8:20:9|Signal h4 is undriven 
+@W: CD638 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":21:8:21:9|Signal h5 is undriven 
+@W: CD638 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":22:8:22:9|Signal h6 is undriven 
+@W: CD638 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":23:8:23:9|Signal h7 is undriven 
+@W: CD638 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":24:8:24:9|Signal h8 is undriven 
+@W: CD638 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":25:8:25:9|Signal h9 is undriven 
+@W: CD638 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":26:8:26:10|Signal h10 is undriven 
+@W: CD638 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":27:8:27:10|Signal h11 is undriven 
+@W: CD638 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":28:8:28:10|Signal h12 is undriven 
+Post processing for work.filter_two_com.arch_filter_two_com
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <20> of y_out_tmp(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <19> of y_out_tmp(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <18> of y_out_tmp(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <17> of y_out_tmp(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <16> of y_out_tmp(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <7> of y_out_tmp(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <6> of y_out_tmp(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <5> of y_out_tmp(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <4> of y_out_tmp(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <3> of y_out_tmp(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <2> of y_out_tmp(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <1> of y_out_tmp(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <0> of y_out_tmp(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <20> of y_tmp0(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <19> of y_tmp0(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <18> of y_tmp0(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <17> of y_tmp0(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <16> of y_tmp0(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <20> of y_tmp1(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <19> of y_tmp1(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <18> of y_tmp1(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <17> of y_tmp1(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <16> of y_tmp1(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <20> of y_tmp2(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <19> of y_tmp2(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <18> of y_tmp2(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <17> of y_tmp2(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <16> of y_tmp2(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <20> of y_tmp3(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <19> of y_tmp3(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <18> of y_tmp3(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <17> of y_tmp3(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <16> of y_tmp3(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <20> of y_tmp4(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <19> of y_tmp4(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <18> of y_tmp4(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <17> of y_tmp4(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <16> of y_tmp4(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <20> of y_tmp5(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <19> of y_tmp5(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <18> of y_tmp5(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <17> of y_tmp5(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <16> of y_tmp5(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <20> of y_tmp6(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <19> of y_tmp6(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <18> of y_tmp6(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <17> of y_tmp6(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <16> of y_tmp6(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <20> of y_tmp7(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <19> of y_tmp7(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <18> of y_tmp7(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <17> of y_tmp7(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <16> of y_tmp7(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <20> of y_tmp8(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <19> of y_tmp8(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <18> of y_tmp8(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <17> of y_tmp8(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <16> of y_tmp8(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <20> of y_tmp9(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <19> of y_tmp9(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <18> of y_tmp9(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <17> of y_tmp9(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <16> of y_tmp9(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <20> of y_tmp10(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <19> of y_tmp10(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <18> of y_tmp10(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <17> of y_tmp10(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <16> of y_tmp10(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <20> of y_tmp11(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <19> of y_tmp11(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <18> of y_tmp11(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <17> of y_tmp11(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <16> of y_tmp11(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <20> of y_tmp12(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <19> of y_tmp12(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <18> of y_tmp12(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <17> of y_tmp12(20 downto 0) - not in use ... 
+@W: CL170 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning bit <16> of y_tmp12(20 downto 0) - not in use ... 
+@W: CL189 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Register bit y_tmp0(0) is always 0, optimizing ...
+@W: CL189 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Register bit y_tmp5(0) is always 0, optimizing ...
+@W: CL189 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Register bit y_tmp5(1) is always 0, optimizing ...
+@W: CL189 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Register bit y_tmp5(2) is always 0, optimizing ...
+@W: CL189 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Register bit y_tmp6(0) is always 0, optimizing ...
+@W: CL189 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Register bit y_tmp6(1) is always 0, optimizing ...
+@W: CL189 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Register bit y_tmp7(0) is always 0, optimizing ...
+@W: CL189 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Register bit y_tmp7(1) is always 0, optimizing ...
+@W: CL189 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Register bit y_tmp7(2) is always 0, optimizing ...
+@W: CL189 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Register bit y_tmp12(0) is always 0, optimizing ...
+@W: CL171 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning Register bit <0> of y_tmp12(15 downto 0)  
+@W: CL171 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning Register bit <2> of y_tmp7(15 downto 0)  
+@W: CL171 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning Register bit <1> of y_tmp7(15 downto 0)  
+@W: CL171 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning Register bit <0> of y_tmp7(15 downto 0)  
+@W: CL171 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning Register bit <1> of y_tmp6(15 downto 0)  
+@W: CL171 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning Register bit <0> of y_tmp6(15 downto 0)  
+@W: CL171 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning Register bit <2> of y_tmp5(15 downto 0)  
+@W: CL171 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning Register bit <1> of y_tmp5(15 downto 0)  
+@W: CL171 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning Register bit <0> of y_tmp5(15 downto 0)  
+@W: CL171 :"C:\Users\MIAT\Desktop\FPGA\hw4\syn\filter_two_com.vhd":52:2:52:3|Pruning Register bit <0> of y_tmp0(15 downto 0)  
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Dec 19 22:55:43 2015
+
+###########################################################]
+Synplicity Xilinx Technology Mapper, Version 9.6, Build 056R, Built Sep 25 2008 13:48:55
+Copyright (C) 1994-2008, Synplicity Inc.  All Rights Reserved
+Product Version Version 9.6.1
+@N: MF249 |Running in 32-bit mode.
+@N: MF257 |Gated clock conversion enabled 
+Reading Xilinx I/O pad type table from file <C:\Program Files (x86)\Synplicity\fpga_961\lib\xilinx\x_io_tbl.txt> 
+Reading Xilinx Rocket I/O parameter type table from file <C:\Program Files (x86)\Synplicity\fpga_961\lib\xilinx\gttype.txt> 
+
+@W: BN132 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":93:7:93:14|Removing user instance y_out_tmp_1_sqmuxa,  because it is equivalent to instance x_tmp0_1_sqmuxa
+@W: BN132 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":93:7:93:14|Removing user instance X3_1,  because it is equivalent to instance X1_1
+@W: BN132 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":38:2:38:3|Removing sequential instance X3,  because it is equivalent to instance X1
+@N: MT206 |Autoconstrain Mode is ON
+Finished RTL optimizations (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+@W: BN132 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Removing instance y_tmp0[9],  because it is equivalent to instance y_tmp0[8]
+@W: BN132 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Removing instance y_tmp0[10],  because it is equivalent to instance y_tmp0[8]
+@W: BN132 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Removing instance y_tmp0[11],  because it is equivalent to instance y_tmp0[8]
+@W: BN132 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Removing instance y_tmp0[12],  because it is equivalent to instance y_tmp0[8]
+@W: BN132 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Removing instance y_tmp0[13],  because it is equivalent to instance y_tmp0[8]
+@W: BN132 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Removing instance y_tmp0[14],  because it is equivalent to instance y_tmp0[8]
+@W: BN132 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Removing instance y_tmp0[15],  because it is equivalent to instance y_tmp0[8]
+@W: BN132 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Removing instance y_tmp4[12],  because it is equivalent to instance y_tmp4[15]
+@W: BN132 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Removing instance y_tmp4[13],  because it is equivalent to instance y_tmp4[15]
+@W: BN132 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Removing instance y_tmp4[14],  because it is equivalent to instance y_tmp4[15]
+@W: BN132 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Removing instance y_tmp3[12],  because it is equivalent to instance y_tmp3[11]
+@W: BN132 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Removing instance y_tmp3[13],  because it is equivalent to instance y_tmp3[11]
+@W: BN132 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Removing instance y_tmp3[14],  because it is equivalent to instance y_tmp3[11]
+@W: BN132 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Removing instance y_tmp3[15],  because it is equivalent to instance y_tmp3[11]
+@W: BN132 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Removing instance y_tmp2[11],  because it is equivalent to instance y_tmp2[10]
+@W: BN132 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Removing instance y_tmp2[12],  because it is equivalent to instance y_tmp2[10]
+@W: BN132 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Removing instance y_tmp2[13],  because it is equivalent to instance y_tmp2[10]
+@W: BN132 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Removing instance y_tmp2[14],  because it is equivalent to instance y_tmp2[10]
+@W: BN132 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Removing instance y_tmp2[15],  because it is equivalent to instance y_tmp2[10]
+@W: BN132 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Removing instance y_tmp1[11],  because it is equivalent to instance y_tmp1[10]
+@W: BN132 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Removing instance y_tmp1[12],  because it is equivalent to instance y_tmp1[10]
+@W: BN132 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Removing instance y_tmp1[13],  because it is equivalent to instance y_tmp1[10]
+@W: BN132 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Removing instance y_tmp1[14],  because it is equivalent to instance y_tmp1[10]
+@W: BN132 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Removing instance y_tmp1[15],  because it is equivalent to instance y_tmp1[10]
+@W: BN132 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Removing instance y_tmp12[9],  because it is equivalent to instance y_tmp12[8]
+@W: BN132 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Removing instance y_tmp12[10],  because it is equivalent to instance y_tmp12[8]
+@W: BN132 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Removing instance y_tmp12[11],  because it is equivalent to instance y_tmp12[8]
+@W: BN132 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Removing instance y_tmp12[12],  because it is equivalent to instance y_tmp12[8]
+@W: BN132 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Removing instance y_tmp12[13],  because it is equivalent to instance y_tmp12[8]
+@W: BN132 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Removing instance y_tmp12[14],  because it is equivalent to instance y_tmp12[8]
+@W: BN132 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Removing instance y_tmp12[15],  because it is equivalent to instance y_tmp12[8]
+@W: BN132 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Removing instance y_tmp11[12],  because it is equivalent to instance y_tmp11[11]
+@W: BN132 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Removing instance y_tmp11[13],  because it is equivalent to instance y_tmp11[11]
+@W: BN132 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Removing instance y_tmp11[14],  because it is equivalent to instance y_tmp11[11]
+@W: BN132 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Removing instance y_tmp11[15],  because it is equivalent to instance y_tmp11[11]
+@W: BN132 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Removing instance y_tmp11[10],  because it is equivalent to instance y_tmp11[11]
+@W: BN132 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Removing instance y_tmp10[13],  because it is equivalent to instance y_tmp10[12]
+@W: BN132 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Removing instance y_tmp10[14],  because it is equivalent to instance y_tmp10[12]
+@W: BN132 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Removing instance y_tmp10[15],  because it is equivalent to instance y_tmp10[12]
+@W: BN132 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Removing instance y_tmp10[10],  because it is equivalent to instance y_tmp10[12]
+@W: BN132 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Removing instance y_tmp10[11],  because it is equivalent to instance y_tmp10[12]
+@W: BN132 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Removing instance y_tmp9[14],  because it is equivalent to instance y_tmp9[13]
+@W: BN132 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Removing instance y_tmp9[15],  because it is equivalent to instance y_tmp9[13]
+@W: BN132 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Removing instance y_tmp9[11],  because it is equivalent to instance y_tmp9[13]
+@W: BN132 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Removing instance y_tmp9[12],  because it is equivalent to instance y_tmp9[13]
+@W: BN132 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Removing instance y_tmp8[15],  because it is equivalent to instance y_tmp8[14]
+@W: BN132 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Removing instance y_tmp8[12],  because it is equivalent to instance y_tmp8[14]
+@W: BN132 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Removing instance y_tmp8[13],  because it is equivalent to instance y_tmp8[14]
+Finished factoring (Time elapsed 0h:00m:00s; Memory used current: 95MB peak: 95MB)
+
+
+
+######### START OF GENERATED CLOCK OPTIMIZATION REPORT #########[
+
+================================================================
+		Instance:Pin		Generated Clock Optimization Status
+================================================================
+
+
+######### END OF GENERATED CLOCK OPTIMIZATION REPORT #########]
+
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:00s; Memory used current: 95MB peak: 96MB)
+
+
+Clock Buffers:
+  Inserting Clock buffer for port clk,
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:00s; Memory used current: 95MB peak: 96MB)
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 97MB peak: 98MB)
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 98MB)
+
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:00s; Memory used current: 97MB peak: 98MB)
+
+Finished preparing to map (Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 98MB)
+
+Finished technology mapping (Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 99MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -4.13ns		 477 /       265
+   2		0h:00m:00s		    -4.13ns		 477 /       265
+   3		0h:00m:00s		    -4.13ns		 477 /       265
+   4		0h:00m:00s		    -4.13ns		 477 /       265
+------------------------------------------------------------
+
+Timing driven replication report
+@N: FX271 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Instance "x_tmp3[0]" with 9 loads has been replicated 1 time(s) to improve timing 
+@N: FX271 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Instance "x_tmp3[1]" with 6 loads has been replicated 1 time(s) to improve timing 
+@N: FX271 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Instance "x_tmp2[1]" with 4 loads has been replicated 1 time(s) to improve timing 
+@N: FX271 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Instance "x_tmp2[0]" with 5 loads has been replicated 1 time(s) to improve timing 
+@N: FX271 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Instance "x_tmp10[0]" with 4 loads has been replicated 1 time(s) to improve timing 
+@N: FX271 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":38:2:38:3|Instance "X2" with 294 loads has been replicated 3 time(s) to improve timing 
+Added 8 Registers via timing driven replication
+Added 0 LUTs via timing driven replication
+
+Timing driven replication report
+@N: FX271 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":38:2:38:3|Instance "X2_fast" with 30 loads has been replicated 2 time(s) to improve timing 
+Added 2 Registers via timing driven replication
+Added 0 LUTs via timing driven replication
+
+Timing driven replication report
+No replication required.
+
+Timing driven replication report
+@N: FX271 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Instance "x_tmp4[0]" with 8 loads has been replicated 1 time(s) to improve timing 
+Added 1 Registers via timing driven replication
+Added 0 LUTs via timing driven replication
+
+Timing driven replication report
+@N: FX271 :"c:\users\miat\desktop\fpga\hw4\syn\filter_two_com.vhd":52:2:52:3|Instance "x_tmp4[1]" with 6 loads has been replicated 1 time(s) to improve timing 
+Added 1 Registers via timing driven replication
+Added 0 LUTs via timing driven replication
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		    -3.47ns		 485 /       277
+Timing driven replication report
+No replication required.
+
+   2		0h:00m:01s		    -3.47ns		 485 /       277
+   3		0h:00m:01s		    -3.47ns		 485 /       277
+   4		0h:00m:01s		    -3.47ns		 485 /       277
+------------------------------------------------------------
+
+Timing driven replication report
+No replication required.
+
+Timing driven replication report
+No replication required.
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		    -3.47ns		 485 /       277
+Timing driven replication report
+No replication required.
+
+   2		0h:00m:01s		    -3.47ns		 485 /       277
+   3		0h:00m:01s		    -3.47ns		 485 /       277
+   4		0h:00m:01s		    -3.47ns		 485 /       277
+------------------------------------------------------------
+
+Net buffering Report for view:work.filter_two_com(arch_filter_two_com):
+No nets needed buffering.
+
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:01s; Memory used current: 98MB peak: 99MB)
+
+@N: FX164 |The option to pack flops in the IOB has not been specified 
+Finished restoring hierarchy (Time elapsed 0h:00m:01s; Memory used current: 98MB peak: 99MB)
+
+Writing Analyst data base C:\Users\MIAT\Desktop\FPGA\hw4\syn\rev_1\filter_two_com.srm
+@N: BN225 |Writing default property annotation file C:\Users\MIAT\Desktop\FPGA\hw4\syn\rev_1\filter_two_com.map.
+Finished Writing Netlist Databases (Time elapsed 0h:00m:01s; Memory used current: 98MB peak: 99MB)
+
+Writing EDIF Netlist and constraint files
+Reading Xilinx net attributes from file <C:\Program Files (x86)\Synplicity\fpga_961\lib\xilinx\netattr.txt> 
+Version 9.6.1
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:01s; Memory used current: 98MB peak: 99MB)
+
+Starting Writing Gated Clock Conversion Report (Time elapsed 0h:00m:01s; Memory used current: 98MB peak: 99MB)
+
+@N: MF276 |Gated clock conversion enabled, but no gated clocks found in design 
+Finished Writing Gated Clock Conversion Report (Time elapsed 0h:00m:01s; Memory used current: 98MB peak: 99MB)
+
+Starting Writing Generated Clock Conversion Report (Time elapsed 0h:00m:01s; Memory used current: 98MB peak: 99MB)
+
+@N: MF333 |Generated clock conversion enabled, but no generated clocks found in design 
+Finished Writing Generated Clock Conversion Report (Time elapsed 0h:00m:01s; Memory used current: 98MB peak: 99MB)
+
+Found clock filter_two_com|clk with period 9.75ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Sat Dec 19 22:55:45 2015
+#
+
+
+Top view:               filter_two_com
+Requested Frequency:    102.5 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report estimates place and route data. Please look at the place and route timing report for final timing..
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock..
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: -1.721
+
+                       Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock         Frequency     Frequency     Period        Period        Slack      Type         Group                
+----------------------------------------------------------------------------------------------------------------------------
+filter_two_com|clk     102.5 MHz     87.1 MHz      9.753         11.475        -1.721     inferred     Autoconstr_clkgroup_0
+============================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                  |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-------------------------------------------------------------------------------------------------------------------------------
+Starting            Ending              |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-------------------------------------------------------------------------------------------------------------------------------
+filter_two_com|clk  filter_two_com|clk  |  9.753       -1.721  |  No paths    -      |  No paths    -      |  No paths    -    
+===============================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+		No IO constraint found 
+
+
+
+====================================
+Detailed Report for Clock: filter_two_com|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                   Starting                                                   Arrival           
+Instance           Reference              Type     Pin     Net                Time        Slack 
+                   Clock                                                                        
+------------------------------------------------------------------------------------------------
+x_tmp10[1]         filter_two_com|clk     FDRE     Q       x_tmp10[1]         0.449       -1.721
+x_tmp2[2]          filter_two_com|clk     FDRE     Q       x_tmp2[2]          0.449       -1.680
+x_tmp10[2]         filter_two_com|clk     FDRE     Q       x_tmp10[2]         0.449       -1.680
+x_tmp2_fast[1]     filter_two_com|clk     FDRE     Q       x_tmp2_fast[1]     0.449       -1.645
+x_tmp2[3]          filter_two_com|clk     FDRE     Q       x_tmp2[3]          0.449       -1.638
+x_tmp10[3]         filter_two_com|clk     FDRE     Q       x_tmp10[3]         0.449       -1.638
+x_tmp2[4]          filter_two_com|clk     FDRE     Q       x_tmp2[4]          0.449       -1.597
+x_tmp10[4]         filter_two_com|clk     FDRE     Q       x_tmp10[4]         0.449       -1.597
+x_tmp2[5]          filter_two_com|clk     FDRE     Q       x_tmp2[5]          0.449       -1.555
+x_tmp10[5]         filter_two_com|clk     FDRE     Q       x_tmp10[5]         0.449       -1.555
+================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                  Starting                                                          Required           
+Instance          Reference              Type     Pin     Net                       Time         Slack 
+                  Clock                                                                                
+-------------------------------------------------------------------------------------------------------
+y_out_tmp[15]     filter_two_com|clk     FDRE     D       un36_y_out_tmp_0_s_15     9.460        -1.721
+y_out_tmp[14]     filter_two_com|clk     FDRE     D       un36_y_out_tmp_0_s_14     9.460        -1.680
+y_out_tmp[13]     filter_two_com|clk     FDRE     D       un36_y_out_tmp_0_s_13     9.460        -1.638
+y_out_tmp[12]     filter_two_com|clk     FDRE     D       un36_y_out_tmp_0_s_12     9.460        -1.597
+y_out_tmp[11]     filter_two_com|clk     FDRE     D       un36_y_out_tmp_0_s_11     9.460        -1.555
+y_out_tmp[10]     filter_two_com|clk     FDRE     D       un36_y_out_tmp_0_s_10     9.460        -1.514
+y_out_tmp[9]      filter_two_com|clk     FDRE     D       un36_y_out_tmp_0_s_9      9.460        -1.472
+y_out_tmp[8]      filter_two_com|clk     FDRE     D       un36_y_out_tmp_0_s_8      9.460        -0.914
+y_tmp3[11]        filter_two_com|clk     FDE      D       un1_x_tmp3_s_11           9.460        4.243 
+y_tmp3[10]        filter_two_com|clk     FDE      D       un1_x_tmp3_s_10           9.460        4.245 
+=======================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Requested Period:                        9.753
+    - Setup time:                            0.293
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.460
+
+    - Propagation time:                      11.182
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.721
+
+    Number of logic level(s):                19
+    Starting point:                          x_tmp10[1] / Q
+    Ending point:                            y_out_tmp[15] / D
+    The start point is clocked by            filter_two_com|clk [rising] on pin C
+    The end   point is clocked by            filter_two_com|clk [rising] on pin C
+
+Instance / Net                             Pin      Pin               Arrival     No. of    
+Name                           Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------
+x_tmp10[1]                     FDRE        Q        Out     0.449     0.449       -         
+x_tmp10[1]                     Net         -        -       0.554     -           4         
+un1_x_tmp10_cry_1              MUXCY_L     DI       In      -         1.003       -         
+un1_x_tmp10_cry_1              MUXCY_L     LO       Out     0.597     1.600       -         
+un1_x_tmp10_cry_1              Net         -        -       0.000     -           2         
+un1_x_tmp10_cry_2              MUXCY_L     CI       In      -         1.600       -         
+un1_x_tmp10_cry_2              MUXCY_L     LO       Out     0.042     1.642       -         
+un1_x_tmp10_cry_2              Net         -        -       0.000     -           2         
+un1_x_tmp10_cry_3              MUXCY_L     CI       In      -         1.642       -         
+un1_x_tmp10_cry_3              MUXCY_L     LO       Out     0.042     1.683       -         
+un1_x_tmp10_cry_3              Net         -        -       0.000     -           2         
+un1_x_tmp10_cry_4              MUXCY_L     CI       In      -         1.683       -         
+un1_x_tmp10_cry_4              MUXCY_L     LO       Out     0.042     1.724       -         
+un1_x_tmp10_cry_4              Net         -        -       0.000     -           2         
+un1_x_tmp10_cry_5              MUXCY_L     CI       In      -         1.724       -         
+un1_x_tmp10_cry_5              MUXCY_L     LO       Out     0.042     1.766       -         
+un1_x_tmp10_cry_5              Net         -        -       0.000     -           2         
+un1_x_tmp10_cry_6              MUXCY_L     CI       In      -         1.766       -         
+un1_x_tmp10_cry_6              MUXCY_L     LO       Out     0.042     1.808       -         
+un1_x_tmp10_cry_6              Net         -        -       0.000     -           2         
+un1_x_tmp10_s_7                XORCY       CI       In      -         1.808       -         
+un1_x_tmp10_s_7                XORCY       O        Out     0.861     2.669       -         
+un1_x_tmp10_s_7                Net         -        -       0.382     -           2         
+y_tmp10_2[7]                   LUT3        I1       In      -         3.051       -         
+y_tmp10_2[7]                   LUT3        O        Out     0.347     3.398       -         
+y_tmp10_2[7]                   Net         -        -       0.438     -           3         
+un36_y_out_tmp_12_24_N_4_i     LUT3        I2       In      -         3.836       -         
+un36_y_out_tmp_12_24_N_4_i     LUT3        O        Out     0.347     4.183       -         
+un36_y_out_tmp_12_24_N_4_i     Net         -        -       0.324     -           1         
+un36_y_out_tmp_12_0_cry_8      MUXCY_L     DI       In      -         4.507       -         
+un36_y_out_tmp_12_0_cry_8      MUXCY_L     LO       Out     0.597     5.104       -         
+un36_y_out_tmp_12_0_cry_8      Net         -        -       0.000     -           2         
+un36_y_out_tmp_12_0_cry_9      MUXCY_L     CI       In      -         5.104       -         
+un36_y_out_tmp_12_0_cry_9      MUXCY_L     LO       Out     0.042     5.145       -         
+un36_y_out_tmp_12_0_cry_9      Net         -        -       0.000     -           2         
+un36_y_out_tmp_12_0_cry_10     MUXCY_L     CI       In      -         5.145       -         
+un36_y_out_tmp_12_0_cry_10     MUXCY_L     LO       Out     0.042     5.186       -         
+un36_y_out_tmp_12_0_cry_10     Net         -        -       0.000     -           2         
+un36_y_out_tmp_12_0_s_11       XORCY       CI       In      -         5.186       -         
+un36_y_out_tmp_12_0_s_11       XORCY       O        Out     0.861     6.048       -         
+un36_y_out_tmp_12[11]          Net         -        -       0.438     -           3         
+un36_y_out_tmp_6_53            LUT3        I0       In      -         6.485       -         
+un36_y_out_tmp_6_53            LUT3        O        Out     0.347     6.832       -         
+un36_y_out_tmp_6_53            Net         -        -       0.324     -           1         
+un36_y_out_tmp_6_0_cry_12      MUXCY_L     DI       In      -         7.156       -         
+un36_y_out_tmp_6_0_cry_12      MUXCY_L     LO       Out     0.597     7.753       -         
+un36_y_out_tmp_6_0_cry_12      Net         -        -       0.000     -           2         
+un36_y_out_tmp_6_0_s_13        XORCY       CI       In      -         7.753       -         
+un36_y_out_tmp_6_0_s_13        XORCY       O        Out     0.861     8.615       -         
+un36_y_out_tmp_6[13]           Net         -        -       0.438     -           3         
+un36_y_out_tmp_63              LUT3        I0       In      -         9.052       -         
+un36_y_out_tmp_63              LUT3        O        Out     0.347     9.399       -         
+un36_y_out_tmp_63              Net         -        -       0.324     -           1         
+un36_y_out_tmp_0_cry_14        MUXCY_L     DI       In      -         9.723       -         
+un36_y_out_tmp_0_cry_14        MUXCY_L     LO       Out     0.597     10.320      -         
+un36_y_out_tmp_0_cry_14        Net         -        -       0.000     -           1         
+un36_y_out_tmp_0_s_15          XORCY       CI       In      -         10.320      -         
+un36_y_out_tmp_0_s_15          XORCY       O        Out     0.861     11.182      -         
+un36_y_out_tmp_0_s_15          Net         -        -       0.000     -           1         
+y_out_tmp[15]                  FDRE        D        In      -         11.182      -         
+============================================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 11.475 is 8.254(71.9%) logic and 3.221(28.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+Path information for path number 2: 
+    Requested Period:                        9.753
+    - Setup time:                            0.293
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.460
+
+    - Propagation time:                      11.182
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.721
+
+    Number of logic level(s):                19
+    Starting point:                          x_tmp10[1] / Q
+    Ending point:                            y_out_tmp[15] / D
+    The start point is clocked by            filter_two_com|clk [rising] on pin C
+    The end   point is clocked by            filter_two_com|clk [rising] on pin C
+
+Instance / Net                             Pin      Pin               Arrival     No. of    
+Name                           Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------
+x_tmp10[1]                     FDRE        Q        Out     0.449     0.449       -         
+x_tmp10[1]                     Net         -        -       0.554     -           4         
+un1_x_tmp10_cry_1              MUXCY_L     DI       In      -         1.003       -         
+un1_x_tmp10_cry_1              MUXCY_L     LO       Out     0.597     1.600       -         
+un1_x_tmp10_cry_1              Net         -        -       0.000     -           2         
+un1_x_tmp10_cry_2              MUXCY_L     CI       In      -         1.600       -         
+un1_x_tmp10_cry_2              MUXCY_L     LO       Out     0.042     1.642       -         
+un1_x_tmp10_cry_2              Net         -        -       0.000     -           2         
+un1_x_tmp10_s_3                XORCY       CI       In      -         1.642       -         
+un1_x_tmp10_s_3                XORCY       O        Out     0.861     2.503       -         
+un1_x_tmp10_s_3                Net         -        -       0.382     -           2         
+y_tmp10_2[3]                   LUT3        I1       In      -         2.885       -         
+y_tmp10_2[3]                   LUT3        O        Out     0.347     3.232       -         
+y_tmp10_2[3]                   Net         -        -       0.438     -           3         
+un36_y_out_tmp_12_4            LUT3        I2       In      -         3.670       -         
+un36_y_out_tmp_12_4            LUT3        O        Out     0.347     4.016       -         
+un36_y_out_tmp_12_4            Net         -        -       0.324     -           1         
+un36_y_out_tmp_12_0_cry_4      MUXCY_L     DI       In      -         4.340       -         
+un36_y_out_tmp_12_0_cry_4      MUXCY_L     LO       Out     0.597     4.938       -         
+un36_y_out_tmp_12_0_cry_4      Net         -        -       0.000     -           2         
+un36_y_out_tmp_12_0_cry_5      MUXCY_L     CI       In      -         4.938       -         
+un36_y_out_tmp_12_0_cry_5      MUXCY_L     LO       Out     0.042     4.979       -         
+un36_y_out_tmp_12_0_cry_5      Net         -        -       0.000     -           2         
+un36_y_out_tmp_12_0_cry_6      MUXCY_L     CI       In      -         4.979       -         
+un36_y_out_tmp_12_0_cry_6      MUXCY_L     LO       Out     0.042     5.021       -         
+un36_y_out_tmp_12_0_cry_6      Net         -        -       0.000     -           2         
+un36_y_out_tmp_12_0_cry_7      MUXCY_L     CI       In      -         5.021       -         
+un36_y_out_tmp_12_0_cry_7      MUXCY_L     LO       Out     0.042     5.062       -         
+un36_y_out_tmp_12_0_cry_7      Net         -        -       0.000     -           2         
+un36_y_out_tmp_12_0_cry_8      MUXCY_L     CI       In      -         5.062       -         
+un36_y_out_tmp_12_0_cry_8      MUXCY_L     LO       Out     0.042     5.104       -         
+un36_y_out_tmp_12_0_cry_8      Net         -        -       0.000     -           2         
+un36_y_out_tmp_12_0_cry_9      MUXCY_L     CI       In      -         5.104       -         
+un36_y_out_tmp_12_0_cry_9      MUXCY_L     LO       Out     0.042     5.145       -         
+un36_y_out_tmp_12_0_cry_9      Net         -        -       0.000     -           2         
+un36_y_out_tmp_12_0_cry_10     MUXCY_L     CI       In      -         5.145       -         
+un36_y_out_tmp_12_0_cry_10     MUXCY_L     LO       Out     0.042     5.186       -         
+un36_y_out_tmp_12_0_cry_10     Net         -        -       0.000     -           2         
+un36_y_out_tmp_12_0_s_11       XORCY       CI       In      -         5.186       -         
+un36_y_out_tmp_12_0_s_11       XORCY       O        Out     0.861     6.048       -         
+un36_y_out_tmp_12[11]          Net         -        -       0.438     -           3         
+un36_y_out_tmp_6_53            LUT3        I0       In      -         6.485       -         
+un36_y_out_tmp_6_53            LUT3        O        Out     0.347     6.832       -         
+un36_y_out_tmp_6_53            Net         -        -       0.324     -           1         
+un36_y_out_tmp_6_0_cry_12      MUXCY_L     DI       In      -         7.156       -         
+un36_y_out_tmp_6_0_cry_12      MUXCY_L     LO       Out     0.597     7.753       -         
+un36_y_out_tmp_6_0_cry_12      Net         -        -       0.000     -           2         
+un36_y_out_tmp_6_0_s_13        XORCY       CI       In      -         7.753       -         
+un36_y_out_tmp_6_0_s_13        XORCY       O        Out     0.861     8.615       -         
+un36_y_out_tmp_6[13]           Net         -        -       0.438     -           3         
+un36_y_out_tmp_63              LUT3        I0       In      -         9.052       -         
+un36_y_out_tmp_63              LUT3        O        Out     0.347     9.399       -         
+un36_y_out_tmp_63              Net         -        -       0.324     -           1         
+un36_y_out_tmp_0_cry_14        MUXCY_L     DI       In      -         9.723       -         
+un36_y_out_tmp_0_cry_14        MUXCY_L     LO       Out     0.597     10.320      -         
+un36_y_out_tmp_0_cry_14        Net         -        -       0.000     -           1         
+un36_y_out_tmp_0_s_15          XORCY       CI       In      -         10.320      -         
+un36_y_out_tmp_0_s_15          XORCY       O        Out     0.861     11.182      -         
+un36_y_out_tmp_0_s_15          Net         -        -       0.000     -           1         
+y_out_tmp[15]                  FDRE        D        In      -         11.182      -         
+============================================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 11.475 is 8.254(71.9%) logic and 3.221(28.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+Path information for path number 3: 
+    Requested Period:                        9.753
+    - Setup time:                            0.293
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.460
+
+    - Propagation time:                      11.182
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.721
+
+    Number of logic level(s):                19
+    Starting point:                          x_tmp10[1] / Q
+    Ending point:                            y_out_tmp[15] / D
+    The start point is clocked by            filter_two_com|clk [rising] on pin C
+    The end   point is clocked by            filter_two_com|clk [rising] on pin C
+
+Instance / Net                             Pin      Pin               Arrival     No. of    
+Name                           Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------
+x_tmp10[1]                     FDRE        Q        Out     0.449     0.449       -         
+x_tmp10[1]                     Net         -        -       0.554     -           4         
+un1_x_tmp10_cry_1              MUXCY_L     DI       In      -         1.003       -         
+un1_x_tmp10_cry_1              MUXCY_L     LO       Out     0.597     1.600       -         
+un1_x_tmp10_cry_1              Net         -        -       0.000     -           2         
+un1_x_tmp10_cry_2              MUXCY_L     CI       In      -         1.600       -         
+un1_x_tmp10_cry_2              MUXCY_L     LO       Out     0.042     1.642       -         
+un1_x_tmp10_cry_2              Net         -        -       0.000     -           2         
+un1_x_tmp10_cry_3              MUXCY_L     CI       In      -         1.642       -         
+un1_x_tmp10_cry_3              MUXCY_L     LO       Out     0.042     1.683       -         
+un1_x_tmp10_cry_3              Net         -        -       0.000     -           2         
+un1_x_tmp10_s_4                XORCY       CI       In      -         1.683       -         
+un1_x_tmp10_s_4                XORCY       O        Out     0.861     2.544       -         
+un1_x_tmp10_s_4                Net         -        -       0.382     -           2         
+y_tmp10_2[4]                   LUT3        I1       In      -         2.926       -         
+y_tmp10_2[4]                   LUT3        O        Out     0.347     3.273       -         
+y_tmp10_2[4]                   Net         -        -       0.438     -           3         
+un36_y_out_tmp_12_9            LUT3        I2       In      -         3.711       -         
+un36_y_out_tmp_12_9            LUT3        O        Out     0.347     4.058       -         
+un36_y_out_tmp_12_9            Net         -        -       0.324     -           1         
+un36_y_out_tmp_12_0_cry_5      MUXCY_L     DI       In      -         4.382       -         
+un36_y_out_tmp_12_0_cry_5      MUXCY_L     LO       Out     0.597     4.979       -         
+un36_y_out_tmp_12_0_cry_5      Net         -        -       0.000     -           2         
+un36_y_out_tmp_12_0_cry_6      MUXCY_L     CI       In      -         4.979       -         
+un36_y_out_tmp_12_0_cry_6      MUXCY_L     LO       Out     0.042     5.021       -         
+un36_y_out_tmp_12_0_cry_6      Net         -        -       0.000     -           2         
+un36_y_out_tmp_12_0_cry_7      MUXCY_L     CI       In      -         5.021       -         
+un36_y_out_tmp_12_0_cry_7      MUXCY_L     LO       Out     0.042     5.062       -         
+un36_y_out_tmp_12_0_cry_7      Net         -        -       0.000     -           2         
+un36_y_out_tmp_12_0_cry_8      MUXCY_L     CI       In      -         5.062       -         
+un36_y_out_tmp_12_0_cry_8      MUXCY_L     LO       Out     0.042     5.104       -         
+un36_y_out_tmp_12_0_cry_8      Net         -        -       0.000     -           2         
+un36_y_out_tmp_12_0_cry_9      MUXCY_L     CI       In      -         5.104       -         
+un36_y_out_tmp_12_0_cry_9      MUXCY_L     LO       Out     0.042     5.145       -         
+un36_y_out_tmp_12_0_cry_9      Net         -        -       0.000     -           2         
+un36_y_out_tmp_12_0_cry_10     MUXCY_L     CI       In      -         5.145       -         
+un36_y_out_tmp_12_0_cry_10     MUXCY_L     LO       Out     0.042     5.186       -         
+un36_y_out_tmp_12_0_cry_10     Net         -        -       0.000     -           2         
+un36_y_out_tmp_12_0_s_11       XORCY       CI       In      -         5.186       -         
+un36_y_out_tmp_12_0_s_11       XORCY       O        Out     0.861     6.048       -         
+un36_y_out_tmp_12[11]          Net         -        -       0.438     -           3         
+un36_y_out_tmp_6_53            LUT3        I0       In      -         6.485       -         
+un36_y_out_tmp_6_53            LUT3        O        Out     0.347     6.832       -         
+un36_y_out_tmp_6_53            Net         -        -       0.324     -           1         
+un36_y_out_tmp_6_0_cry_12      MUXCY_L     DI       In      -         7.156       -         
+un36_y_out_tmp_6_0_cry_12      MUXCY_L     LO       Out     0.597     7.753       -         
+un36_y_out_tmp_6_0_cry_12      Net         -        -       0.000     -           2         
+un36_y_out_tmp_6_0_s_13        XORCY       CI       In      -         7.753       -         
+un36_y_out_tmp_6_0_s_13        XORCY       O        Out     0.861     8.615       -         
+un36_y_out_tmp_6[13]           Net         -        -       0.438     -           3         
+un36_y_out_tmp_63              LUT3        I0       In      -         9.052       -         
+un36_y_out_tmp_63              LUT3        O        Out     0.347     9.399       -         
+un36_y_out_tmp_63              Net         -        -       0.324     -           1         
+un36_y_out_tmp_0_cry_14        MUXCY_L     DI       In      -         9.723       -         
+un36_y_out_tmp_0_cry_14        MUXCY_L     LO       Out     0.597     10.320      -         
+un36_y_out_tmp_0_cry_14        Net         -        -       0.000     -           1         
+un36_y_out_tmp_0_s_15          XORCY       CI       In      -         10.320      -         
+un36_y_out_tmp_0_s_15          XORCY       O        Out     0.861     11.182      -         
+un36_y_out_tmp_0_s_15          Net         -        -       0.000     -           1         
+y_out_tmp[15]                  FDRE        D        In      -         11.182      -         
+============================================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 11.475 is 8.254(71.9%) logic and 3.221(28.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+Path information for path number 4: 
+    Requested Period:                        9.753
+    - Setup time:                            0.293
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.460
+
+    - Propagation time:                      11.182
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.721
+
+    Number of logic level(s):                19
+    Starting point:                          x_tmp10[1] / Q
+    Ending point:                            y_out_tmp[15] / D
+    The start point is clocked by            filter_two_com|clk [rising] on pin C
+    The end   point is clocked by            filter_two_com|clk [rising] on pin C
+
+Instance / Net                             Pin      Pin               Arrival     No. of    
+Name                           Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------
+x_tmp10[1]                     FDRE        Q        Out     0.449     0.449       -         
+x_tmp10[1]                     Net         -        -       0.554     -           4         
+un1_x_tmp10_cry_1              MUXCY_L     DI       In      -         1.003       -         
+un1_x_tmp10_cry_1              MUXCY_L     LO       Out     0.597     1.600       -         
+un1_x_tmp10_cry_1              Net         -        -       0.000     -           2         
+un1_x_tmp10_cry_2              MUXCY_L     CI       In      -         1.600       -         
+un1_x_tmp10_cry_2              MUXCY_L     LO       Out     0.042     1.642       -         
+un1_x_tmp10_cry_2              Net         -        -       0.000     -           2         
+un1_x_tmp10_cry_3              MUXCY_L     CI       In      -         1.642       -         
+un1_x_tmp10_cry_3              MUXCY_L     LO       Out     0.042     1.683       -         
+un1_x_tmp10_cry_3              Net         -        -       0.000     -           2         
+un1_x_tmp10_cry_4              MUXCY_L     CI       In      -         1.683       -         
+un1_x_tmp10_cry_4              MUXCY_L     LO       Out     0.042     1.724       -         
+un1_x_tmp10_cry_4              Net         -        -       0.000     -           2         
+un1_x_tmp10_s_5                XORCY       CI       In      -         1.724       -         
+un1_x_tmp10_s_5                XORCY       O        Out     0.861     2.586       -         
+un1_x_tmp10_s_5                Net         -        -       0.382     -           2         
+y_tmp10_2[5]                   LUT3        I1       In      -         2.968       -         
+y_tmp10_2[5]                   LUT3        O        Out     0.347     3.315       -         
+y_tmp10_2[5]                   Net         -        -       0.438     -           3         
+un36_y_out_tmp_12_14           LUT3        I2       In      -         3.752       -         
+un36_y_out_tmp_12_14           LUT3        O        Out     0.347     4.099       -         
+un36_y_out_tmp_12_14           Net         -        -       0.324     -           1         
+un36_y_out_tmp_12_0_cry_6      MUXCY_L     DI       In      -         4.423       -         
+un36_y_out_tmp_12_0_cry_6      MUXCY_L     LO       Out     0.597     5.021       -         
+un36_y_out_tmp_12_0_cry_6      Net         -        -       0.000     -           2         
+un36_y_out_tmp_12_0_cry_7      MUXCY_L     CI       In      -         5.021       -         
+un36_y_out_tmp_12_0_cry_7      MUXCY_L     LO       Out     0.042     5.062       -         
+un36_y_out_tmp_12_0_cry_7      Net         -        -       0.000     -           2         
+un36_y_out_tmp_12_0_cry_8      MUXCY_L     CI       In      -         5.062       -         
+un36_y_out_tmp_12_0_cry_8      MUXCY_L     LO       Out     0.042     5.104       -         
+un36_y_out_tmp_12_0_cry_8      Net         -        -       0.000     -           2         
+un36_y_out_tmp_12_0_cry_9      MUXCY_L     CI       In      -         5.104       -         
+un36_y_out_tmp_12_0_cry_9      MUXCY_L     LO       Out     0.042     5.145       -         
+un36_y_out_tmp_12_0_cry_9      Net         -        -       0.000     -           2         
+un36_y_out_tmp_12_0_cry_10     MUXCY_L     CI       In      -         5.145       -         
+un36_y_out_tmp_12_0_cry_10     MUXCY_L     LO       Out     0.042     5.186       -         
+un36_y_out_tmp_12_0_cry_10     Net         -        -       0.000     -           2         
+un36_y_out_tmp_12_0_s_11       XORCY       CI       In      -         5.186       -         
+un36_y_out_tmp_12_0_s_11       XORCY       O        Out     0.861     6.048       -         
+un36_y_out_tmp_12[11]          Net         -        -       0.438     -           3         
+un36_y_out_tmp_6_53            LUT3        I0       In      -         6.485       -         
+un36_y_out_tmp_6_53            LUT3        O        Out     0.347     6.832       -         
+un36_y_out_tmp_6_53            Net         -        -       0.324     -           1         
+un36_y_out_tmp_6_0_cry_12      MUXCY_L     DI       In      -         7.156       -         
+un36_y_out_tmp_6_0_cry_12      MUXCY_L     LO       Out     0.597     7.753       -         
+un36_y_out_tmp_6_0_cry_12      Net         -        -       0.000     -           2         
+un36_y_out_tmp_6_0_s_13        XORCY       CI       In      -         7.753       -         
+un36_y_out_tmp_6_0_s_13        XORCY       O        Out     0.861     8.615       -         
+un36_y_out_tmp_6[13]           Net         -        -       0.438     -           3         
+un36_y_out_tmp_63              LUT3        I0       In      -         9.052       -         
+un36_y_out_tmp_63              LUT3        O        Out     0.347     9.399       -         
+un36_y_out_tmp_63              Net         -        -       0.324     -           1         
+un36_y_out_tmp_0_cry_14        MUXCY_L     DI       In      -         9.723       -         
+un36_y_out_tmp_0_cry_14        MUXCY_L     LO       Out     0.597     10.320      -         
+un36_y_out_tmp_0_cry_14        Net         -        -       0.000     -           1         
+un36_y_out_tmp_0_s_15          XORCY       CI       In      -         10.320      -         
+un36_y_out_tmp_0_s_15          XORCY       O        Out     0.861     11.182      -         
+un36_y_out_tmp_0_s_15          Net         -        -       0.000     -           1         
+y_out_tmp[15]                  FDRE        D        In      -         11.182      -         
+============================================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 11.475 is 8.254(71.9%) logic and 3.221(28.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+Path information for path number 5: 
+    Requested Period:                        9.753
+    - Setup time:                            0.293
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.460
+
+    - Propagation time:                      11.182
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.721
+
+    Number of logic level(s):                19
+    Starting point:                          x_tmp10[1] / Q
+    Ending point:                            y_out_tmp[15] / D
+    The start point is clocked by            filter_two_com|clk [rising] on pin C
+    The end   point is clocked by            filter_two_com|clk [rising] on pin C
+
+Instance / Net                             Pin      Pin               Arrival     No. of    
+Name                           Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------
+x_tmp10[1]                     FDRE        Q        Out     0.449     0.449       -         
+x_tmp10[1]                     Net         -        -       0.554     -           4         
+un1_x_tmp10_cry_1              MUXCY_L     DI       In      -         1.003       -         
+un1_x_tmp10_cry_1              MUXCY_L     LO       Out     0.597     1.600       -         
+un1_x_tmp10_cry_1              Net         -        -       0.000     -           2         
+un1_x_tmp10_cry_2              MUXCY_L     CI       In      -         1.600       -         
+un1_x_tmp10_cry_2              MUXCY_L     LO       Out     0.042     1.642       -         
+un1_x_tmp10_cry_2              Net         -        -       0.000     -           2         
+un1_x_tmp10_cry_3              MUXCY_L     CI       In      -         1.642       -         
+un1_x_tmp10_cry_3              MUXCY_L     LO       Out     0.042     1.683       -         
+un1_x_tmp10_cry_3              Net         -        -       0.000     -           2         
+un1_x_tmp10_cry_4              MUXCY_L     CI       In      -         1.683       -         
+un1_x_tmp10_cry_4              MUXCY_L     LO       Out     0.042     1.724       -         
+un1_x_tmp10_cry_4              Net         -        -       0.000     -           2         
+un1_x_tmp10_cry_5              MUXCY_L     CI       In      -         1.724       -         
+un1_x_tmp10_cry_5              MUXCY_L     LO       Out     0.042     1.766       -         
+un1_x_tmp10_cry_5              Net         -        -       0.000     -           2         
+un1_x_tmp10_s_6                XORCY       CI       In      -         1.766       -         
+un1_x_tmp10_s_6                XORCY       O        Out     0.861     2.627       -         
+un1_x_tmp10_s_6                Net         -        -       0.382     -           2         
+y_tmp10_2[6]                   LUT3        I1       In      -         3.009       -         
+y_tmp10_2[6]                   LUT3        O        Out     0.347     3.356       -         
+y_tmp10_2[6]                   Net         -        -       0.438     -           3         
+un36_y_out_tmp_12_19           LUT3        I2       In      -         3.794       -         
+un36_y_out_tmp_12_19           LUT3        O        Out     0.347     4.141       -         
+un36_y_out_tmp_12_19           Net         -        -       0.324     -           1         
+un36_y_out_tmp_12_0_cry_7      MUXCY_L     DI       In      -         4.465       -         
+un36_y_out_tmp_12_0_cry_7      MUXCY_L     LO       Out     0.597     5.062       -         
+un36_y_out_tmp_12_0_cry_7      Net         -        -       0.000     -           2         
+un36_y_out_tmp_12_0_cry_8      MUXCY_L     CI       In      -         5.062       -         
+un36_y_out_tmp_12_0_cry_8      MUXCY_L     LO       Out     0.042     5.104       -         
+un36_y_out_tmp_12_0_cry_8      Net         -        -       0.000     -           2         
+un36_y_out_tmp_12_0_cry_9      MUXCY_L     CI       In      -         5.104       -         
+un36_y_out_tmp_12_0_cry_9      MUXCY_L     LO       Out     0.042     5.145       -         
+un36_y_out_tmp_12_0_cry_9      Net         -        -       0.000     -           2         
+un36_y_out_tmp_12_0_cry_10     MUXCY_L     CI       In      -         5.145       -         
+un36_y_out_tmp_12_0_cry_10     MUXCY_L     LO       Out     0.042     5.186       -         
+un36_y_out_tmp_12_0_cry_10     Net         -        -       0.000     -           2         
+un36_y_out_tmp_12_0_s_11       XORCY       CI       In      -         5.186       -         
+un36_y_out_tmp_12_0_s_11       XORCY       O        Out     0.861     6.048       -         
+un36_y_out_tmp_12[11]          Net         -        -       0.438     -           3         
+un36_y_out_tmp_6_53            LUT3        I0       In      -         6.485       -         
+un36_y_out_tmp_6_53            LUT3        O        Out     0.347     6.832       -         
+un36_y_out_tmp_6_53            Net         -        -       0.324     -           1         
+un36_y_out_tmp_6_0_cry_12      MUXCY_L     DI       In      -         7.156       -         
+un36_y_out_tmp_6_0_cry_12      MUXCY_L     LO       Out     0.597     7.753       -         
+un36_y_out_tmp_6_0_cry_12      Net         -        -       0.000     -           2         
+un36_y_out_tmp_6_0_s_13        XORCY       CI       In      -         7.753       -         
+un36_y_out_tmp_6_0_s_13        XORCY       O        Out     0.861     8.615       -         
+un36_y_out_tmp_6[13]           Net         -        -       0.438     -           3         
+un36_y_out_tmp_63              LUT3        I0       In      -         9.052       -         
+un36_y_out_tmp_63              LUT3        O        Out     0.347     9.399       -         
+un36_y_out_tmp_63              Net         -        -       0.324     -           1         
+un36_y_out_tmp_0_cry_14        MUXCY_L     DI       In      -         9.723       -         
+un36_y_out_tmp_0_cry_14        MUXCY_L     LO       Out     0.597     10.320      -         
+un36_y_out_tmp_0_cry_14        Net         -        -       0.000     -           1         
+un36_y_out_tmp_0_s_15          XORCY       CI       In      -         10.320      -         
+un36_y_out_tmp_0_s_15          XORCY       O        Out     0.861     11.182      -         
+un36_y_out_tmp_0_s_15          Net         -        -       0.000     -           1         
+y_out_tmp[15]                  FDRE        D        In      -         11.182      -         
+============================================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 11.475 is 8.254(71.9%) logic and 3.221(28.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+
+##### END OF TIMING REPORT #####]
+
+---------------------------------------
+Resource Usage Report for filter_two_com 
+
+Mapping to part: xc2v40cs144-6
+Cell usage:
+FDC             1 use
+FDCE            6 uses
+FDE             150 uses
+FDP             1 use
+FDRE            119 uses
+GND             1 use
+MUXCY           11 uses
+MUXCY_L         202 uses
+MUXF5           7 uses
+VCC             1 use
+XORCY           196 uses
+LUT1            10 uses
+LUT2            101 uses
+LUT3            236 uses
+LUT4            134 uses
+
+I/O ports: 18
+I/O primitives: 17
+IBUF           9 uses
+OBUF           8 uses
+
+BUFGP          1 use
+
+I/O Register bits:                  0
+Register bits not including I/Os:   277 (54%)
+
+Global Clock Buffers: 1 of 16 (6%)
+
+Total load per clock:
+   filter_two_com|clk: 277
+
+Mapping Summary:
+Total  LUTs: 481 (93%)
+
+Mapper successful!
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Dec 19 22:55:46 2015
+
+###########################################################]

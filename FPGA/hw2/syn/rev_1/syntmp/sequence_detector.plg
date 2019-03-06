@@ -1,0 +1,12 @@
+@P:  Worst Slack : -0.374
+@P:  sequence_detector|clk - Estimated Frequency : 401.0 MHz
+@P:  sequence_detector|clk - Requested Frequency : 471.7 MHz
+@P:  sequence_detector|clk - Estimated Period : 2.494
+@P:  sequence_detector|clk - Requested Period : 2.120
+@P:  sequence_detector|clk - Slack : -0.374
+@P: sequence_detector Part : xc2v40cs144-6
+@P: sequence_detector I/O primitives : 2
+@P: sequence_detector I/O Register bits : 0
+@P: sequence_detector Register bits (Non I/O) : 9 (1%)
+@P: sequence_detector Total Luts : 28 (5%)
+@P:  CPU Time : 0h:00m:00s

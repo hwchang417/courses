@@ -1,0 +1,79 @@
+%%% protect protected_file
+@E
+@ 
+#
+#
+#
+# Created by Synplify VHDL Compiler version 1.0, Build 007R from Synplicity, Inc.
+# Copyright 1994-2008 Synplicity, Inc. , All rights reserved.
+# Synthesis Netlist written on Fri Nov 20 13:23:29 2015
+#
+#
+#OPTIONS:"|-primux|-fixsmult|-sdff_counter|-infer_seqShift|-nram|-divnmod|-autosm|-autosm|-fid2|-sharing|on|-encrypt|-ui|-lite|-pro|-ram|-ignore_undefined_lib|-ll|2000|-lib|work"
+#CUR:"C:\\Program Files (x86)\\Synplicity\\fpga_961\\bin\\c_vhdl.exe":1223043390
+#CUR:"C:\\Program Files (x86)\\Synplicity\\fpga_961\\lib\\vhd\\location.map":1223043596
+#CUR:"C:\\Program Files (x86)\\Synplicity\\fpga_961\\lib\\vhd\\std.vhd":1223043596
+#CUR:"C:\\Users\\MIAT\\Desktop\\FPGA\\hw2\\FPGA_HW2_104582004_104522040_104522065\\sequence_detector.vhd":1447941174
+#CUR:"C:\\Users\\MIAT\\Desktop\\FPGA\\hw2\\FPGA_HW2_104582004_104522040_104522065\\sequence_detector.vhd":1447941174
+#CUR:"C:\\Program Files (x86)\\Synplicity\\fpga_961\\lib\\vhd\\std1164.vhd":1223043596
+f "C:\Program Files (x86)\Synplicity\fpga_961\lib\vhd\std.vhd"; # file 0
+af .is_vhdl 1;
+f "C:\Users\MIAT\Desktop\FPGA\hw2\FPGA_HW2_104582004_104522040_104522065\sequence_detector.vhd"; # file 1
+af .is_vhdl 1;
+f "C:\Program Files (x86)\Synplicity\fpga_961\lib\vhd\std1164.vhd"; # file 2
+af .is_vhdl 1;
+@E
+@ 
+ftell;
+@E@MR@c4::c(::R.dI	FsRJ#CkOCMCC_800COFNsRs_OE#kCJCCMO_08CCFO0sN;
+PHR3#8PED;R4
+RNP3_H#PDE8R
+4;N3PR#_$MVblNRF"Is\	R"\B:\Cz#s\#\vaQq\C\7#F	0bw\\u\tq\.EI\u\wt]q_W4._jUc6.cjj_c4j6j..c4j_j.c6.6jn\C\#JMkCO8C_CO0C03FsP\E8";
+"
+@HR@64::6n::OURDO	RD
+	;N3HRs_0DFosHMCNlRD"O	
+";
+@HR@n4::nd::H(RM0bkRbHMk
+0;N3HRs_0DFosHMCNlRM"Hb"k0;
+
+
+
+@FR@(4::(d::FURkk0b0kRF0N_80
+N;N3HRs_0DFosHMCNlRk"F00bk"b;
+Rj@@:44::.4:Rk0sCsR0k0CRs;kC
+@bR@4j::44::V.RNCD#RDVN#VCRNCD#;R
+#@:@44.U:::4Ud0R#Nr0Cj9:(R#yR0CN0ROlNECHM
+03#N#0CRjjjjjjj4jRjjjjj4jjRjjjj4Rjjjjjj4jjjRjjj4jjjjjRj4jjjjjjR4jjjjRjj4jjjjjjj
+03#N_0CHFMVR4@@::4gng:4:R.jjjjjj4jjR
+#j3N#00HC_MRVF@:@4.g6:::.6.jdRjjjjjR4j#34
+#00NCM_HV@FR@d4:4::gd.4:djRjj4jjj#jR.#
+30CN0_VHMF@R@4(:d:dg:(d:.Rjjjjj4jjdR#
+03#N_0CHFMVR4@@::cdgd:c:R.dj4jjjjjjR
+#c3N#00HC_MRVF@:@4cgg:::cg.jdRjj4jjRjj#36
+#00NCM_HV@FR@64:6::g6.6:d4Rjjjjjj#jRn#
+30CN0_VHMF@R@44:n:ng:4d:.Rj4jjjjjj(R#
+M3HbMk0N#lCRbHMk30
+OODF	DRO	HRs#oHM_oC8CR
+jjj4jjjjjRj4jjjjjjjR
+R4jjjjjjj4Rjjjjjj
+jR4jRj4jjjjjjRjj4jjRjj
+j4Rjjj4jRjjjjj4jjjjRR
+4jj4jjjjjRjjj4jjjj4R
+Rjjjjj4jjjRjjj4jj
+jR4jR4jjjjjjjRj4jjjRjj
+jjRjjj4jRjjjjjj4jjjRR
+jjjjj4jjjRjjjjj4jj4R
+Rjjjjjj4jjRjjjj4j
+jRjjR4jjjjjjjRjjjj4Rjj
+jjRjjjj4Rjjjjjjjj4jRR
+jjjjjjjj4Rjjjjjj4jjR
+Rjjjjjjj4jRjjjjj4
+jR4jRjjjjj4jjRjjjjjRj4
+j4RjjjjjRj4jjjjj4jjRR
+;yMRC8VRFRN#00lCRNHOEMNC
+HsR30_DC04FR;H
+NRM#$_lV#_RH8"U44.44U"N;
+HsR30FD_sMHoNRlC"N#00;C"
+@bR@(4:d::.(dd:RV8VR0Fk_08NNkRF0N_80#NR0CN0rRj9O;D	
+RNH3Ds0_HFsolMNCFR"k80_N"0N;;
+C

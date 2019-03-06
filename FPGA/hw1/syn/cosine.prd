@@ -1,0 +1,13 @@
+#-- Synplicity, Inc.
+#-- Version 9.6.1
+#-- Project file C:\Users\MIAT\Desktop\FPGA\hw1\HW1_104522040_104522065\syn\cosine.prd
+#-- Written on Wed Nov 04 23:09:56 2015
+
+#
+### Watch Implementation type ###
+#
+watch_impl -all
+#
+### Watch Implementation properties ###
+#
+watch_prop -clear

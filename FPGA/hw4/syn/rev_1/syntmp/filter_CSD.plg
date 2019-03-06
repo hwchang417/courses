@@ -1,0 +1,12 @@
+@P:  Worst Slack : -1.676
+@P:  filter_CSD|clk - Estimated Frequency : 89.5 MHz
+@P:  filter_CSD|clk - Requested Frequency : 105.3 MHz
+@P:  filter_CSD|clk - Estimated Period : 11.173
+@P:  filter_CSD|clk - Requested Period : 9.497
+@P:  filter_CSD|clk - Slack : -1.676
+@P: filter_CSD Part : xc2v40cs144-6
+@P: filter_CSD I/O primitives : 17
+@P: filter_CSD I/O Register bits : 0
+@P: filter_CSD Register bits (Non I/O) : 264 (51%)
+@P: filter_CSD Total Luts : 409 (79%)
+@P:  CPU Time : 0h:00m:01s

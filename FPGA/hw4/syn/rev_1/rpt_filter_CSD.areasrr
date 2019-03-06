@@ -1,0 +1,76 @@
+#### START OF AREA REPORT #####[
+
+Part:			XC2V40CS144-6 (Xilinx)
+
+--------------------------------------------------------------------------
+########   Utilization report for  Top level view:   filter_CSD   ########
+==========================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     264                100 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block filter_CSD:	264 (24.38 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name                     Total elements     Utilization     Notes
+-----------------------------------------------------------------
+LUTS                     409                100 %                
+MUXCY                    198                100 %                
+XORCY                    185                100 %                
+MULT18x18/MULT18x18S     0                  0.0 %                
+SRL16                    0                  0.0 %                
+=================================================================
+Total COMBINATIONAL LOGIC in the block filter_CSD:	792 (73.13 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block filter_CSD:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block filter_CSD:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block filter_CSD:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     18                 100 %                
+=================================================
+Total IO PADS in the block filter_CSD:	18 (1.66 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+
