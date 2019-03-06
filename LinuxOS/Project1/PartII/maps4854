@@ -1,0 +1,557 @@
+88100000-88200000 rw-p 00000000 00:00 0 
+882ff000-88300000 ---p 00000000 00:00 0 
+88300000-88e00000 rw-p 00000000 00:00 0          [stack:5002]
+89efd000-89efe000 ---p 00000000 00:00 0 
+89efe000-8a6fe000 rw-p 00000000 00:00 0 
+8a6fe000-8a6ff000 ---p 00000000 00:00 0 
+8a6ff000-8aeff000 rw-p 00000000 00:00 0          [stack:4998]
+8aeff000-8af00000 ---p 00000000 00:00 0 
+8af00000-8c100000 rw-p 00000000 00:00 0          [stack:4997]
+8c1ff000-8c200000 ---p 00000000 00:00 0 
+8c200000-8d900000 rw-p 00000000 00:00 0 
+8d9ff000-8da00000 ---p 00000000 00:00 0 
+8da00000-8f000000 rw-p 00000000 00:00 0          [stack:4981]
+8f0ff000-8f100000 ---p 00000000 00:00 0 
+8f100000-8fc00000 rw-p 00000000 00:00 0 
+8fcfd000-8fcfe000 ---p 00000000 00:00 0 
+8fcfe000-904fe000 rw-p 00000000 00:00 0          [stack:4979]
+904fe000-904ff000 ---p 00000000 00:00 0 
+904ff000-90cff000 rw-p 00000000 00:00 0          [stack:4978]
+90cff000-90d00000 ---p 00000000 00:00 0 
+90d00000-91a00000 rw-p 00000000 00:00 0          [stack:4977]
+91aad000-91eff000 r--p 00000000 08:01 4195976    /usr/share/fonts/truetype/droid/DroidSansFallbackFull.ttf
+91eff000-91f00000 ---p 00000000 00:00 0 
+91f00000-92c00000 rw-p 00000000 00:00 0          [stack:4976]
+92cfe000-92cff000 ---p 00000000 00:00 0 
+92cff000-934ff000 rw-p 00000000 00:00 0          [stack:4974]
+93d00000-93f00000 rw-p 00000000 00:00 0 
+947ff000-94800000 ---p 00000000 00:00 0 
+94800000-95200000 rw-p 00000000 00:00 0 
+952ff000-95300000 ---p 00000000 00:00 0 
+95300000-95e00000 rw-p 00000000 00:00 0          [stack:4964]
+95ea5000-95ff8000 r-xp 00000000 08:01 3282734    /usr/lib/i386-linux-gnu/libxml2.so.2.9.1
+95ff8000-95ff9000 ---p 00153000 08:01 3282734    /usr/lib/i386-linux-gnu/libxml2.so.2.9.1
+95ff9000-95ffd000 r--p 00153000 08:01 3282734    /usr/lib/i386-linux-gnu/libxml2.so.2.9.1
+95ffd000-95ffe000 rw-p 00157000 08:01 3282734    /usr/lib/i386-linux-gnu/libxml2.so.2.9.1
+95ffe000-95fff000 rw-p 00000000 00:00 0 
+95fff000-96000000 ---p 00000000 00:00 0 
+96000000-96a00000 rw-p 00000000 00:00 0          [stack:4975]
+96aac000-96efe000 r--p 00000000 08:01 4195976    /usr/share/fonts/truetype/droid/DroidSansFallbackFull.ttf
+96fff000-97000000 ---p 00000000 00:00 0 
+97000000-97600000 rw-p 00000000 00:00 0          [stack:4965]
+976ff000-97700000 ---p 00000000 00:00 0 
+97700000-98100000 rw-p 00000000 00:00 0          [stack:4960]
+981ae000-98600000 r--p 00000000 08:01 4195976    /usr/share/fonts/truetype/droid/DroidSansFallbackFull.ttf
+98600000-98700000 rw-p 00000000 00:00 0 
+987fe000-987ff000 ---p 00000000 00:00 0 
+987ff000-988ff000 rw-p 00000000 00:00 0          [stack:4958]
+988ff000-98900000 ---p 00000000 00:00 0 
+98900000-99300000 rw-p 00000000 00:00 0          [stack:4959]
+9935a000-9937d000 r--p 00000000 08:01 4196024    /usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf
+9937d000-993fd000 rw-s 00000000 00:04 6357030    /SYSV00000000 (deleted)
+993fd000-993fe000 ---p 00000000 00:00 0 
+993fe000-99bfe000 rw-p 00000000 00:00 0          [stack:4963]
+99bfe000-99bff000 ---p 00000000 00:00 0 
+99bff000-9a3ff000 rw-p 00000000 00:00 0          [stack:4962]
+9a400000-9b000000 rw-p 00000000 00:00 0 
+9b00f000-9b032000 r--p 00000000 08:01 4196024    /usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf
+9b032000-9b098000 r--p 00000000 08:01 4196125    /usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-L.ttf
+9b098000-9b0fe000 r--p 00000000 08:01 4196125    /usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-L.ttf
+9b0fe000-9b0ff000 ---p 00000000 00:00 0 
+9b0ff000-9b8ff000 rw-p 00000000 00:00 0          [stack:4949]
+9b8ff000-9b900000 ---p 00000000 00:00 0 
+9b900000-9c300000 rw-p 00000000 00:00 0          [stack:4948]
+9c35a000-9c3ac000 r--p 00000000 08:01 4196122    /usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-B.ttf
+9c3ac000-9c3fe000 r--p 00000000 08:01 4196122    /usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-B.ttf
+9c3fe000-9c3ff000 ---p 00000000 00:00 0 
+9c3ff000-9cbff000 rw-p 00000000 00:00 0          [stack:4947]
+9cbff000-9cc00000 ---p 00000000 00:00 0 
+9cc00000-9df00000 rw-p 00000000 00:00 0          [stack:4946]
+9df95000-9dfa5000 rwxp 00000000 00:00 0 
+9dfa5000-9dfa6000 ---p 00000000 00:00 0 
+9dfa6000-9dfe6000 rw-p 00000000 00:00 0          [stack:4966]
+9dff6000-9dff7000 ---p 00000000 00:00 0 
+9dff7000-9e7f7000 rw-p 00000000 00:00 0          [stack:4945]
+9e7f7000-9e7f8000 ---p 00000000 00:00 0 
+9e7f8000-9eff8000 rw-p 00000000 00:00 0          [stack:4944]
+9eff8000-9eff9000 ---p 00000000 00:00 0 
+9eff9000-9f7f9000 rw-p 00000000 00:00 0          [stack:4943]
+9f7f9000-9f7fa000 ---p 00000000 00:00 0 
+9f7fa000-9fffa000 rw-p 00000000 00:00 0          [stack:4942]
+9fffa000-9fffb000 ---p 00000000 00:00 0 
+9fffb000-a07fb000 rw-p 00000000 00:00 0          [stack:4941]
+a07fb000-a07fc000 ---p 00000000 00:00 0 
+a07fc000-a0ffc000 rw-p 00000000 00:00 0          [stack:4940]
+a0ffc000-a0ffd000 ---p 00000000 00:00 0 
+a0ffd000-a17fd000 rw-p 00000000 00:00 0          [stack:4939]
+a17fd000-a17fe000 ---p 00000000 00:00 0 
+a17fe000-a1ffe000 rw-p 00000000 00:00 0          [stack:4938]
+a1ffe000-a1fff000 ---p 00000000 00:00 0 
+a1fff000-a27ff000 rw-p 00000000 00:00 0          [stack:4937]
+a27ff000-a2800000 ---p 00000000 00:00 0 
+a2800000-a3100000 rw-p 00000000 00:00 0          [stack:4936]
+a3104000-a310c000 rw-s 00000000 08:01 656856     /root/.mozilla/firefox/6bk9pxko.a1/webappsstore.sqlite-shm
+a310c000-a3113000 r--p 00000000 08:01 3809797    /usr/share/locale-langpack/zh_TW/LC_MESSAGES/evince.mo
+a311b000-a3123000 rw-s 00000000 08:01 657684     /root/.mozilla/firefox/6bk9pxko.a1/healthreport.sqlite-shm
+a3149000-a3154000 r-xp 00000000 08:01 3284051    /usr/lib/i386-linux-gnu/gio/modules/libdconfsettings.so
+a3154000-a3155000 r--p 0000a000 08:01 3284051    /usr/lib/i386-linux-gnu/gio/modules/libdconfsettings.so
+a3155000-a3156000 rw-p 0000b000 08:01 3284051    /usr/lib/i386-linux-gnu/gio/modules/libdconfsettings.so
+a3156000-a3197000 r--p 00000000 08:01 3802638    /usr/share/glib-2.0/schemas/gschemas.compiled
+a31a7000-a31b9000 r-xp 00000000 08:01 3282335    /usr/lib/i386-linux-gnu/libdbusmenu-gtk.so.4.0.12
+a31b9000-a31ba000 r--p 00011000 08:01 3282335    /usr/lib/i386-linux-gnu/libdbusmenu-gtk.so.4.0.12
+a31ba000-a31bb000 rw-p 00012000 08:01 3282335    /usr/lib/i386-linux-gnu/libdbusmenu-gtk.so.4.0.12
+a31bb000-a54bc000 r--p 00000000 08:01 4481709    /usr/share/icons/hicolor/icon-theme.cache
+a54bc000-a6b00000 r--p 00000000 08:01 4480210    /usr/share/icons/gnome/icon-theme.cache
+a6b00000-a6d00000 rw-p 00000000 00:00 0 
+a6d05000-a6d0d000 rw-s 00000000 08:01 656853     /root/.mozilla/firefox/6bk9pxko.a1/cookies.sqlite-shm
+a6d0d000-a6d28000 r-xp 00000000 08:01 3282333    /usr/lib/i386-linux-gnu/libdbusmenu-glib.so.4.0.12
+a6d28000-a6d29000 r--p 0001a000 08:01 3282333    /usr/lib/i386-linux-gnu/libdbusmenu-glib.so.4.0.12
+a6d29000-a6d2a000 rw-p 0001b000 08:01 3282333    /usr/lib/i386-linux-gnu/libdbusmenu-glib.so.4.0.12
+a6d2a000-a6d81000 r--p 00000000 08:01 4196129    /usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-R.ttf
+a6d81000-a6dd8000 r--p 00000000 08:01 4196129    /usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-R.ttf
+a6dd8000-a6dfc000 r-xp 00000000 08:01 2622606    /lib/i386-linux-gnu/liblzma.so.5.0.0
+a6dfc000-a6dfd000 r--p 00023000 08:01 2622606    /lib/i386-linux-gnu/liblzma.so.5.0.0
+a6dfd000-a6dfe000 rw-p 00024000 08:01 2622606    /lib/i386-linux-gnu/liblzma.so.5.0.0
+a6dfe000-a6dff000 ---p 00000000 00:00 0 
+a6dff000-a75ff000 rw-p 00000000 00:00 0          [stack:4961]
+a75ff000-a7600000 ---p 00000000 00:00 0 
+a7600000-a7f00000 rw-p 00000000 00:00 0          [stack:4933]
+a7f00000-a7f05000 r-xp 00000000 08:01 2622632    /lib/i386-linux-gnu/libnss_dns-2.19.so
+a7f05000-a7f06000 r--p 00004000 08:01 2622632    /lib/i386-linux-gnu/libnss_dns-2.19.so
+a7f06000-a7f07000 rw-p 00005000 08:01 2622632    /lib/i386-linux-gnu/libnss_dns-2.19.so
+a7f07000-a7f17000 rwxp 00000000 00:00 0 
+a7f17000-a7f50000 r-xp 00000000 08:01 3282307    /usr/lib/i386-linux-gnu/libcroco-0.6.so.3.0.1
+a7f50000-a7f52000 r--p 00039000 08:01 3282307    /usr/lib/i386-linux-gnu/libcroco-0.6.so.3.0.1
+a7f52000-a7f53000 rw-p 0003b000 08:01 3282307    /usr/lib/i386-linux-gnu/libcroco-0.6.so.3.0.1
+a7f53000-a7f89000 r-xp 00000000 08:01 3282956    /usr/lib/i386-linux-gnu/librsvg-2.so.2.40.2
+a7f89000-a7f8a000 r--p 00035000 08:01 3282956    /usr/lib/i386-linux-gnu/librsvg-2.so.2.40.2
+a7f8a000-a7f8b000 rw-p 00036000 08:01 3282956    /usr/lib/i386-linux-gnu/librsvg-2.so.2.40.2
+a7f8b000-a7fee000 r-xp 00000000 08:01 3281311    /usr/lib/firefox/libnssckbi.so
+a7fee000-a7ff8000 r--p 00063000 08:01 3281311    /usr/lib/firefox/libnssckbi.so
+a7ff8000-a7fff000 rw-p 0006d000 08:01 3281311    /usr/lib/firefox/libnssckbi.so
+a7fff000-a8000000 ---p 00000000 00:00 0 
+a8000000-a8c00000 rw-p 00000000 00:00 0          [stack:4932]
+a8c20000-a8c7f000 r-xp 00000000 08:01 3281317    /usr/lib/firefox/libfreebl3.so
+a8c7f000-a8c80000 r--p 0005e000 08:01 3281317    /usr/lib/firefox/libfreebl3.so
+a8c80000-a8c81000 rw-p 0005f000 08:01 3281317    /usr/lib/firefox/libfreebl3.so
+a8c81000-a8c85000 rw-p 00000000 00:00 0 
+a8c85000-a8cfd000 r--p 00000000 08:01 3277347    /usr/lib/firefox-addons/extensions/langpack-zh-TW@firefox.mozilla.org.xpi
+a8cfd000-a8cfe000 ---p 00000000 00:00 0 
+a8cfe000-a94fe000 rw-p 00000000 00:00 0          [stack:4929]
+a9700000-a9900000 rw-p 00000000 00:00 0 
+a99a9000-a99aa000 ---p 00000000 00:00 0 
+a99aa000-a9aaa000 rw-p 00000000 00:00 0          [stack:5032]
+a9aaa000-a9b35000 r-xp 00000000 08:01 3282848    /usr/lib/i386-linux-gnu/liborc-0.4.so.0.18.0
+a9b35000-a9b36000 r--p 0008a000 08:01 3282848    /usr/lib/i386-linux-gnu/liborc-0.4.so.0.18.0
+a9b36000-a9b3a000 rw-p 0008b000 08:01 3282848    /usr/lib/i386-linux-gnu/liborc-0.4.so.0.18.0
+a9b3a000-a9b7e000 r-xp 00000000 08:01 3282641    /usr/lib/i386-linux-gnu/libgstvideo-1.0.so.0.204.0
+a9b7e000-a9b7f000 r--p 00044000 08:01 3282641    /usr/lib/i386-linux-gnu/libgstvideo-1.0.so.0.204.0
+a9b7f000-a9b82000 rw-p 00045000 08:01 3282641    /usr/lib/i386-linux-gnu/libgstvideo-1.0.so.0.204.0
+a9b82000-a9be4000 r-xp 00000000 08:01 3282577    /usr/lib/i386-linux-gnu/libgstbase-1.0.so.0.204.0
+a9be4000-a9be5000 r--p 00061000 08:01 3282577    /usr/lib/i386-linux-gnu/libgstbase-1.0.so.0.204.0
+a9be5000-a9be6000 rw-p 00062000 08:01 3282577    /usr/lib/i386-linux-gnu/libgstbase-1.0.so.0.204.0
+a9be6000-a9ce4000 r-xp 00000000 08:01 3282617    /usr/lib/i386-linux-gnu/libgstreamer-1.0.so.0.204.0
+a9ce4000-a9ce7000 r--p 000fe000 08:01 3282617    /usr/lib/i386-linux-gnu/libgstreamer-1.0.so.0.204.0
+a9ce7000-a9ce8000 rw-p 00101000 08:01 3282617    /usr/lib/i386-linux-gnu/libgstreamer-1.0.so.0.204.0
+a9ce8000-a9ce9000 rw-p 00000000 00:00 0 
+a9cff000-a9d00000 ---p 00000000 00:00 0 
+a9d00000-aa600000 rw-p 00000000 00:00 0          [stack:4926]
+aa600000-aa610000 rwxp 00000000 00:00 0 
+aa610000-aa619000 r--p 00000000 08:01 4484873    /usr/share/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}/ubufox@ubuntu.com.xpi
+aa619000-aa64c000 r-xp 00000000 08:01 3281346    /usr/lib/firefox/libsoftokn3.so
+aa64c000-aa64d000 r--p 00032000 08:01 3281346    /usr/lib/firefox/libsoftokn3.so
+aa64d000-aa64e000 rw-p 00033000 08:01 3281346    /usr/lib/firefox/libsoftokn3.so
+aa64e000-aa6ae000 rw-s 00000000 00:04 6258725    /SYSV00000000 (deleted)
+aa6ae000-aa6cc000 r--s 00000000 08:01 3670080    /usr/share/mime/mime.cache
+aa6cc000-aab1e000 r--p 00000000 08:01 4195976    /usr/share/fonts/truetype/droid/DroidSansFallbackFull.ttf
+aab1e000-aab1f000 ---p 00000000 00:00 0 
+aab1f000-ab31f000 rw-p 00000000 00:00 0          [stack:4925]
+ab31f000-ab500000 r--p 00000000 08:01 657185     /root/.cache/mozilla/firefox/6bk9pxko.a1/startupCache/startupCache.4.little
+ab500000-ab700000 rw-p 00000000 00:00 0 
+ab702000-ab704000 r-xp 00000000 08:01 3282162    /usr/lib/i386-linux-gnu/libXss.so.1.0.0
+ab704000-ab705000 r--p 00001000 08:01 3282162    /usr/lib/i386-linux-gnu/libXss.so.1.0.0
+ab705000-ab706000 rw-p 00002000 08:01 3282162    /usr/lib/i386-linux-gnu/libXss.so.1.0.0
+ab716000-ab7ff000 r--p 00000000 08:01 4472047    /usr/share/icons/Humanity/icon-theme.cache
+ab7ff000-ab800000 ---p 00000000 00:00 0 
+ab800000-ad000000 rw-p 00000000 00:00 0          [stack:4924]
+ad002000-ad008000 r--p 00000000 08:01 3809740    /usr/share/locale-langpack/zh_TW/LC_MESSAGES/gdk-pixbuf.mo
+ad008000-ad034000 r-xp 00000000 08:01 3282468    /usr/lib/i386-linux-gnu/libgconf-2.so.4.1.5
+ad034000-ad035000 ---p 0002c000 08:01 3282468    /usr/lib/i386-linux-gnu/libgconf-2.so.4.1.5
+ad035000-ad036000 r--p 0002c000 08:01 3282468    /usr/lib/i386-linux-gnu/libgconf-2.so.4.1.5
+ad036000-ad037000 rw-p 0002d000 08:01 3282468    /usr/lib/i386-linux-gnu/libgconf-2.so.4.1.5
+ad037000-ad039000 r-xp 00000000 08:01 2622640    /lib/i386-linux-gnu/libnss_mdns4_minimal.so.2
+ad039000-ad03a000 r--p 00001000 08:01 2622640    /lib/i386-linux-gnu/libnss_mdns4_minimal.so.2
+ad03a000-ad03b000 rw-p 00002000 08:01 2622640    /lib/i386-linux-gnu/libnss_mdns4_minimal.so.2
+ad03b000-ad04d000 r--p 00000000 08:01 4482476    /usr/share/icons/ubuntu-mono-dark/icon-theme.cache
+ad05d000-ad05e000 r--p 00000000 08:01 527700     /root/.config/dconf/user
+ad05e000-ad05f000 r--s 00000000 08:01 532437     /root/.cache/dconf/user
+ad05f000-ad060000 r--p 00000000 08:01 3809690    /usr/share/locale-langpack/zh_TW/LC_MESSAGES/libdbusmenu.mo
+ad060000-ad07b000 r-xp 00000000 08:01 3281326    /usr/lib/firefox/libnssdbm3.so
+ad07b000-ad07c000 r--p 0001b000 08:01 3281326    /usr/lib/firefox/libnssdbm3.so
+ad07c000-ad07d000 rw-p 0001c000 08:01 3281326    /usr/lib/firefox/libnssdbm3.so
+ad08d000-ad09d000 rwxp 00000000 00:00 0 
+ad0a8000-ad0ad000 r--p 00000000 08:01 3809674    /usr/share/locale-langpack/zh_TW/LC_MESSAGES/gstreamer-1.0.mo
+ad0ad000-ad0bd000 rwxp 00000000 00:00 0 
+ad0bd000-ad0c5000 rw-s 00000000 08:01 656851     /root/.mozilla/firefox/6bk9pxko.a1/places.sqlite-shm
+ad0d7000-ad0e7000 rwxp 00000000 00:00 0 
+ad0e7000-ad0f3000 r-xp 00000000 08:01 3282569    /usr/lib/i386-linux-gnu/libgstapp-1.0.so.0.204.0
+ad0f3000-ad0f4000 r--p 0000b000 08:01 3282569    /usr/lib/i386-linux-gnu/libgstapp-1.0.so.0.204.0
+ad0f4000-ad0f5000 rw-p 0000c000 08:01 3282569    /usr/lib/i386-linux-gnu/libgstapp-1.0.so.0.204.0
+ad0f5000-ad0f6000 ---p 00000000 00:00 0 
+ad0f6000-ad2f6000 rw-p 00000000 00:00 0          [stack:4923]
+ad2f6000-ad2f7000 ---p 00000000 00:00 0 
+ad2f7000-ad4f7000 rw-p 00000000 00:00 0          [stack:4922]
+ad4f7000-ad4f8000 ---p 00000000 00:00 0 
+ad4f8000-ad6f8000 rw-p 00000000 00:00 0          [stack:4921]
+ad6f8000-ad6f9000 ---p 00000000 00:00 0 
+ad6f9000-ad8f9000 rw-p 00000000 00:00 0          [stack:4920]
+ad8f9000-ad8fa000 ---p 00000000 00:00 0 
+ad8fa000-adafa000 rw-p 00000000 00:00 0          [stack:4919]
+adafa000-adafb000 ---p 00000000 00:00 0 
+adafb000-adcfb000 rw-p 00000000 00:00 0          [stack:4918]
+adcfb000-adcfc000 ---p 00000000 00:00 0 
+adcfc000-adefc000 rw-p 00000000 00:00 0          [stack:4917]
+adefc000-adefd000 ---p 00000000 00:00 0 
+adefd000-ae0fd000 rw-p 00000000 00:00 0          [stack:4916]
+ae0fd000-ae0fe000 ---p 00000000 00:00 0 
+ae0fe000-ae2fe000 rw-p 00000000 00:00 0          [stack:4915]
+ae2fe000-ae2ff000 ---p 00000000 00:00 0 
+ae2ff000-ae4ff000 rw-p 00000000 00:00 0          [stack:4914]
+ae4ff000-ae500000 ---p 00000000 00:00 0 
+ae500000-ae800000 rw-p 00000000 00:00 0          [stack:4913]
+ae800000-ae80b000 r--p 00000000 08:01 4479328    /usr/share/icons/Humanity-Dark/icon-theme.cache
+ae80b000-ae80c000 ---p 00000000 00:00 0 
+ae80c000-ae82c000 rw-p 00000000 00:00 0          [stack:4931]
+ae82c000-ae886000 r-xp 00000000 08:01 3282681    /usr/lib/i386-linux-gnu/libibus-1.0.so.5.0.505
+ae886000-ae887000 r--p 0005a000 08:01 3282681    /usr/lib/i386-linux-gnu/libibus-1.0.so.5.0.505
+ae887000-ae888000 rw-p 0005b000 08:01 3282681    /usr/lib/i386-linux-gnu/libibus-1.0.so.5.0.505
+ae888000-ae88c000 r-xp 00000000 08:01 3285737    /usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-png.so
+ae88c000-ae88d000 r--p 00003000 08:01 3285737    /usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-png.so
+ae88d000-ae88e000 rw-p 00004000 08:01 3285737    /usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-png.so
+ae88e000-ae89e000 rwxp 00000000 00:00 0 
+ae89e000-ae89f000 ---p 00000000 00:00 0 
+ae89f000-af09f000 rw-p 00000000 00:00 0          [stack:4912]
+af09f000-af0a0000 ---p 00000000 00:00 0 
+af0a0000-af8a0000 rw-p 00000000 00:00 0          [stack:4911]
+af8a0000-b03af000 r--p 00000000 08:01 3277249    /usr/lib/firefox/browser/omni.ja
+b03af000-b0e00000 r--p 00000000 08:01 3281334    /usr/lib/firefox/omni.ja
+b0e00000-b0f00000 rw-p 00000000 00:00 0 
+b0f00000-b0f01000 r-xp 00000000 08:01 3283982    /usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-svg.so
+b0f01000-b0f02000 r--p 00001000 08:01 3283982    /usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-svg.so
+b0f02000-b0f03000 rw-p 00002000 08:01 3283982    /usr/lib/i386-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-svg.so
+b0f03000-b0f04000 rwxp 00000000 00:00 0 
+b0f04000-b0f0a000 r-xp 00000000 08:01 3284292    /usr/lib/i386-linux-gnu/gtk-2.0/2.10.0/immodules/im-ibus.so
+b0f0a000-b0f0b000 r--p 00005000 08:01 3284292    /usr/lib/i386-linux-gnu/gtk-2.0/2.10.0/immodules/im-ibus.so
+b0f0b000-b0f0c000 rw-p 00006000 08:01 3284292    /usr/lib/i386-linux-gnu/gtk-2.0/2.10.0/immodules/im-ibus.so
+b0f0c000-b0f63000 r--p 00000000 08:01 4196129    /usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-R.ttf
+b0f63000-b0f64000 r--s 00000000 08:01 4067781    /var/cache/fontconfig/c05880de57d1f5e948fdfacc138775d9-le32d4.cache-4
+b0f64000-b0f6c000 r--s 00000000 08:01 4067775    /var/cache/fontconfig/945677eb7aeaf62f1d50efc3fb3ec7d8-le32d4.cache-4
+b0f6c000-b0f70000 r--s 00000000 08:01 4067761    /var/cache/fontconfig/2cd17615ca594fa2959ae173292e504c-le32d4.cache-4
+b0f70000-b0f71000 r--s 00000000 08:01 4067791    /var/cache/fontconfig/e7071f4a29fa870f4323321c154eba04-le32d4.cache-4
+b0f71000-b0f72000 r--s 00000000 08:01 4067758    /var/cache/fontconfig/0d8c3b2ac0904cb8a57a757ad11a4a08-le32d4.cache-4
+b0f72000-b0f77000 r--s 00000000 08:01 4067778    /var/cache/fontconfig/a755afe4a08bf5b97852ceb7400b47bc-le32d4.cache-4
+b0f77000-b0f86000 r--s 00000000 08:01 4067756    /var/cache/fontconfig/04aabc0a78ac019cf9454389977116d2-le32d4.cache-4
+b0f86000-b0f87000 r--s 00000000 08:01 4067760    /var/cache/fontconfig/1ac9eb803944fde146138c791f5cc56a-le32d4.cache-4
+b0f87000-b0f8a000 r--s 00000000 08:01 4067764    /var/cache/fontconfig/385c0604a188198f04d133e54aba7fe7-le32d4.cache-4
+b0f8a000-b0f8b000 r--s 00000000 08:01 4067788    /var/cache/fontconfig/dc05db6664285cc2f12bf69c139ae4c3-le32d4.cache-4
+b0f8b000-b0f8d000 r--s 00000000 08:01 4067772    /var/cache/fontconfig/767a8244fc0220cfb567a839d0392e0b-le32d4.cache-4
+b0f8d000-b0f8e000 r--s 00000000 08:01 4066263    /var/cache/fontconfig/4794a0821666d79190d59a36cb4f44b5-le32d4.cache-4
+b0f8e000-b0f92000 r--s 00000000 08:01 4067774    /var/cache/fontconfig/8801497958630a81b71ace7c5f9b32a8-le32d4.cache-4
+b0f92000-b0f97000 r--s 00000000 08:01 4067762    /var/cache/fontconfig/3047814df9a2f067bd2d96a2b9c36e5a-le32d4.cache-4
+b0f97000-b0f98000 r--s 00000000 08:01 4067768    /var/cache/fontconfig/56cf4f4769d0f4abc89a4895d7bd3ae1-le32d4.cache-4
+b0f98000-b0f9c000 r--s 00000000 08:01 4067779    /var/cache/fontconfig/b47c4e1ecd0709278f4910c18777a504-le32d4.cache-4
+b0f9c000-b0fac000 r--s 00000000 08:01 4067785    /var/cache/fontconfig/d52a8644073d54c13679302ca1180695-le32d4.cache-4
+b0fac000-b0fb3000 r--s 00000000 08:01 4067765    /var/cache/fontconfig/3f7329c5293ffd510edef78f73874cfd-le32d4.cache-4
+b0fb3000-b0fbc000 r--s 00000000 08:01 4067783    /var/cache/fontconfig/089dead882dea3570ffc31a9898cfb69-le32d4.cache-4
+b0fbc000-b0fd3000 r--p 00000000 08:01 3809636    /usr/share/locale-langpack/zh_TW/LC_MESSAGES/glib20.mo
+b0fd3000-b0fe3000 rwxp 00000000 00:00 0 
+b0fe3000-b0fed000 r-xp 00000000 08:01 3277252    /usr/lib/firefox/browser/components/libbrowsercomps.so
+b0fed000-b0fee000 r--p 00009000 08:01 3277252    /usr/lib/firefox/browser/components/libbrowsercomps.so
+b0fee000-b0fef000 rw-p 0000a000 08:01 3277252    /usr/lib/firefox/browser/components/libbrowsercomps.so
+b0fef000-b0ffa000 r-xp 00000000 08:01 2622634    /lib/i386-linux-gnu/libnss_files-2.19.so
+b0ffa000-b0ffb000 r--p 0000a000 08:01 2622634    /lib/i386-linux-gnu/libnss_files-2.19.so
+b0ffb000-b0ffc000 rw-p 0000b000 08:01 2622634    /lib/i386-linux-gnu/libnss_files-2.19.so
+b0ffc000-b1003000 r-xp 00000000 08:01 3282844    /usr/lib/i386-linux-gnu/libogg.so.0.8.1
+b1003000-b1004000 r--p 00006000 08:01 3282844    /usr/lib/i386-linux-gnu/libogg.so.0.8.1
+b1004000-b1005000 rw-p 00007000 08:01 3282844    /usr/lib/i386-linux-gnu/libogg.so.0.8.1
+b1005000-b102e000 r-xp 00000000 08:01 3283116    /usr/lib/i386-linux-gnu/libvorbis.so.0.4.5
+b102e000-b102f000 ---p 00029000 08:01 3283116    /usr/lib/i386-linux-gnu/libvorbis.so.0.4.5
+b102f000-b1030000 r--p 00029000 08:01 3283116    /usr/lib/i386-linux-gnu/libvorbis.so.0.4.5
+b1030000-b1031000 rw-p 0002a000 08:01 3283116    /usr/lib/i386-linux-gnu/libvorbis.so.0.4.5
+b1031000-b103a000 r-xp 00000000 08:01 3282750    /usr/lib/i386-linux-gnu/libltdl.so.7.3.0
+b103a000-b103b000 r--p 00008000 08:01 3282750    /usr/lib/i386-linux-gnu/libltdl.so.7.3.0
+b103b000-b103c000 rw-p 00009000 08:01 3282750    /usr/lib/i386-linux-gnu/libltdl.so.7.3.0
+b103c000-b104e000 r-xp 00000000 08:01 3283039    /usr/lib/i386-linux-gnu/libtdb.so.1.2.12
+b104e000-b104f000 r--p 00011000 08:01 3283039    /usr/lib/i386-linux-gnu/libtdb.so.1.2.12
+b104f000-b1050000 rw-p 00012000 08:01 3283039    /usr/lib/i386-linux-gnu/libtdb.so.1.2.12
+b1050000-b1058000 r-xp 00000000 08:01 3283120    /usr/lib/i386-linux-gnu/libvorbisfile.so.3.3.4
+b1058000-b1059000 r--p 00007000 08:01 3283120    /usr/lib/i386-linux-gnu/libvorbisfile.so.3.3.4
+b1059000-b105a000 rw-p 00008000 08:01 3283120    /usr/lib/i386-linux-gnu/libvorbisfile.so.3.3.4
+b105a000-b1069000 r-xp 00000000 08:01 3282264    /usr/lib/i386-linux-gnu/libcanberra.so.0.2.5
+b1069000-b106a000 r--p 0000e000 08:01 3282264    /usr/lib/i386-linux-gnu/libcanberra.so.0.2.5
+b106a000-b106b000 rw-p 0000f000 08:01 3282264    /usr/lib/i386-linux-gnu/libcanberra.so.0.2.5
+b106b000-b106f000 r-xp 00000000 08:01 3282260    /usr/lib/i386-linux-gnu/libcanberra-gtk.so.0.1.9
+b106f000-b1070000 r--p 00003000 08:01 3282260    /usr/lib/i386-linux-gnu/libcanberra-gtk.so.0.1.9
+b1070000-b1071000 rw-p 00004000 08:01 3282260    /usr/lib/i386-linux-gnu/libcanberra-gtk.so.0.1.9
+b1071000-b1072000 r--s 00000000 08:01 4067780    /var/cache/fontconfig/b9d506c9ac06c20b433354fa67a72993-le32d4.cache-4
+b1072000-b1075000 r--s 00000000 08:01 4067786    /var/cache/fontconfig/d589a48862398ed80a3d6066f4f56f4c-le32d4.cache-4
+b1075000-b1077000 r--s 00000000 08:01 4067961    /var/cache/fontconfig/e13b20fdb08344e0e664864cc2ede53d-le32d4.cache-4
+b1077000-b1080000 r-xp 00000000 08:01 3281338    /usr/lib/firefox/components/libmozgnome.so
+b1080000-b1081000 r--p 00009000 08:01 3281338    /usr/lib/firefox/components/libmozgnome.so
+b1081000-b1082000 rw-p 0000a000 08:01 3281338    /usr/lib/firefox/components/libmozgnome.so
+b1082000-b1085000 r-xp 00000000 08:01 3281337    /usr/lib/firefox/components/libdbusservice.so
+b1085000-b1086000 r--p 00002000 08:01 3281337    /usr/lib/firefox/components/libdbusservice.so
+b1086000-b1087000 rw-p 00003000 08:01 3281337    /usr/lib/firefox/components/libdbusservice.so
+b1087000-b10bc000 r-xp 00000000 08:01 3284288    /usr/lib/i386-linux-gnu/gtk-2.0/2.10.0/engines/libmurrine.so
+b10bc000-b10bd000 r--p 00034000 08:01 3284288    /usr/lib/i386-linux-gnu/gtk-2.0/2.10.0/engines/libmurrine.so
+b10bd000-b10be000 rw-p 00035000 08:01 3284288    /usr/lib/i386-linux-gnu/gtk-2.0/2.10.0/engines/libmurrine.so
+b10be000-b10e3000 r--p 00000000 08:01 3809673    /usr/share/locale-langpack/zh_TW/LC_MESSAGES/gtk20-properties.mo
+b10e3000-b1104000 r--p 00000000 08:01 3809931    /usr/share/locale-langpack/zh_TW/LC_MESSAGES/libc.mo
+b1104000-b1112000 r--p 00000000 08:01 3809676    /usr/share/locale-langpack/zh_TW/LC_MESSAGES/gtk20.mo
+b1112000-b1113000 ---p 00000000 00:00 0 
+b1113000-b1913000 rw-p 00000000 00:00 0          [stack:4910]
+b1913000-b1b13000 r--p 00000000 08:01 3285351    /usr/lib/locale/locale-archive
+b1b13000-b1b2d000 r-xp 00000000 08:01 3282554    /usr/lib/i386-linux-gnu/libgraphite2.so.3.0.1
+b1b2d000-b1b2e000 r--p 00019000 08:01 3282554    /usr/lib/i386-linux-gnu/libgraphite2.so.3.0.1
+b1b2e000-b1b2f000 rw-p 0001a000 08:01 3282554    /usr/lib/i386-linux-gnu/libgraphite2.so.3.0.1
+b1b2f000-b1b33000 r-xp 00000000 08:01 2621542    /lib/i386-linux-gnu/libuuid.so.1.3.0
+b1b33000-b1b34000 r--p 00003000 08:01 2621542    /lib/i386-linux-gnu/libuuid.so.1.3.0
+b1b34000-b1b35000 rw-p 00004000 08:01 2621542    /lib/i386-linux-gnu/libuuid.so.1.3.0
+b1b35000-b1b3a000 r-xp 00000000 08:01 3282136    /usr/lib/i386-linux-gnu/libXdmcp.so.6.0.0
+b1b3a000-b1b3b000 r--p 00004000 08:01 3282136    /usr/lib/i386-linux-gnu/libXdmcp.so.6.0.0
+b1b3b000-b1b3c000 rw-p 00005000 08:01 3282136    /usr/lib/i386-linux-gnu/libXdmcp.so.6.0.0
+b1b3c000-b1b3e000 r-xp 00000000 08:01 3282125    /usr/lib/i386-linux-gnu/libXau.so.6.0.0
+b1b3e000-b1b3f000 r--p 00001000 08:01 3282125    /usr/lib/i386-linux-gnu/libXau.so.6.0.0
+b1b3f000-b1b40000 rw-p 00002000 08:01 3282125    /usr/lib/i386-linux-gnu/libXau.so.6.0.0
+b1b40000-b1b47000 r-xp 00000000 08:01 3282328    /usr/lib/i386-linux-gnu/libdatrie.so.1.3.1
+b1b47000-b1b48000 r--p 00006000 08:01 3282328    /usr/lib/i386-linux-gnu/libdatrie.so.1.3.1
+b1b48000-b1b49000 rw-p 00007000 08:01 3282328    /usr/lib/i386-linux-gnu/libdatrie.so.1.3.1
+b1b49000-b1b9d000 r-xp 00000000 08:01 3282667    /usr/lib/i386-linux-gnu/libharfbuzz.so.0.927.0
+b1b9d000-b1b9e000 r--p 00054000 08:01 3282667    /usr/lib/i386-linux-gnu/libharfbuzz.so.0.927.0
+b1b9e000-b1b9f000 rw-p 00055000 08:01 3282667    /usr/lib/i386-linux-gnu/libharfbuzz.so.0.927.0
+b1b9f000-b1bb5000 r-xp 00000000 08:01 3281995    /usr/lib/i386-linux-gnu/libICE.so.6.3.0
+b1bb5000-b1bb6000 r--p 00015000 08:01 3281995    /usr/lib/i386-linux-gnu/libICE.so.6.3.0
+b1bb6000-b1bb7000 rw-p 00016000 08:01 3281995    /usr/lib/i386-linux-gnu/libICE.so.6.3.0
+b1bb7000-b1bb9000 rw-p 00000000 00:00 0 
+b1bb9000-b1bc0000 r-xp 00000000 08:01 3282117    /usr/lib/i386-linux-gnu/libSM.so.6.0.1
+b1bc0000-b1bc1000 r--p 00006000 08:01 3282117    /usr/lib/i386-linux-gnu/libSM.so.6.0.1
+b1bc1000-b1bc2000 rw-p 00007000 08:01 3282117    /usr/lib/i386-linux-gnu/libSM.so.6.0.1
+b1bc2000-b1bc3000 r-xp 00000000 08:01 3282119    /usr/lib/i386-linux-gnu/libX11-xcb.so.1.0.0
+b1bc3000-b1bc4000 r--p 00000000 08:01 3282119    /usr/lib/i386-linux-gnu/libX11-xcb.so.1.0.0
+b1bc4000-b1bc5000 rw-p 00001000 08:01 3282119    /usr/lib/i386-linux-gnu/libX11-xcb.so.1.0.0
+b1bc5000-b1bca000 r-xp 00000000 08:01 3283183    /usr/lib/i386-linux-gnu/libxcb-util.so.0.0.0
+b1bca000-b1bcb000 r--p 00004000 08:01 3283183    /usr/lib/i386-linux-gnu/libxcb-util.so.0.0.0
+b1bcb000-b1bcc000 rw-p 00005000 08:01 3283183    /usr/lib/i386-linux-gnu/libxcb-util.so.0.0.0
+b1bcc000-b1bec000 r-xp 00000000 08:01 3283189    /usr/lib/i386-linux-gnu/libxcb.so.1.1.0
+b1bec000-b1bed000 r--p 0001f000 08:01 3283189    /usr/lib/i386-linux-gnu/libxcb.so.1.1.0
+b1bed000-b1bee000 rw-p 00020000 08:01 3283189    /usr/lib/i386-linux-gnu/libxcb.so.1.1.0
+b1bee000-b1bf6000 r-xp 00000000 08:01 3283175    /usr/lib/i386-linux-gnu/libxcb-render.so.0.0.0
+b1bf6000-b1bf7000 r--p 00008000 08:01 3283175    /usr/lib/i386-linux-gnu/libxcb-render.so.0.0.0
+b1bf7000-b1bf8000 rw-p 00009000 08:01 3283175    /usr/lib/i386-linux-gnu/libxcb-render.so.0.0.0
+b1bf8000-b1bfa000 r-xp 00000000 08:01 3283179    /usr/lib/i386-linux-gnu/libxcb-shm.so.0.0.0
+b1bfa000-b1bfb000 r--p 00001000 08:01 3283179    /usr/lib/i386-linux-gnu/libxcb-shm.so.0.0.0
+b1bfb000-b1bfc000 rw-p 00002000 08:01 3283179    /usr/lib/i386-linux-gnu/libxcb-shm.so.0.0.0
+b1bfc000-b1ca0000 r-xp 00000000 08:01 3282883    /usr/lib/i386-linux-gnu/libpixman-1.so.0.30.2
+b1ca0000-b1ca5000 r--p 000a4000 08:01 3282883    /usr/lib/i386-linux-gnu/libpixman-1.so.0.30.2
+b1ca5000-b1ca6000 rw-p 000a9000 08:01 3282883    /usr/lib/i386-linux-gnu/libpixman-1.so.0.30.2
+b1ca6000-b1cae000 r-xp 00000000 08:01 3283051    /usr/lib/i386-linux-gnu/libthai.so.0.2.0
+b1cae000-b1caf000 r--p 00007000 08:01 3283051    /usr/lib/i386-linux-gnu/libthai.so.0.2.0
+b1caf000-b1cb0000 rw-p 00008000 08:01 3283051    /usr/lib/i386-linux-gnu/libthai.so.0.2.0
+b1cb0000-b1cb9000 r-xp 00000000 08:01 3282132    /usr/lib/i386-linux-gnu/libXcursor.so.1.0.2
+b1cb9000-b1cba000 r--p 00008000 08:01 3282132    /usr/lib/i386-linux-gnu/libXcursor.so.1.0.2
+b1cba000-b1cbb000 rw-p 00009000 08:01 3282132    /usr/lib/i386-linux-gnu/libXcursor.so.1.0.2
+b1cbb000-b1cc4000 r-xp 00000000 08:01 3282158    /usr/lib/i386-linux-gnu/libXrandr.so.2.2.0
+b1cc4000-b1cc5000 r--p 00008000 08:01 3282158    /usr/lib/i386-linux-gnu/libXrandr.so.2.2.0
+b1cc5000-b1cc6000 rw-p 00009000 08:01 3282158    /usr/lib/i386-linux-gnu/libXrandr.so.2.2.0
+b1cc6000-b1cd4000 r-xp 00000000 08:01 3282146    /usr/lib/i386-linux-gnu/libXi.so.6.1.0
+b1cd4000-b1cd5000 r--p 0000e000 08:01 3282146    /usr/lib/i386-linux-gnu/libXi.so.6.1.0
+b1cd5000-b1cd6000 rw-p 0000f000 08:01 3282146    /usr/lib/i386-linux-gnu/libXi.so.6.1.0
+b1cd6000-b1cd8000 r-xp 00000000 08:01 3282148    /usr/lib/i386-linux-gnu/libXinerama.so.1.0.0
+b1cd8000-b1cd9000 r--p 00001000 08:01 3282148    /usr/lib/i386-linux-gnu/libXinerama.so.1.0.0
+b1cd9000-b1cda000 rw-p 00002000 08:01 3282148    /usr/lib/i386-linux-gnu/libXinerama.so.1.0.0
+b1cda000-b1ced000 r-xp 00000000 08:01 2622685    /lib/i386-linux-gnu/libresolv-2.19.so
+b1ced000-b1cee000 ---p 00013000 08:01 2622685    /lib/i386-linux-gnu/libresolv-2.19.so
+b1cee000-b1cef000 r--p 00013000 08:01 2622685    /lib/i386-linux-gnu/libresolv-2.19.so
+b1cef000-b1cf0000 rw-p 00014000 08:01 2622685    /lib/i386-linux-gnu/libresolv-2.19.so
+b1cf0000-b1cf2000 rw-p 00000000 00:00 0 
+b1cf2000-b1d12000 r-xp 00000000 08:01 2622689    /lib/i386-linux-gnu/libselinux.so.1
+b1d12000-b1d13000 r--p 0001f000 08:01 2622689    /lib/i386-linux-gnu/libselinux.so.1
+b1d13000-b1d14000 rw-p 00020000 08:01 2622689    /lib/i386-linux-gnu/libselinux.so.1
+b1d14000-b1d15000 rw-p 00000000 00:00 0 
+b1d15000-b1d29000 r-xp 00000000 08:01 3282864    /usr/lib/i386-linux-gnu/libpangoft2-1.0.so.0.3600.3
+b1d29000-b1d2a000 r--p 00013000 08:01 3282864    /usr/lib/i386-linux-gnu/libpangoft2-1.0.so.0.3600.3
+b1d2a000-b1d2b000 rw-p 00014000 08:01 3282864    /usr/lib/i386-linux-gnu/libpangoft2-1.0.so.0.3600.3
+b1d2b000-b1d2e000 r-xp 00000000 08:01 3282520    /usr/lib/i386-linux-gnu/libgmodule-2.0.so.0.4002.0
+b1d2e000-b1d2f000 r--p 00002000 08:01 3282520    /usr/lib/i386-linux-gnu/libgmodule-2.0.so.0.4002.0
+b1d2f000-b1d30000 rw-p 00003000 08:01 3282520    /usr/lib/i386-linux-gnu/libgmodule-2.0.so.0.4002.0
+b1d30000-b1d6c000 r-xp 00000000 08:01 2622662    /lib/i386-linux-gnu/libpcre.so.3.13.1
+b1d6c000-b1d6d000 r--p 0003b000 08:01 2622662    /lib/i386-linux-gnu/libpcre.so.3.13.1
+b1d6d000-b1d6e000 rw-p 0003c000 08:01 2622662    /lib/i386-linux-gnu/libpcre.so.3.13.1
+b1d6e000-b1d73000 r-xp 00000000 08:01 3286098    /usr/lib/i386-linux-gnu/libffi.so.6.0.1
+b1d73000-b1d74000 r--p 00005000 08:01 3286098    /usr/lib/i386-linux-gnu/libffi.so.6.0.1
+b1d74000-b1d75000 rw-p 00006000 08:01 3286098    /usr/lib/i386-linux-gnu/libffi.so.6.0.1
+b1d75000-b1d9a000 r-xp 00000000 08:01 2621532    /lib/i386-linux-gnu/libexpat.so.1.6.0
+b1d9a000-b1d9b000 ---p 00025000 08:01 2621532    /lib/i386-linux-gnu/libexpat.so.1.6.0
+b1d9b000-b1d9d000 r--p 00025000 08:01 2621532    /lib/i386-linux-gnu/libexpat.so.1.6.0
+b1d9d000-b1d9e000 rw-p 00027000 08:01 2621532    /lib/i386-linux-gnu/libexpat.so.1.6.0
+b1d9e000-b1dc4000 r-xp 00000000 08:01 2621607    /lib/i386-linux-gnu/libpng12.so.0.50.0
+b1dc4000-b1dc5000 r--p 00025000 08:01 2621607    /lib/i386-linux-gnu/libpng12.so.0.50.0
+b1dc5000-b1dc6000 rw-p 00026000 08:01 2621607    /lib/i386-linux-gnu/libpng12.so.0.50.0
+b1dc6000-b1dde000 r-xp 00000000 08:01 2622722    /lib/i386-linux-gnu/libz.so.1.2.8
+b1dde000-b1ddf000 r--p 00017000 08:01 2622722    /lib/i386-linux-gnu/libz.so.1.2.8
+b1ddf000-b1de0000 rw-p 00018000 08:01 2622722    /lib/i386-linux-gnu/libz.so.1.2.8
+b1de0000-b1de1000 r-xp 00000000 08:01 3282643    /usr/lib/i386-linux-gnu/libgthread-2.0.so.0.4002.0
+b1de1000-b1de2000 r--p 00000000 08:01 3282643    /usr/lib/i386-linux-gnu/libgthread-2.0.so.0.4002.0
+b1de2000-b1de3000 rw-p 00001000 08:01 3282643    /usr/lib/i386-linux-gnu/libgthread-2.0.so.0.4002.0
+b1de3000-b1e3b000 r-xp 00000000 08:01 3282164    /usr/lib/i386-linux-gnu/libXt.so.6.0.0
+b1e3b000-b1e3c000 r--p 00058000 08:01 3282164    /usr/lib/i386-linux-gnu/libXt.so.6.0.0
+b1e3c000-b1e3f000 rw-p 00059000 08:01 3282164    /usr/lib/i386-linux-gnu/libXt.so.6.0.0
+b1e3f000-b1f6f000 r-xp 00000000 08:01 3282121    /usr/lib/i386-linux-gnu/libX11.so.6.3.0
+b1f6f000-b1f70000 r--p 00130000 08:01 3282121    /usr/lib/i386-linux-gnu/libX11.so.6.3.0
+b1f70000-b1f72000 rw-p 00131000 08:01 3282121    /usr/lib/i386-linux-gnu/libX11.so.6.3.0
+b1f72000-b1f73000 rw-p 00000000 00:00 0 
+b1f73000-b1f7b000 r-xp 00000000 08:01 3283027    /usr/lib/i386-linux-gnu/libstartup-notification-1.so.0.0.0
+b1f7b000-b1f7c000 r--p 00007000 08:01 3283027    /usr/lib/i386-linux-gnu/libstartup-notification-1.so.0.0.0
+b1f7c000-b1f7d000 rw-p 00008000 08:01 3283027    /usr/lib/i386-linux-gnu/libstartup-notification-1.so.0.0.0
+b1f7d000-b209c000 r-xp 00000000 08:01 3282256    /usr/lib/i386-linux-gnu/libcairo.so.2.11301.0
+b209c000-b209e000 r--p 0011e000 08:01 3282256    /usr/lib/i386-linux-gnu/libcairo.so.2.11301.0
+b209e000-b209f000 rw-p 00120000 08:01 3282256    /usr/lib/i386-linux-gnu/libcairo.so.2.11301.0
+b209f000-b20a0000 rw-p 00000000 00:00 0 
+b20a0000-b20ea000 r-xp 00000000 08:01 3282860    /usr/lib/i386-linux-gnu/libpango-1.0.so.0.3600.3
+b20ea000-b20eb000 ---p 0004a000 08:01 3282860    /usr/lib/i386-linux-gnu/libpango-1.0.so.0.3600.3
+b20eb000-b20ec000 r--p 0004a000 08:01 3282860    /usr/lib/i386-linux-gnu/libpango-1.0.so.0.3600.3
+b20ec000-b20ed000 rw-p 0004b000 08:01 3282860    /usr/lib/i386-linux-gnu/libpango-1.0.so.0.3600.3
+b20ed000-b210e000 r-xp 00000000 08:01 3285744    /usr/lib/i386-linux-gnu/libgdk_pixbuf-2.0.so.0.3000.7
+b210e000-b210f000 r--p 00021000 08:01 3285744    /usr/lib/i386-linux-gnu/libgdk_pixbuf-2.0.so.0.3000.7
+b210f000-b2110000 rw-p 00022000 08:01 3285744    /usr/lib/i386-linux-gnu/libgdk_pixbuf-2.0.so.0.3000.7
+b2110000-b211b000 r-xp 00000000 08:01 3282862    /usr/lib/i386-linux-gnu/libpangocairo-1.0.so.0.3600.3
+b211b000-b211c000 r--p 0000a000 08:01 3282862    /usr/lib/i386-linux-gnu/libpangocairo-1.0.so.0.3600.3
+b211c000-b211d000 rw-p 0000b000 08:01 3282862    /usr/lib/i386-linux-gnu/libpangocairo-1.0.so.0.3600.3
+b211d000-b21c9000 r-xp 00000000 08:01 3282457    /usr/lib/i386-linux-gnu/libgdk-x11-2.0.so.0.2400.23
+b21c9000-b21cb000 r--p 000ab000 08:01 3282457    /usr/lib/i386-linux-gnu/libgdk-x11-2.0.so.0.2400.23
+b21cb000-b21cc000 rw-p 000ad000 08:01 3282457    /usr/lib/i386-linux-gnu/libgdk-x11-2.0.so.0.2400.23
+b21cc000-b2349000 r-xp 00000000 08:01 3282508    /usr/lib/i386-linux-gnu/libgio-2.0.so.0.4002.0
+b2349000-b234b000 r--p 0017d000 08:01 3282508    /usr/lib/i386-linux-gnu/libgio-2.0.so.0.4002.0
+b234b000-b234c000 rw-p 0017f000 08:01 3282508    /usr/lib/i386-linux-gnu/libgio-2.0.so.0.4002.0
+b234c000-b234d000 rw-p 00000000 00:00 0 
+b234d000-b236b000 r-xp 00000000 08:01 3282217    /usr/lib/i386-linux-gnu/libatk-1.0.so.0.21009.1
+b236b000-b236d000 r--p 0001d000 08:01 3282217    /usr/lib/i386-linux-gnu/libatk-1.0.so.0.21009.1
+b236d000-b236e000 rw-p 0001f000 08:01 3282217    /usr/lib/i386-linux-gnu/libatk-1.0.so.0.21009.1
+b236e000-b27d6000 r-xp 00000000 08:01 3282458    /usr/lib/i386-linux-gnu/libgtk-x11-2.0.so.0.2400.23
+b27d6000-b27da000 r--p 00467000 08:01 3282458    /usr/lib/i386-linux-gnu/libgtk-x11-2.0.so.0.2400.23
+b27da000-b27dc000 rw-p 0046b000 08:01 3282458    /usr/lib/i386-linux-gnu/libgtk-x11-2.0.so.0.2400.23
+b27dc000-b27de000 rw-p 00000000 00:00 0 
+b27de000-b28e8000 r-xp 00000000 08:01 2622590    /lib/i386-linux-gnu/libglib-2.0.so.0.4002.0
+b28e8000-b28e9000 r--p 00109000 08:01 2622590    /lib/i386-linux-gnu/libglib-2.0.so.0.4002.0
+b28e9000-b28ea000 rw-p 0010a000 08:01 2622590    /lib/i386-linux-gnu/libglib-2.0.so.0.4002.0
+b28ea000-b293a000 r-xp 00000000 08:01 3282536    /usr/lib/i386-linux-gnu/libgobject-2.0.so.0.4002.0
+b293a000-b293b000 r--p 0004f000 08:01 3282536    /usr/lib/i386-linux-gnu/libgobject-2.0.so.0.4002.0
+b293b000-b293c000 rw-p 00050000 08:01 3282536    /usr/lib/i386-linux-gnu/libgobject-2.0.so.0.4002.0
+b293c000-b2985000 r-xp 00000000 08:01 2622573    /lib/i386-linux-gnu/libdbus-1.so.3.7.6
+b2985000-b2986000 r--p 00048000 08:01 2622573    /lib/i386-linux-gnu/libdbus-1.so.3.7.6
+b2986000-b2987000 rw-p 00049000 08:01 2622573    /lib/i386-linux-gnu/libdbus-1.so.3.7.6
+b2987000-b29ab000 r-xp 00000000 08:01 3282331    /usr/lib/i386-linux-gnu/libdbus-glib-1.so.2.2.2
+b29ab000-b29ac000 r--p 00023000 08:01 3282331    /usr/lib/i386-linux-gnu/libdbus-glib-1.so.2.2.2
+b29ac000-b29ad000 rw-p 00024000 08:01 3282331    /usr/lib/i386-linux-gnu/libdbus-glib-1.so.2.2.2
+b29ad000-b2a9e000 r-xp 00000000 08:01 3282207    /usr/lib/i386-linux-gnu/libasound.so.2.0.0
+b2a9e000-b2aa2000 r--p 000f0000 08:01 3282207    /usr/lib/i386-linux-gnu/libasound.so.2.0.0
+b2aa2000-b2aa3000 rw-p 000f4000 08:01 3282207    /usr/lib/i386-linux-gnu/libasound.so.2.0.0
+b2aa3000-b2aa5000 r-xp 00000000 08:01 3282130    /usr/lib/i386-linux-gnu/libXcomposite.so.1.0.0
+b2aa5000-b2aa6000 r--p 00001000 08:01 3282130    /usr/lib/i386-linux-gnu/libXcomposite.so.1.0.0
+b2aa6000-b2aa7000 rw-p 00002000 08:01 3282130    /usr/lib/i386-linux-gnu/libXcomposite.so.1.0.0
+b2aa7000-b2aab000 r-xp 00000000 08:01 3282140    /usr/lib/i386-linux-gnu/libXfixes.so.3.1.0
+b2aab000-b2aac000 r--p 00003000 08:01 3282140    /usr/lib/i386-linux-gnu/libXfixes.so.3.1.0
+b2aac000-b2aad000 rw-p 00004000 08:01 3282140    /usr/lib/i386-linux-gnu/libXfixes.so.3.1.0
+b2aad000-b2aaf000 r-xp 00000000 08:01 3282134    /usr/lib/i386-linux-gnu/libXdamage.so.1.1.0
+b2aaf000-b2ab0000 r--p 00001000 08:01 3282134    /usr/lib/i386-linux-gnu/libXdamage.so.1.1.0
+b2ab0000-b2ab1000 rw-p 00002000 08:01 3282134    /usr/lib/i386-linux-gnu/libXdamage.so.1.1.0
+b2ab1000-b2ac2000 r-xp 00000000 08:01 3282138    /usr/lib/i386-linux-gnu/libXext.so.6.4.0
+b2ac2000-b2ac3000 r--p 00010000 08:01 3282138    /usr/lib/i386-linux-gnu/libXext.so.6.4.0
+b2ac3000-b2ac4000 rw-p 00011000 08:01 3282138    /usr/lib/i386-linux-gnu/libXext.so.6.4.0
+b2ac4000-b2acd000 r-xp 00000000 08:01 3282160    /usr/lib/i386-linux-gnu/libXrender.so.1.3.0
+b2acd000-b2ace000 r--p 00008000 08:01 3282160    /usr/lib/i386-linux-gnu/libXrender.so.1.3.0
+b2ace000-b2acf000 rw-p 00009000 08:01 3282160    /usr/lib/i386-linux-gnu/libXrender.so.1.3.0
+b2acf000-b2b08000 r-xp 00000000 08:01 3282421    /usr/lib/i386-linux-gnu/libfontconfig.so.1.8.0
+b2b08000-b2b09000 r--p 00039000 08:01 3282421    /usr/lib/i386-linux-gnu/libfontconfig.so.1.8.0
+b2b09000-b2b0a000 rw-p 0003a000 08:01 3282421    /usr/lib/i386-linux-gnu/libfontconfig.so.1.8.0
+b2b0a000-b2ba5000 r-xp 00000000 08:01 3282511    /usr/lib/i386-linux-gnu/libfreetype.so.6.11.1
+b2ba5000-b2ba9000 r--p 0009a000 08:01 3282511    /usr/lib/i386-linux-gnu/libfreetype.so.6.11.1
+b2ba9000-b2baa000 rw-p 0009e000 08:01 3282511    /usr/lib/i386-linux-gnu/libfreetype.so.6.11.1
+b2baa000-b2bad000 r--s 00000000 08:01 4067962    /var/cache/fontconfig/7ef2298fde41cc6eeb7af42e48b7d293-le32d4.cache-4
+b2bad000-b2bb1000 r-xp 00000000 08:01 3284306    /usr/lib/i386-linux-gnu/gtk-2.0/modules/libcanberra-gtk-module.so
+b2bb1000-b2bb2000 ---p 00004000 08:01 3284306    /usr/lib/i386-linux-gnu/gtk-2.0/modules/libcanberra-gtk-module.so
+b2bb2000-b2bb3000 r--p 00004000 08:01 3284306    /usr/lib/i386-linux-gnu/gtk-2.0/modules/libcanberra-gtk-module.so
+b2bb3000-b2bb4000 rw-p 00005000 08:01 3284306    /usr/lib/i386-linux-gnu/gtk-2.0/modules/libcanberra-gtk-module.so
+b2bb4000-b2bb7000 r-xp 00000000 08:01 3283953    /usr/lib/i386-linux-gnu/gconv/UTF-16.so
+b2bb7000-b2bb8000 r--p 00002000 08:01 3283953    /usr/lib/i386-linux-gnu/gconv/UTF-16.so
+b2bb8000-b2bb9000 rw-p 00003000 08:01 3283953    /usr/lib/i386-linux-gnu/gconv/UTF-16.so
+b2bb9000-b2bc0000 r--s 00000000 08:01 3283958    /usr/lib/i386-linux-gnu/gconv/gconv-modules.cache
+b2bc0000-b6c06000 r-xp 00000000 08:01 3281345    /usr/lib/firefox/libxul.so
+b6c06000-b6c07000 ---p 04046000 08:01 3281345    /usr/lib/firefox/libxul.so
+b6c07000-b6e6a000 r--p 04046000 08:01 3281345    /usr/lib/firefox/libxul.so
+b6e6a000-b6eb7000 rw-p 042a9000 08:01 3281345    /usr/lib/firefox/libxul.so
+b6eb7000-b6f52000 rw-p 00000000 00:00 0 
+b6f52000-b6fea000 r-xp 00000000 08:01 3281342    /usr/lib/firefox/libmozsqlite3.so
+b6fea000-b6fec000 r--p 00097000 08:01 3281342    /usr/lib/firefox/libmozsqlite3.so
+b6fec000-b6fed000 rw-p 00099000 08:01 3281342    /usr/lib/firefox/libmozsqlite3.so
+b6fed000-b6fee000 rw-p 00000000 00:00 0 
+b6fee000-b701e000 r-xp 00000000 08:01 3281343    /usr/lib/firefox/libssl3.so
+b701e000-b7020000 r--p 00030000 08:01 3281343    /usr/lib/firefox/libssl3.so
+b7020000-b7021000 rw-p 00032000 08:01 3281343    /usr/lib/firefox/libssl3.so
+b7021000-b70fb000 r-xp 00000000 08:01 3281341    /usr/lib/firefox/libnss3.so
+b70fb000-b70fe000 r--p 000da000 08:01 3281341    /usr/lib/firefox/libnss3.so
+b70fe000-b70ff000 rw-p 000dd000 08:01 3281341    /usr/lib/firefox/libnss3.so
+b70ff000-b7300000 rw-p 00000000 00:00 0 
+b7300000-b7308000 r-xp 00000000 08:01 3281309    /usr/lib/firefox/liblgpllibs.so
+b7308000-b7309000 r--p 00007000 08:01 3281309    /usr/lib/firefox/liblgpllibs.so
+b7309000-b730a000 rw-p 00008000 08:01 3281309    /usr/lib/firefox/liblgpllibs.so
+b730a000-b7327000 r-xp 00000000 08:01 3281323    /usr/lib/firefox/libsmime3.so
+b7327000-b7329000 r--p 0001c000 08:01 3281323    /usr/lib/firefox/libsmime3.so
+b7329000-b732a000 rw-p 0001e000 08:01 3281323    /usr/lib/firefox/libsmime3.so
+b732a000-b7347000 r-xp 00000000 08:01 3281316    /usr/lib/firefox/libnssutil3.so
+b7347000-b734a000 r--p 0001d000 08:01 3281316    /usr/lib/firefox/libnssutil3.so
+b734a000-b734b000 rw-p 00020000 08:01 3281316    /usr/lib/firefox/libnssutil3.so
+b734b000-b7385000 r-xp 00000000 08:01 3281329    /usr/lib/firefox/libnspr4.so
+b7385000-b7386000 r--p 0003a000 08:01 3281329    /usr/lib/firefox/libnspr4.so
+b7386000-b7387000 rw-p 0003b000 08:01 3281329    /usr/lib/firefox/libnspr4.so
+b7387000-b738c000 rw-p 00000000 00:00 0 
+b738c000-b7534000 r-xp 00000000 08:01 2622559    /lib/i386-linux-gnu/libc-2.19.so
+b7534000-b7536000 r--p 001a8000 08:01 2622559    /lib/i386-linux-gnu/libc-2.19.so
+b7536000-b7537000 rw-p 001aa000 08:01 2622559    /lib/i386-linux-gnu/libc-2.19.so
+b7537000-b753a000 rw-p 00000000 00:00 0 
+b753a000-b7556000 r-xp 00000000 08:01 2622586    /lib/i386-linux-gnu/libgcc_s.so.1
+b7556000-b7557000 rw-p 0001b000 08:01 2622586    /lib/i386-linux-gnu/libgcc_s.so.1
+b7557000-b759b000 r-xp 00000000 08:01 2622609    /lib/i386-linux-gnu/libm-2.19.so
+b759b000-b759c000 r--p 00043000 08:01 2622609    /lib/i386-linux-gnu/libm-2.19.so
+b759c000-b759d000 rw-p 00044000 08:01 2622609    /lib/i386-linux-gnu/libm-2.19.so
+b759d000-b7679000 r-xp 00000000 08:01 3283029    /usr/lib/i386-linux-gnu/libstdc++.so.6.0.19
+b7679000-b767d000 r--p 000dc000 08:01 3283029    /usr/lib/i386-linux-gnu/libstdc++.so.6.0.19
+b767d000-b767e000 rw-p 000e0000 08:01 3283029    /usr/lib/i386-linux-gnu/libstdc++.so.6.0.19
+b767e000-b7686000 rw-p 00000000 00:00 0 
+b7686000-b7689000 r-xp 00000000 08:01 2622576    /lib/i386-linux-gnu/libdl-2.19.so
+b7689000-b768a000 r--p 00002000 08:01 2622576    /lib/i386-linux-gnu/libdl-2.19.so
+b768a000-b768b000 rw-p 00003000 08:01 2622576    /lib/i386-linux-gnu/libdl-2.19.so
+b768b000-b76a3000 r-xp 00000000 08:01 2622679    /lib/i386-linux-gnu/libpthread-2.19.so
+b76a3000-b76a4000 r--p 00018000 08:01 2622679    /lib/i386-linux-gnu/libpthread-2.19.so
+b76a4000-b76a5000 rw-p 00019000 08:01 2622679    /lib/i386-linux-gnu/libpthread-2.19.so
+b76a5000-b76a7000 rw-p 00000000 00:00 0 
+b76a7000-b76a8000 r--s 00000000 08:01 4067757    /var/cache/fontconfig/0c9eb80ebd1c36541ebe2852d3bb0c49-le32d4.cache-4
+b76a8000-b76ab000 r-xp 00000000 08:01 3281310    /usr/lib/firefox/libplds4.so
+b76ab000-b76ac000 r--p 00002000 08:01 3281310    /usr/lib/firefox/libplds4.so
+b76ac000-b76ad000 rw-p 00003000 08:01 3281310    /usr/lib/firefox/libplds4.so
+b76ad000-b76b1000 r-xp 00000000 08:01 3281344    /usr/lib/firefox/libplc4.so
+b76b1000-b76b2000 r--p 00003000 08:01 3281344    /usr/lib/firefox/libplc4.so
+b76b2000-b76b3000 rw-p 00004000 08:01 3281344    /usr/lib/firefox/libplc4.so
+b76b3000-b76ba000 r-xp 00000000 08:01 2622687    /lib/i386-linux-gnu/librt-2.19.so
+b76ba000-b76bb000 r--p 00006000 08:01 2622687    /lib/i386-linux-gnu/librt-2.19.so
+b76bb000-b76bc000 rw-p 00007000 08:01 2622687    /lib/i386-linux-gnu/librt-2.19.so
+b76bc000-b76bd000 r--p 00859000 08:01 3285351    /usr/lib/locale/locale-archive
+b76bd000-b76bf000 rw-p 00000000 00:00 0 
+b76bf000-b76c0000 r-xp 00000000 00:00 0          [vdso]
+b76c0000-b76e0000 r-xp 00000000 08:01 2622535    /lib/i386-linux-gnu/ld-2.19.so
+b76e0000-b76e1000 r--p 0001f000 08:01 2622535    /lib/i386-linux-gnu/ld-2.19.so
+b76e1000-b76e2000 rw-p 00020000 08:01 2622535    /lib/i386-linux-gnu/ld-2.19.so
+b76e2000-b7700000 r-xp 00000000 08:01 3281335    /usr/lib/firefox/firefox
+b7700000-b7701000 r--p 0001d000 08:01 3281335    /usr/lib/firefox/firefox
+b7701000-b7702000 rw-p 0001e000 08:01 3281335    /usr/lib/firefox/firefox
+bfd08000-bfd2b000 rw-p 00000000 00:00 0          [stack]
