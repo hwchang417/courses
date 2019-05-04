@@ -16,29 +16,29 @@
 #include <time.h>
 
 static int ITERATION_COUNT = 250; 				//iteration count
-#define NEURAL_COUNT 20							//J: fi and w //¶h¡˚∑|ßÛ√¯Ω’æ„, §÷¡˚µL™kπG™Ò 
+#define NEURAL_COUNT 20							//J: fi and w //Â§öÈ°ÜÊúÉÊõ¥Èõ£Ë™øÊï¥, Â∞ëÈ°ÜÁÑ°Ê≥ïÈÄºËøë 
 static int NUM_OF_PARTICLE = 500;					//group size
 #define NUM_OF_INPUT_DIMENSION 3 				//p, forward, right, left
 #define social_past_weight 0.2f
-static float coeff_social = social_past_weight; 		//fi1, ∞—¶“πL•h≥Ã¶n 
-static float coeff_past = 1.0f - social_past_weight; 	//fi2, ∞—¶“æF©~≥Ã¶n 
+static float coeff_social = social_past_weight; 		//fi1, ÂèÉËÄÉÈÅéÂéªÊúÄÂ•Ω 
+static float coeff_past = 1.0f - social_past_weight; 	//fi2, ÂèÉËÄÉÈÑ∞Â±ÖÊúÄÂ•Ω 
 #define theta_value 1.0f 						//theta of F function
 #define random_noise_size_normalized 0.1f 		//
 #define random_noise_size_normalized_2 0.05f 	//
-#define random_noise_size_non_normalized 0.2f	//´D•ø≥W§∆™∫¿Hæ˜¬¯∞TÆ∂∫÷ 
-#define finish_threshold 0.0f 					//µ≤ßÙª÷≠» 
+#define random_noise_size_non_normalized 0.2f	//ÈùûÊ≠£Ë¶èÂåñÁöÑÈö®Ê©üÈõúË®äÊåØÁ¶è 
+#define finish_threshold 0.0f 					//ÁµêÊùüÈñ•ÂÄº 
 #define m_range 30.0f							//0~30.0f
 #define sigma_range 10.0f						//0~10.0f
 #define w_range 80.0f							//-40~40.0f
 #define v_range 2.0f 
 
 //display
-#define WINDOWS_WIDTH 640	//µ¯µ°ºe´◊ 
-#define WINDOWS_HEIGHT 480	//µ¯µ°∞™´◊ 
-#define OFFSET_X 200		//x¨€πÔ∞æ≤æ∂q 
-#define OFFSET_Y 400		//y¨€πÔ∞æ≤æ∂q 
-#define CAR_R 60			//®Æ§l¨€πÔ•bÆ| 3.0 * 20 
-#define BLACK 0x000000		//√C¶‚±`º∆ 
+#define WINDOWS_WIDTH 640	//Ë¶ñÁ™óÂØ¨Â∫¶ 
+#define WINDOWS_HEIGHT 480	//Ë¶ñÁ™óÈ´òÂ∫¶ 
+#define OFFSET_X 200		//xÁõ∏Â∞çÂÅèÁßªÈáè 
+#define OFFSET_Y 400		//yÁõ∏Â∞çÂÅèÁßªÈáè 
+#define CAR_R 60			//ËªäÂ≠êÁõ∏Â∞çÂçäÂæë 3.0 * 20 
+#define BLACK 0x000000		//È°èËâ≤Â∏∏Êï∏ 
 #define WHITE 0xffffff
 
 #define CAR_RADIUS 3.0f
@@ -47,20 +47,20 @@ static float coeff_past = 1.0f - social_past_weight; 	//fi2, ∞—¶“æF©~≥Ã¶n
 #define car_length (CAR_RADIUS * 2.0f)
 #define PI 3.14159265359f
  
- //Æyº–¬Iµ≤∫c 
+ //Â∫ßÊ®ôÈªûÁµêÊßã 
 struct Point{
 	float x, y;
 	float distance;
 };
 
-//≤…§lµ≤∫c 
+//Á≤íÂ≠êÁµêÊßã 
 struct PARTICLE{
 	float F;
 	float fi; 		//zero fi
 	float sigma[NEURAL_COUNT]; 	
 	float w[NEURAL_COUNT]; 		
 	float m[NEURAL_COUNT][NUM_OF_INPUT_DIMENSION]; 		
-	//®C§@≠”∫˚´◊≥£¶≥§@≠”≥t´◊°A≥t´◊±NÆ⁄æ⁄πL•h≥t´◊©M¶€§v≥Ã®Œ¶Ï∏m©MæF™Ò∏s≈È≥Ã®Œ¶Ï∏m∞µßÛ∑s
+	//ÊØè‰∏ÄÂÄãÁ∂≠Â∫¶ÈÉΩÊúâ‰∏ÄÂÄãÈÄüÂ∫¶ÔºåÈÄüÂ∫¶Â∞áÊ†πÊìöÈÅéÂéªÈÄüÂ∫¶ÂíåËá™Â∑±ÊúÄ‰Ω≥‰ΩçÁΩÆÂíåÈÑ∞ËøëÁæ§È´îÊúÄ‰Ω≥‰ΩçÁΩÆÂÅöÊõ¥Êñ∞
 	float fiv;
 	float sigmav[NEURAL_COUNT];
 	float wv[NEURAL_COUNT];
@@ -367,7 +367,7 @@ LRESULT CALLBACK WindowProcedure (HWND hwnd, UINT message, WPARAM wParam, LPARAM
 							SetWindowText(textField_filename, szFile);
 						else{
 							result++;
-							sprintf(training_file, "¥˙∏’∏ÍÆ∆: %s", result);
+							sprintf(training_file, "Ê∏¨Ë©¶Ë≥áÊñô: %s", result);
 							SetWindowText(textField_filename, training_file);
 						}
 					}
@@ -380,7 +380,7 @@ LRESULT CALLBACK WindowProcedure (HWND hwnd, UINT message, WPARAM wParam, LPARAM
 				//training button => enable running button
 				
 					pthread_mutex_lock(&mutex); 
-					sprintf(textstring, "∞VΩm§§Ω–µy≠‘, ≠Yµ{¶°µL™k¶^¿≥¨∞•ø±`™¨™p");
+					sprintf(textstring, "Ë®ìÁ∑¥‰∏≠Ë´ãÁ®çÂÄô, Ëã•Á®ãÂºèÁÑ°Ê≥ïÂõûÊáâÁÇ∫Ê≠£Â∏∏ÁãÄÊ≥Å");
 					SetWindowText(textField_info, textstring);
 					pthread_mutex_unlock(&mutex);
 					
@@ -392,7 +392,7 @@ LRESULT CALLBACK WindowProcedure (HWND hwnd, UINT message, WPARAM wParam, LPARAM
 					
 	   			    if(training_ok){
 						pthread_mutex_lock(&mutex); 
-						sprintf(textstring, "∞VΩm§§ßπ¶®, ™·∂O%.4f s", time_spent);
+						sprintf(textstring, "Ë®ìÁ∑¥‰∏≠ÂÆåÊàê, Ëä±Ë≤ª%.4f s", time_spent);
 						SetWindowText(textField_info, textstring);
 						pthread_mutex_unlock(&mutex);
 						pthread_mutex_lock(&mutex); 
@@ -400,7 +400,7 @@ LRESULT CALLBACK WindowProcedure (HWND hwnd, UINT message, WPARAM wParam, LPARAM
 						pthread_mutex_unlock(&mutex);
 					}else{
 						pthread_mutex_lock(&mutex); 
-						sprintf(textstring, "∞VΩm§§•¢±—, µL™k∞t∏m∞Oæ–≈È");
+						sprintf(textstring, "Ë®ìÁ∑¥‰∏≠Â§±Êïó, ÁÑ°Ê≥ïÈÖçÁΩÆË®òÊÜ∂È´î");
 						SetWindowText(textField_info, textstring);
 						pthread_mutex_unlock(&mutex);
 					}
@@ -583,7 +583,7 @@ int training_NN(){
 	social_optimal_fitness = FLT_MAX;
 	
 	//coeff_social = social_past_weight; 				
-	//coeff_past = 1.0f - social_past_weight;	//fi1, ∞—¶“πL•h≥Ã¶n 
+	//coeff_past = 1.0f - social_past_weight;	//fi1, ÂèÉËÄÉÈÅéÂéªÊúÄÂ•Ω 
 	coeff_inc = (1.0f - coeff_social) / (float)ITERATION_COUNT; //0.5 -> 0.75
 	
 	//get file rows
@@ -609,7 +609,7 @@ int training_NN(){
 			for(k = 0;k < NUM_OF_PARTICLE;k++){
 				//RBFN
 				calculate_output(particle[k], x);
-				//fitness function, particle[k].F¨∞≤ƒk≠”≤…§lπÔøÈ§J∏ÍÆ∆™∫æA¿≥®Áº∆≠»¡`©M 
+				//fitness function, particle[k].FÁÇ∫Á¨¨kÂÄãÁ≤íÂ≠êÂ∞çËº∏ÂÖ•Ë≥áÊñôÁöÑÈÅ©ÊáâÂáΩÊï∏ÂÄºÁ∏ΩÂíå 
 				//when value is smaller, crossover prob is higher 
 				error_diff = particle[k].F - theta;
 				mean_error[k] += abs(error_diff);
@@ -639,7 +639,7 @@ int training_NN(){
 			//printf("E[%d]=%.4f, particle[%d].F = %.4f\n", k, E[k], k, particle[k].F);
 		}
 		pthread_mutex_lock(&mutex); 
-	    sprintf(training_result, "≤ƒ%d¶∏≥Ã®Œ≤…§l™∫•≠§Ëª~Æt(E)=%.4f", j, E[min_index]);
+	    	sprintf(training_result, "Á¨¨%dÊ¨°ÊúÄ‰Ω≥Á≤íÂ≠êÁöÑÂπ≥ÊñπË™§Â∑Æ(E)=%.4f", j, E[min_index]);
 		SetWindowText(textField_result, training_result);	
 		pthread_mutex_unlock(&mutex);
 		
@@ -653,8 +653,8 @@ int training_NN(){
 					memcpy(&individual_optimal_particle[m], &particle[m], sizeof(struct PARTICLE));
 				}
 				//find the best particle now in neighbor 
-				//∞—¶“©P≥ÚæF©~™∫∂Z¬˜ •—§p®Ï§j°A≈˝®C≠”¬I¶≥æ˜∑|±¥Ø¡¶€§v©P≥Ú™∫∏—°A
-				//¡◊ßK¶b§@∂}©l¥N•H•ÿ´e≥Ã®Œ∏—ß@¨∞∞—¶“¬I°A≥¥§J∞œ∞Ï≥Ã®Œ∏— 
+				//ÂèÉËÄÉÂë®ÂúçÈÑ∞Â±ÖÁöÑË∑ùÈõ¢ Áî±Â∞èÂà∞Â§ßÔºåËÆìÊØèÂÄãÈªûÊúâÊ©üÊúÉÊé¢Á¥¢Ëá™Â∑±Âë®ÂúçÁöÑËß£Ôºå
+				//ÈÅøÂÖçÂú®‰∏ÄÈñãÂßãÂ∞±‰ª•ÁõÆÂâçÊúÄ‰Ω≥Ëß£‰ΩúÁÇ∫ÂèÉËÄÉÈªûÔºåÈô∑ÂÖ•ÂçÄÂüüÊúÄ‰Ω≥Ëß£ 
 				if(social_optimal_fitness >= E[m]){
 					social_optimal_fitness = E[m];
 					memcpy(&social_optimal_particle, &particle[m], sizeof(struct PARTICLE));
@@ -662,7 +662,7 @@ int training_NN(){
 			}
 
 			//update v, v(t+1) = v(t) + alpha * (best_p - x) + beta * (global_best_p - x)
-			//®C§@≠”∞—º∆≥£≠n≥t´◊
+			//ÊØè‰∏ÄÂÄãÂèÉÊï∏ÈÉΩË¶ÅÈÄüÂ∫¶
 			for(i = 0;i < NUM_OF_PARTICLE;i++){
 				for(m = 0;m < NEURAL_COUNT;m++){
 					particle[i].sigmav[m] = particle[i].sigmav[m] + coeff_past * (individual_optimal_particle[i].sigma[m] - particle[i].sigma[m]) + coeff_social * (social_optimal_particle.sigma[m] - particle[i].sigma[m]); //0~10
@@ -692,7 +692,7 @@ int training_NN(){
 			//_sleep(500);
 		}
 		coeff_social += coeff_inc; 				
-		coeff_past -= coeff_inc;	//fi1, ∞—¶“πL•h≥Ã¶n 
+		coeff_past -= coeff_inc;	//fi1, ÂèÉËÄÉÈÅéÂéªÊúÄÂ•Ω 
 		//_sleep(500);
 	}
 	
@@ -773,7 +773,7 @@ float point2point(float x1, float y1, float x2, float y2){
 }
 
 struct Point getDF(){
-	//const float m = tan((degree - 45.0f)/180.0f*PI);
+    //const float m = tan((degree - 45.0f)/180.0f*PI);
     //const float b = y - m * x;
     const float r = 0.05;
     const float dx = r * cos((degree)/180.0f*PI);
@@ -781,109 +781,109 @@ struct Point getDF(){
     int out_of_boundary = 0;
 	float dis = 0, tempx = x, tempy = y;
     struct Point boundary_point;
-    //•˝¥˙∏’≥Ê§@µ{¶°, ßP¬_¶≥µLπL√‰¨… => •N§J≈‹πs
+    //ÂÖàÊ∏¨Ë©¶ÂñÆ‰∏ÄÁ®ãÂºè, Âà§Êñ∑ÊúâÁÑ°ÈÅéÈÇäÁïå => ‰ª£ÂÖ•ËÆäÈõ∂
  
     while(!out_of_boundary){
-  		tempx += dx;
-  		tempy += dy;
+	tempx += dx;
+	tempy += dy;
+
+	if((tempx >= 6.0f && tempy <= 10.0f) || tempx >= 30.0f)
+		out_of_boundary = 1;
+	else if(tempy >= 22.0f && tempx <= 18.0f || tempx <= -6.0f)
+		out_of_boundary = 1;
   		
-  		if((tempx >= 6.0f && tempy <= 10.0f) || tempx >= 30.0f)
-  			out_of_boundary = 1;
-		else if(tempy >= 22.0f && tempx <= 18.0f || tempx <= -6.0f)
-  			out_of_boundary = 1;
-  		
-	    //printf("x=%.3f, y=%.3f\n", tempx, tempy);
-	    //_sleep(50);
-	}
-	boundary_point.x = tempx;
-	boundary_point.y = tempy;
-	
-	tempx = tempx - x;
-	tempy = tempy - y;
-	tempx = tempx * tempx;
-	tempy = tempy * tempy;
+	//printf("x=%.3f, y=%.3f\n", tempx, tempy);
+	//_sleep(50);
+    }
+    boundary_point.x = tempx;
+    boundary_point.y = tempy;
+
+    tempx = tempx - x;
+    tempy = tempy - y;
+    tempx = tempx * tempx;
+    tempy = tempy * tempy;
     boundary_point.distance = sqrt(tempx + tempy);
     //temp = min(min(d1, d3), min(d4, d5));
     
-	return boundary_point;
+    return boundary_point;
 }
 struct Point getDR(){
-	//const float m = tan((degree - 45.0f)/180.0f*PI);
+    //const float m = tan((degree - 45.0f)/180.0f*PI);
     //const float b = y - m * x;
     const float r = 0.05;
     const float dx = r * cos((degree - 45.0f)/180.0f*PI);
     const float dy = r * sin((degree - 45.0f)/180.0f*PI);
     int out_of_boundary = 0;
-	float dis = 0, tempx = x, tempy = y;
+    float dis = 0, tempx = x, tempy = y;
     struct Point boundary_point;
-    //•˝¥˙∏’≥Ê§@µ{¶°, ßP¬_¶≥µLπL√‰¨… => •N§J≈‹πs
+    //ÂÖàÊ∏¨Ë©¶ÂñÆ‰∏ÄÁ®ãÂºè, Âà§Êñ∑ÊúâÁÑ°ÈÅéÈÇäÁïå => ‰ª£ÂÖ•ËÆäÈõ∂
  
     while(!out_of_boundary){
-  		tempx += dx;
-  		tempy += dy;
+	tempx += dx;
+	tempy += dy;
   		
-  		if((tempx >= 6.0f && tempy <= 10.0f) || tempx >= 30.0f)
-  			out_of_boundary = 1;
-		else if(tempy >= 22.0f && tempx <= 18.0f || tempx <= -6.0f)
-  			out_of_boundary = 1;
+	if((tempx >= 6.0f && tempy <= 10.0f) || tempx >= 30.0f)
+		out_of_boundary = 1;
+	else if(tempy >= 22.0f && tempx <= 18.0f || tempx <= -6.0f)
+		out_of_boundary = 1;
   		
-	    //printf("x=%.3f, y=%.3f\n", tempx, tempy);
-	    //_sleep(50);
-	}
-	boundary_point.x = tempx;
-	boundary_point.y = tempy;
+        //printf("x=%.3f, y=%.3f\n", tempx, tempy);
+        //_sleep(50);
+    }
+    boundary_point.x = tempx;
+    boundary_point.y = tempy;
 	
-	tempx = tempx - x;
-	tempy = tempy - y;
-	tempx = tempx * tempx;
-	tempy = tempy * tempy;
+    tempx = tempx - x;
+    tempy = tempy - y;
+    tempx = tempx * tempx;
+    tempy = tempy * tempy;
     boundary_point.distance = sqrt(tempx + tempy);
     //temp = min(min(d1, d3), min(d4, d5));
     
-	return boundary_point;
+    return boundary_point;
 }
 struct Point getDL(){
-	//const float m = tan((degree - 45.0f)/180.0f*PI);
+    //const float m = tan((degree - 45.0f)/180.0f*PI);
     //const float b = y - m * x;
     const float r = 0.05;
     const float dx = r * cos((degree + 45.0f)/180.0f*PI);
     const float dy = r * sin((degree + 45.0f)/180.0f*PI);
     int out_of_boundary = 0;
-	float dis = 0, tempx = x, tempy = y;
+    float dis = 0, tempx = x, tempy = y;
     struct Point boundary_point;
     
-    //•˝¥˙∏’≥Ê§@µ{¶°, ßP¬_¶≥µLπL√‰¨… => •N§J≈‹πs
+    //ÂÖàÊ∏¨Ë©¶ÂñÆ‰∏ÄÁ®ãÂºè, Âà§Êñ∑ÊúâÁÑ°ÈÅéÈÇäÁïå => ‰ª£ÂÖ•ËÆäÈõ∂
  
     while(!out_of_boundary){
-  		tempx += dx;
-  		tempy += dy;
+	tempx += dx;
+	tempy += dy;
   		
-  		if((tempx >= 6.0f && tempy <= 10.0f) || tempx >= 30.0f)
-  			out_of_boundary = 1;
-		else if(tempy >= 22.0f && tempx <= 18.0f || tempx <= -6.0f)
-  			out_of_boundary = 1;
+	if((tempx >= 6.0f && tempy <= 10.0f) || tempx >= 30.0f)
+		out_of_boundary = 1;
+	else if(tempy >= 22.0f && tempx <= 18.0f || tempx <= -6.0f)
+		out_of_boundary = 1;
   		
-	    //printf("x=%.3f, y=%.3f\n", tempx, tempy);
-	    //_sleep(50);
-	}
-	boundary_point.x = tempx;
-	boundary_point.y = tempy;
+        //printf("x=%.3f, y=%.3f\n", tempx, tempy);
+        //_sleep(50);
+    }
+    boundary_point.x = tempx;
+    boundary_point.y = tempy;
 	
-	tempx = tempx - x;
-	tempy = tempy - y;
-	tempx = tempx * tempx;
-	tempy = tempy * tempy;
+    tempx = tempx - x;
+    tempy = tempy - y;
+    tempx = tempx * tempx;
+    tempy = tempy * tempy;
     boundary_point.distance = sqrt(tempx + tempy);
     //temp = min(min(d1, d3), min(d4, d5));
-	return boundary_point;
+    return boundary_point;
 }
 
 void init(float tmpx, float tmpy, float tmp_deg){
     x = tmpx;
-	y = tmpy;
+    y = tmpy;
     DF = DR = DL = 0.0f;
     degree = tmp_deg;
-	theta = 0.0f;    
+    theta = 0.0f;    
 }
 
 void plot(HWND &hwnd, float tmp_x, float tmp_y, float deg, Point forward, Point right, Point left){
@@ -891,14 +891,14 @@ void plot(HWND &hwnd, float tmp_x, float tmp_y, float deg, Point forward, Point 
     PAINTSTRUCT ps;
     CCanvas canvas;
     int i;
-	const int car_radius = CAR_R / 4;
+    const int car_radius = CAR_R / 4;
     //initialization
-	//hdc = BeginPaint(hwnd, &ps);
-	hdc = GetDC(hwnd);
+    //hdc = BeginPaint(hwnd, &ps);
+    hdc = GetDC(hwnd);
     canvas.init(hdc); //set current hdc to canvas class
     
-	//ClearScreen();
-	//display user control
+    //ClearScreen();
+    //display user control
     canvas.rectangle_reverse(0, 0, 325, 150, WINDOWS_WIDTH, WINDOWS_HEIGHT, 0xffffff, 0);
     //canvas.rectangle(0, 0, 639, 479, 0xffffff, 0xffffff, 0);
 	
@@ -921,20 +921,20 @@ void plot(HWND &hwnd, float tmp_x, float tmp_y, float deg, Point forward, Point 
     locus[locus_cnt].y = y;
     locus_cnt++;
     for(i = 0;i < locus_cnt;i++)
-		  canvas.ellipse(OFFSET_X + (int)(locus[i].x * 10.0f), OFFSET_Y - (int)(locus[i].y * 10.0f), car_radius, car_radius, 0xFFFFFF, 0x00FF00, 2);
+	  canvas.ellipse(OFFSET_X + (int)(locus[i].x * 10.0f), OFFSET_Y - (int)(locus[i].y * 10.0f), car_radius, car_radius, 0xFFFFFF, 0x00FF00, 2);
     
     //draw car
-	canvas.ellipse(OFFSET_X + (int)(tmp_x * 10.0f), OFFSET_Y - (int)(tmp_y * 10.0f), CAR_R, CAR_R, 0x000000, 0x0000FF, 2);
+    canvas.ellipse(OFFSET_X + (int)(tmp_x * 10.0f), OFFSET_Y - (int)(tmp_y * 10.0f), CAR_R, CAR_R, 0x000000, 0x0000FF, 2);
     canvas.line(OFFSET_X + (int)(tmp_x * 10.0f), OFFSET_Y - (int)(tmp_y * 10.0f), OFFSET_X + (int)(tmp_x * 10.0f) + (int)((float)CAR_R * cos(deg/180.0f*PI)), OFFSET_Y - (int)(tmp_y * 10.0f) - (int)((float)CAR_R * 1.25 * sin(deg/180.0f*PI)), 0xffffff, 2);//6
 	
-	//line to right boundary
-	canvas.line(OFFSET_X + x * 10, OFFSET_Y - y * 10, OFFSET_X + right.x * 10, OFFSET_Y - right.y * 10, 0x00ffff, 3);//6
+    //line to right boundary
+    canvas.line(OFFSET_X + x * 10, OFFSET_Y - y * 10, OFFSET_X + right.x * 10, OFFSET_Y - right.y * 10, 0x00ffff, 3);//6
     
-	//line to left boundary
-	canvas.line(OFFSET_X + x * 10, OFFSET_Y - y * 10, OFFSET_X + left.x * 10, OFFSET_Y - left.y * 10, 0x00ffff, 3);//6
+    //line to left boundary
+    canvas.line(OFFSET_X + x * 10, OFFSET_Y - y * 10, OFFSET_X + left.x * 10, OFFSET_Y - left.y * 10, 0x00ffff, 3);//6
     
-	//line to forward boundary
-	canvas.line(OFFSET_X + x * 10, OFFSET_Y - y * 10, OFFSET_X + forward.x * 10, OFFSET_Y - forward.y * 10, 0x00ffff, 3);//6
+    //line to forward boundary
+    canvas.line(OFFSET_X + x * 10, OFFSET_Y - y * 10, OFFSET_X + forward.x * 10, OFFSET_Y - forward.y * 10, 0x00ffff, 3);//6
     
     // End application-specific layout section.
     //EndPaint(hwnd, &ps);
@@ -942,62 +942,62 @@ void plot(HWND &hwnd, float tmp_x, float tmp_y, float deg, Point forward, Point 
 }
 
 void main_thread(HWND &hwnd){
-	FILE* out = NULL;
-	//write result to excel file
-	char textstring[50];
-	float theta_rad, degree_rad;
-	Point forward, right, left;
-	//get input from textbox
-	float tmp_x, tmp_y, tmp_deg;
-	char buf[20];
+    FILE* out = NULL;
+    //write result to excel file
+    char textstring[50];
+    float theta_rad, degree_rad;
+    Point forward, right, left;
+    //get input from textbox
+    float tmp_x, tmp_y, tmp_deg;
+    char buf[20];
 	
-	pthread_mutex_lock(&mutex); 
-	//get input
-	GetWindowText(textBox_x, buf, 20);
-	tmp_x = (float)atoi(buf);
-	GetWindowText(textBox_y, buf, 20);
-	tmp_y = (float)atoi(buf);
-	GetWindowText(textBox_deg, buf, 20);
-	tmp_deg = (float)atoi(buf);
-	init(tmp_x, tmp_y, tmp_deg);
-	pthread_mutex_unlock(&mutex);
-	locus_cnt = 0;
+    pthread_mutex_lock(&mutex); 
+    //get input
+    GetWindowText(textBox_x, buf, 20);
+    tmp_x = (float)atoi(buf);
+    GetWindowText(textBox_y, buf, 20);
+    tmp_y = (float)atoi(buf);
+    GetWindowText(textBox_deg, buf, 20);
+    tmp_deg = (float)atoi(buf);
+    init(tmp_x, tmp_y, tmp_deg);
+    pthread_mutex_unlock(&mutex);
+    locus_cnt = 0;
 	
-	while(1){
+    while(1){
     	if(thread_start_flag == THREAD_START){
     		if(out == NULL){
     			 out = fopen("result.csv", "wb"); 
-				 if(out == false) exit(1);
-			}
+			 if(out == false) exit(1);
+		}
     		
 	        forward = getDF(); 	//get distance to front
-			right = getDR(); 	//get distance to right 45 degree
+		right = getDR(); 	//get distance to right 45 degree
 	        left = getDL(); 	//get distance to left 45 degree
 	        
-			//boundary check
-			if(forward.distance > 30.0f) forward.distance = 30.0f;
-			if(right.distance > 30.0f) right.distance = 30.0f;
-			if(left.distance > 30.0f) left.distance = 30.0f;
+		//boundary check
+		if(forward.distance > 30.0f) forward.distance = 30.0f;
+		if(right.distance > 30.0f) right.distance = 30.0f;
+		if(left.distance > 30.0f) left.distance = 30.0f;
 	        DF = forward.distance - CAR_RADIUS;
 	        DR = right.distance - CAR_RADIUS;
 	        DL = left.distance - CAR_RADIUS;
 	        if(DF < 0.0f || DR < 0.0f || DL < 0.0f){
 	        	thread_start_flag = THREAD_FINISH;
-				sprintf(textstring, "Fail: Please try again...");
-				SetWindowText(textField_info, textstring);
-				continue;
-			}
+			sprintf(textstring, "Fail: Please try again...");
+			SetWindowText(textField_info, textstring);
+			continue;
+		}
 	        //NN
-			float in[NUM_OF_INPUT_DIMENSION];
+		float in[NUM_OF_INPUT_DIMENSION];
 	        in[0] = DF;
 	        in[1] = DR;
 	        in[2] = DL;
-			calculate_output(best_particle, in);
+		calculate_output(best_particle, in);
 			
-			//1~0 => 40~-40
-			/*if(best_particle.F > 1.0f) best_particle.F = 1.0f;
-			else if(best_particle.F < 0.0f) best_particle.F = 0.0f;
-			best_particle.F = (best_particle.F) * 80.0f - 40.0f;*/
+		//1~0 => 40~-40
+		/*if(best_particle.F > 1.0f) best_particle.F = 1.0f;
+		else if(best_particle.F < 0.0f) best_particle.F = 0.0f;
+		best_particle.F = (best_particle.F) * 80.0f - 40.0f;*/
 	        
 	        theta = -best_particle.F;
 	        
@@ -1005,24 +1005,24 @@ void main_thread(HWND &hwnd){
 	        theta_rad = theta/180.0f*PI;
 	        degree_rad = degree/180.0f*PI;
 	        
-			//printf("R:%d, L:%d, (x,y)=(%.2f, %.2f), deg: %.2f, DR: %.2f, DL: %.2f, theta = %.2f\n", flagR, flagL, x, y, degree, DR, DL, theta);
+		//printf("R:%d, L:%d, (x,y)=(%.2f, %.2f), deg: %.2f, DR: %.2f, DL: %.2f, theta = %.2f\n", flagR, flagL, x, y, degree, DR, DL, theta);
 	        
-			//move to next point
+		//move to next point
 	        x = x + cos(degree_rad + theta_rad) + sin(theta_rad) * sin(degree_rad);
 	        y = y + sin(degree_rad + theta_rad) - sin(theta_rad) * cos(degree_rad);
 	        degree = degree - asin(2.0f * sin(theta_rad) / car_length) / PI * 180.0f;
 	        //printf("%.2f %.2f %.2f\n", asin(2.0f * sin(theta_rad) / car_length), sin(theta_rad), theta_rad);
 			
-			//write to csv file
-			fprintf(out, "%.2f, %.2f\n", x, y);
+		//write to csv file
+		fprintf(out, "%.2f, %.2f\n", x, y);
 			
-			//arrive finish line
-			if(y >= 37.0f) flag = 1;
+		//arrive finish line
+		if(y >= 37.0f) flag = 1;
 			
-			//display text (x, y), DR, DL
-			sprintf(textstring, "(x, y)=(%.2f, %.2f),DF:%.2f,DR:%.2f,DL:%.2f", x, y, DF, DR, DL);
-			SetWindowText(textField_info, textstring);
-			plot(hwnd, x, y, degree, forward, right, left);
+		//display text (x, y), DR, DL
+		sprintf(textstring, "(x, y)=(%.2f, %.2f),DF:%.2f,DR:%.2f,DL:%.2f", x, y, DF, DR, DL);
+		SetWindowText(textField_info, textstring);
+		plot(hwnd, x, y, degree, forward, right, left);
 			
 			//check
 			if(flag){
@@ -1036,8 +1036,6 @@ void main_thread(HWND &hwnd){
 				}
 				SetWindowText(textField_info, textstring);
 			}
-			
-			//_sleep(500);
 		}else if(thread_start_flag == THREAD_RESET){
 			//nothing to do
 			
@@ -1053,8 +1051,8 @@ void main_thread(HWND &hwnd){
 			pthread_mutex_unlock(&mutex);
 			flag = 0;
 			locus_cnt = 0;
-    		fclose(out);
-    		out = NULL;
+			fclose(out);
+			out = NULL;
 		}
 		//_sleep(10);
 		_sleep(10);
